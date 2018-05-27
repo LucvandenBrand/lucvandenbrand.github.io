@@ -17,7 +17,7 @@ In order to do something about this cultural void, I hereby announce **Stacking 
 In addition to a more monetary focus, the game features a storyline _loosely_ inspired by 19th-century-America's mining barons.
 
 ### Downloads
-You can download an installer for Debian Linux [here](https://github.com/LucvandenBrand/Stacking-Sand/releases).
+You can download an installer for Debian Linux [here](https://github.com/LucvandenBrand/Stacking-Sand/releases){:target="_blank"}.
 
 ### Contributing.
 The game is Open Source under the definitions of the [MIT licence](https://en.wikipedia.org/wiki/MIT_License){:target="_blank"}, which means you are free (as long as you adhere to the licence) to contribute or make your own spin-off branch! The repository can be found [here](https://github.com/LucvandenBrand/Stacking-Sand){:target="_blank"}.
