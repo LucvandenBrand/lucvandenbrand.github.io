@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Stacking Sand with Bill Bigsby"
-date:   2018-05-26
-categories: games
+date:   2018-05-27
+categories: games stacking-sand
 ---
-Tetris, according to its [wiki](https://en.wikipedia.org/wiki/Tetris){:target="_blank"}, is...
->...the first entertainment software to be exported from the Soviet Union to the US.
+Tetris, according to its [wiki](https://en.wikipedia.org/wiki/Tetris){:target="_blank"}, is 
+>the first entertainment software to be exported from the Soviet Union to the US.
 
 This seemed to be a good choice, as in the west Tetris has been proven to be wildy successful.
 At least a million[^1] variants of tetris must exist by now. However, despite the vast number of innovations on the field of _tetrology_[^2], proper western adaptions seem to be lacking. 
@@ -14,12 +14,10 @@ In order to do something about this cultural void, I hereby announce **Stacking 
 
 ![Game Cover Image](/assets/games/stacking-sand/boxart.png "The Game Cover")
 
-In addition to a more monetary focus, the game features a storyline inspired by the mining history of the Wild West.
+In addition to a more monetary focus, the game features a storyline _loosely_ inspired by 19th-century-America's mining barons.
 
 ### Downloads
-You can download an installer for:
-- [Linux](/assets/games/stacking-sand/linux.zip)
-- [Windows](/assets/games/stacking-sand/windows.zip)
+You can download an installer for Debian Linux [here](https://github.com/LucvandenBrand/Stacking-Sand/releases).
 
 ### Contributing.
 The game is Open Source under the definitions of the [MIT licence](https://en.wikipedia.org/wiki/MIT_License){:target="_blank"}, which means you are free (as long as you adhere to the licence) to contribute or make your own spin-off branch! The repository can be found [here](https://github.com/LucvandenBrand/Stacking-Sand){:target="_blank"}.
