@@ -56,11 +56,15 @@ const Grid = function(container) {
         this.markCell(row, col, EMPTY_MARK);
     };
 
+    this.isEmpty = (row, col) => {
+        return this.getCellMark(row, col) === EMPTY_MARK;
+    }
+
     this.getUnmarked = () => {
         const unmarked = [];
         for (let row = 0; row < SIZE; row++) {
             for (let col = 0; col < SIZE; col++) {
-                if (this.getCellMark(row, col) === EMPTY_MARK)
+                if (this.isEmpty(row, col))
                     unmarked.push({row, col});
             }
         }
@@ -75,7 +79,9 @@ const Grid = function(container) {
         for (let row = 0; row < SIZE; row++) {
             for (let col = 0; col < SIZE; col++) {
                 const cell = _cells[flattenIndex(row, col)];
-                cell.onclick = () => { onClick(row, col) };
+                cell.onclick = () => {
+                    onClick(row, col)
+                };
             }
         }
     };
@@ -227,7 +233,7 @@ const TicTacToeGame = function(ticTacToeGrid) {
     };
 
     _grid.onCellClick((row, col) => {
-        if (_currentPlayer != HUMAN)
+        if (_currentPlayer != HUMAN || !_grid.isEmpty(row, col))
             return;
 
         _grid.markCell(row, col, HUMAN);
