@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Butter, Cheese and Depth-first search"
-date:   2018-06-14
+date:   2018-06-16
 categories: tutorial algorithms
-tags: tutorial depth-first search algorithm
+tags: tutorial depth-first dfs graph search algorithm
 ---
 
 Tic-Tac-Toe (or as we call it in the Netherlands, "[Boter Kaas en Eieren](https://translate.google.com/#nl/en/Boter%20kaas%20en%20Eieren)") is a game you probably have played at least once, and if you did,
