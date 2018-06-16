@@ -89,6 +89,9 @@ const Grid = function(container) {
     construct();
 };
 
+/**
+ * Class checking win-conditions.
+ **/
 const TicTacToeGrid = function(grid) {
     const size = grid.getSize();
 
@@ -164,6 +167,9 @@ const TicTacToeGrid = function(grid) {
     this.getGrid = () => grid;
 };
 
+/**
+ * Contains player control and DFS AI.
+ **/
 const TicTacToeGame = function(ticTacToeGrid) {
     const AI_SPEED = 1;
     const _grid = ticTacToeGrid.getGrid();
