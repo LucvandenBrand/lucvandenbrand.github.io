@@ -34,7 +34,7 @@ mentally imagine what will happen if you place a marker on the board and envisio
 the end-game state that will occur as a result of that choice.
 If this end-game state does not appeal to you, you imagine another sequence of
 events that will most likely make you win. Don't believe me?
-Try to beat the algorithm yourselves, the AI already played the center piece, as its visualized search path make the initial search a bit slow ;).
+Try to beat the algorithm yourselves, the AI already played the center piece, as its visualized search path makes the initial search a bit slow ;).
 
 <style>
 #game {
