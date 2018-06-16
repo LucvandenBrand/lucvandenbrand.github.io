@@ -34,11 +34,11 @@ mentally imagine what will happen if you place a marker on the board and envisio
 the end-game state that will occur as a result of that choice.
 If this end-game state does not appeal to you, you imagine another sequence of
 events that will most likely make you win. Don't believe me?
-Try to beat the algorithm yourselves:
+Try to beat the algorithm yourselves, the AI already played the center piece, as its visualized search path make the initial search a bit slow ;).
 
 <style>
 #game {
-    padding: 1em;
+    position: relative;
     background-color: #AAA;
     border: 1px dashed black;
 }
@@ -47,6 +47,7 @@ Try to beat the algorithm yourselves:
     display: grid;
     grid-template-columns: auto auto auto;
     width:12em; height:12em; margin: auto;
+    padding: 1em;
 }
 
 #playing-field div {
@@ -62,8 +63,23 @@ Try to beat the algorithm yourselves:
     background-color: green;
 }
 
+#interaction {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+#interaction:after {
+    position:absolute;
+    content: "Click me, I'm interactive!";
+    padding:1em;
+}
 </style>
 <div id ="game">
+    <div id="interaction" onclick="this.style.display='none'">
+    </div>
     <div id="playing-field">
     </div>
 </div>

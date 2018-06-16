@@ -1,6 +1,11 @@
 const ID_PLAYING_FIELD = "playing-field";
+const HUMAN = 0, AI = 1;
 
-function remove(array, element) {
+/**
+ * Remove an element from the array.
+ * @returns {*[]} Array with the element removed.
+ **/
+const remove = (array, element) => {
     return array.filter(e => e !== element);
 }
 
@@ -87,59 +92,69 @@ const Grid = function(container) {
 const TicTacToeGrid = function(grid) {
     const size = grid.getSize();
 
-    const checkWinRow = (row, mark) => {
+    const evaluateRow = row => {
+        let winHuman = true;
+        let winAI    = true;
         for (let col = 0; col < size; col++) {
-            if (grid.getCellMark(row, col) !== mark)
-                return false;
+            let mark = grid.getCellMark(row, col);
+            winHuman &= (mark === HUMAN);
+            winAI    &= (mark === AI);
         }
-        return true;
+        return (winHuman ? 1 : 0) + (winAI ? -1 : 0);
     };
 
-    const checkWinRows = mark => {
-        let win = false;
+    const evaluateRows = () => {
+        let score = 0;
         for (let row = 0; row < size; row++) {
-            if (checkWinRow(row, mark))
-                win = true;
+            score += evaluateRow(row);
         }
-        return win;
+        return score;
     };
 
-    const checkWinCol = (col, mark) => {
+    const evaluateCol = col => {
+        let winHuman = true;
+        let winAI    = true;
         for (let row = 0; row < size; row++) {
-            if (grid.getCellMark(row, col) !== mark)
-                return false;
+            let mark = grid.getCellMark(row, col);
+            winHuman &= (mark === HUMAN);
+            winAI    &= (mark === AI);
         }
-        return true;
+        return (winHuman ? 1 : 0) + (winAI ? -1 : 0);
     };
 
-    const checkWinCols = mark => {
-        let win = false;
+    const evaluateCols = () => {
+        let score = 0;
         for (let col = 0; col < size; col++) {
-            if (checkWinCol(col, mark))
-                win = true;
+            score += evaluateCol(col);
         }
-
-        return win;
+        return score;
     };
 
-    const checkWinDiags = mark => {
-        let winLeftDiag = true;
-        let winRightDiag = true;
+    const evaluateDiags = () => {
+        let leftWinHuman = true, leftWinAI = true;
+        let rightWinHuman = true, rightWinAI = true;
         for (let rowCol = 0; rowCol < size; rowCol++) {
-            if (grid.getCellMark(rowCol, rowCol) !== mark)
-                winLeftDiag = false;
-            if (grid.getCellMark(rowCol, size - rowCol - 1) !== mark)
-                winRightDiag = false;
+            let leftMark = grid.getCellMark(rowCol, rowCol);
+            leftWinHuman &= (leftMark === HUMAN);
+            leftWinAI    &= (leftMark === AI);
+
+            let rightMark = grid.getCellMark(rowCol, size - 1 - rowCol);
+            rightWinHuman &= (rightMark === HUMAN);
+            rightWinAI    &= (rightMark === AI);
         }
-        return winLeftDiag || winRightDiag;
+
+        let scoreLeftDiag  = (leftWinHuman ? 1 : 0) + (leftWinAI ? -1 : 0) ;
+        let scoreRightDiag = (rightWinHuman ? 1 : 0) + (rightWinAI ? -1 : 0) ;
+
+        return scoreLeftDiag + scoreRightDiag;
     };
 
     /**
-     * Return if the mark has won in rows, cols or diagonals.
-     * @returns {Boolean} True if the mark has won.
+     * Return +1 if HUMAN has won, -1 of AI has won, and 0 otherwise.
+     * @returns {Number} The score of the board.
      **/
-    this.checkWin = mark => {
-        return checkWinRows(mark) || checkWinCols(mark) || checkWinDiags(mark);
+    this.evaluate = mark => {
+        return evaluateRows() + evaluateCols() + evaluateDiags();
     };
 
     /**
@@ -150,8 +165,7 @@ const TicTacToeGrid = function(grid) {
 };
 
 const TicTacToeGame = function(ticTacToeGrid) {
-    const AI_SPEED = 0;
-    const HUMAN = 0, AI = 1, NEITHER = -1;
+    const AI_SPEED = 1;
     const _grid = ticTacToeGrid.getGrid();
     let _currentPlayer = HUMAN;
 
@@ -168,48 +182,45 @@ const TicTacToeGame = function(ticTacToeGrid) {
         this.col = col;
     };
 
-    async function findBestMove(player) {
-        if (ticTacToeGrid.checkWin(HUMAN))
-            return new Result(1);
-        if (ticTacToeGrid.checkWin(AI))
-            return new Result(-1);
+    const remove = (array, element) => {
+        return array.filter(e => e !== element);
+    };
 
-        const options = _grid.getUnmarked();
+    async function findBestMove(player, options) {
+        const score = ticTacToeGrid.evaluate();
+        if (options.length === 0 || score !== 0)
+            return new Result(score);
 
-        if (options.length === 0)
-            return new Result(0);
-
-        let curResult;
-        if (player == HUMAN)
-            curResult = new Result(-1);
-        else
-            curResult = new Result(1);
+        const minScore = player === HUMAN ? -1 : 1;
+        let bestResult = new Result(minScore);
 
         for (let option of options) {
             await setMark(option, player);
-            const result = await findBestMove(player ^ 1);
+            const result = await findBestMove(player ^ 1, remove(options, option));
             _grid.unmarkCell(option.row, option.col);
 
-            if ((player == HUMAN && result.score > curResult.score) ||
-                (player == AI && result.score < curResult.score)) {
-                    curResult = new Result(result.score, option.row, option.col);
-                }
+            if (player === HUMAN && result.score > bestResult.score) {
+                bestResult = new Result(result.score, option.row, option.col);
+            }
+            if (player === AI && result.score < bestResult.score) {
+                bestResult = new Result(result.score, option.row, option.col);
+            }
         }
 
-        return curResult;
+        return bestResult;
     }
 
     async function computerMove() {
-        const move = await findBestMove(AI);
+        const move = await findBestMove(AI, _grid.getUnmarked());
 
-        if (move.row > 0 && move.col > 0) {
+        if (move.row >= 0 && move.col >= 0) {
             _grid.markCell(move.row, move.col, AI);
         }
 
         _currentPlayer = HUMAN;
     };
 
-    const onClick = (row, col) => {
+    _grid.onCellClick((row, col) => {
         if (_currentPlayer != HUMAN)
             return;
 
@@ -217,9 +228,9 @@ const TicTacToeGame = function(ticTacToeGrid) {
 
         _currentPlayer = AI;
         computerMove();
-    };
+    });
 
-    _grid.onCellClick(onClick);
+    _grid.markCell(1,1, AI);
 };
 
 const grid = new Grid(document.getElementById(ID_PLAYING_FIELD));
