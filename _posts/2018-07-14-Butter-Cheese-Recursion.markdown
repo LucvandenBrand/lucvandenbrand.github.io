@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Butter, Cheese and Recursion"
-date:   2018-06-20
+date:   2018-07-14
 categories: tutorial programming
 tags: tutorial programming recursion
 ---
@@ -111,25 +111,20 @@ is still trivially simple once you actually start to play it.
 ## Try it!
 Of course, this post would not be complete without a neat little demonstration!
 The interactive window below allows you to generate a TTT game of any Meta level
-between 1 and 3 [^1].
+between 1 and 2 [^1].
 Go find a bored opponent, and play some M-TTT!
 
 <style>
-#grid-control {
-    width: 50%;
-    margin: auto;
-}
-
 #grid-container {
     display: table;
     margin: auto;
-    width: 30vh;
-    height: 30vh;
+    width: 40vh;
+    height: 40vh;
 }
-
 #grid-container div {
     display: grid;
     grid-template-columns: auto auto auto;
+
     width: 95%;
     height: 95%;
     margin: 2.5%;
@@ -162,13 +157,39 @@ Go find a bored opponent, and play some M-TTT!
 #grid-container div:not(.enabled) {
     background-color: rgba(100, 100, 100, 1);
 }
+#demo {
+    height: 100%;
+    text-align: center;
+    padding: 1vh;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #AAA;
+    border: 1px dashed black;
+}
+
+#meta-level {
+    display: block;
+    margin: auto;
+    width: 40vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#new-game {
+    display: block;
+    margin: auto;
+    font-size: 22pt;
+    width: 40vh;
+}
 </style>
-<div id="grid-container"></div>
-<div id="grid-control">
-   <input title="Meta Level" type="range" min="1" max="4" value="2" class="slider" id="meta-level">
-   <button id="new-game">New Game of Meta <span id="level-value"></span></button>
+<div id="demo">
+    <div id="grid-container"></div>
+    <div id="grid-control">
+        <input title="Meta Level" type="range" min="1" max="3" value="2" class="slider" id="meta-level">
+        <button id="new-game">New Game of Meta <span id="level-value"></span></button>
+    </div>
 </div>
-<script src="/assets/tutorials/programming/meta-tic-tac-toe/M-TTT.js"></script>
+<script src="/assets/tutorials/programming/meta-tic-tac-toe/metaTTT.js"></script>
 
 Now you know how the game works, the true place for any TTT game to
 be played is on a piece of paper (or in the dirt, whilst waiting for the hourly bus to arrive).

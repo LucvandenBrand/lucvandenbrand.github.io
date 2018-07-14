@@ -88,4 +88,5 @@ Try to beat the algorithm yourselves, the AI already played the center piece, as
 ## Stepping up the game
 In an effort to increase the complexity of this game, bored scientist have invented
 _Meta_ Tic-Tac-Toe. A game that cannot be trivially solved, and is **much more
-fun to play** as a result. In part 2, we will discuss this game and how it can be constructed using **recursion**.
+fun to play** as a result. In [part 2]({{ site.baseurl }}{% post_url 2018-07-14-Butter-Cheese-Recursion %}),
+we will discuss this game and how it can be constructed using **recursion**.
