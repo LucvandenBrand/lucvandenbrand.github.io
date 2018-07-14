@@ -111,7 +111,7 @@ is still trivially simple once you actually start to play it.
 ## Try it!
 Of course, this post would not be complete without a neat little demonstration!
 The interactive window below allows you to generate a TTT game of any Meta level
-between 1 and 2 [^1].
+between 0 and 2 [^1].
 Go find a bored opponent, and play some M-TTT!
 
 <style>
