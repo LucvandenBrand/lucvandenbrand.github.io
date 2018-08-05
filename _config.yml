@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Luc van den Brand
-email: contact@lucvandenbrand.com
-description: >- # this means to ignore newlines until "baseurl:" 
-  This is a simple blog about cozy coding. The kind of code that ask for a nice hot cup of warm chocolate milk, a rainy window and your softest of blankets. My name is Luc, and in this blog I will share with you my passion for Game Engine Architecture, Computer Graphics, and anything fun.
+description: >- # this means to ignore newlines until "baseurl:"
+  This is a simple blog about cozy coding, my work as a freelance software engineer, and anything fun.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lucvandenbrand.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lucvandenbrand
 github_username:  lucvandenbrand
+linkedin_username: lucvandenbrand
 
 # Build settings
 markdown: kramdown
