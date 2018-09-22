@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "Tiled maps on the Game Boy Advance"
+date:   2018-09-22
+categories: tools tiled2gba
+---
+Recently, in order to realize some of my childhood dreams, I have been learning about Game Boy Advance (GBA) development using [Jasper Vijn's awesome Tonc guide](https://www.coranac.com/tonc/text/toc.htm){:target="_blank"}.
+He is great at explaining the art of GBA development, so please read his blog if you
+are interested as well[^1]! One of the first things you will learn is that the
+GBA does almost[^2] everything with hardware-rendered tile maps.
+
+Configuring a tile map takes a few steps, which includes formatting the map into binary data the GBA's internal hardware can understand. This is a shame, as many digital artists and game designers have no (desire to acquire) skills in the black art of manually typing hexadecimal values into a text editor. And nor should they: most of these artist are experienced with [Tiled](https://www.mapeditor.org/){:target="_blank"}, a neat and well-grown
+tile map editor.
+
+## Tiled2GBA
+In order to allow these creative individuals to work with the GBA, I
+decided to create a tiny tool that converts Tiled `.tmx` map files into one
+of the two following formats:
+
+- Compilable source code.
+- Appendable binary data (**Recommended:** this allows your GBA game to be data-driven 😊 ).
+
+This tool is open-source, and can be found on Github.
+The [repository](https://github.com/LucvandenBrand/Tiled2GBA){:target="_blank"}'s documentation should explain its usage well enough (and `Tiled2GBA --help` does so as well), but in general
+you can simply call the binary `Tiled2GBA` with a map file and output location
+as parameters.
+
+As an example, have a look at the tiled map below:
+
+![Tiled Image](/assets/tools/Tiled2GBA/Tiled_map.png "The map in Tiled...")
+
+Running `Tiled2GBA map.tmx map.bin --binary` and appending it to the end of `mapViewer.gba` will allow you to view it on your GBA:
+
+<div style="text-align:center; padding-bottom:1em"><img src ="/assets/tools/Tiled2GBA/GBA_map.gif" /></div>
+
+Cool right? This is the power of a **data-driven architecture**, where your game can both run on a Windows-10 x64 machine, as well as an ARM-based console from 2001. You cannot convince me that this isn't _extremely neat_.
+
+Not all kinds of map properties are compatible with the GBA,
+and thus cannot be optimally converted. Tiled2GBA will either `WARN` the user or
+provide an `ERROR` message. These limitations include:
+
+- The GBA only supports up to 3 layers in a map. If Tiled defines more than 3, the other layers are ignored.
+- Tiles on the GBA are 8x8 pixels large. The tool tries to automatically subdivide larger tiles that are a multiple of this size.
+- Maps can either be 32x32, 32x64, 64x32 or 64x64 tiles (measured in 8x8 sized tiles) large.
+- Only 256 colors can be loaded into memory.
+
+Again, you should not be scared of any odd behavior when breaking these limitations, the tool will clearly warn you if you break them.
+
+### Downloads
+Do not feel like compiling the sources yourselves? You can download the binary for both Windows 10 and Debian Linux [here](https://github.com/LucvandenBrand/Tiled2GBA/releases){:target="_blank"}.
+
+---
+
+[^1]: Although the platform might be old and dusty, the limitations you will face whilst programming on this console are a great way to improve your general programming skills and hone your grasp of memory management. I can babble a lot about memory management, and maybe I will... someday.
+
+[^2]: There are some exceptions, such as [DOOM for the GBA](https://doomwiki.org/wiki/Doom_for_Game_Boy_Advance){:target="_blank"}, which uses some highly-optimized code in order to render individual pixels.
