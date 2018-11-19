@@ -1,0 +1,8 @@
+- project: stacking-sand
+  name: Stacking Sand with Bill Bigsby
+  description: A simple C++ Tetris game where different blocks react to eachother and transform. Contains a simple story as well.
+  link: https://github.com/LucvandenBrand/Stacking-Sand/releases
+- project: tiled2gba
+  name: Tiled2GBA
+  description: Simple tool for converting Tiled map data to a format better-suited for the Game Boy Advance.
+  link: https://github.com/LucvandenBrand/Tiled2GBA/releases

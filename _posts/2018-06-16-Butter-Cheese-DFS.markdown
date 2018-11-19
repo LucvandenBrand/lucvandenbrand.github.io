@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Butter, Cheese and Depth-first search"
+summary: "An introduction to the concept of DFS"
 date:   2018-06-16
 categories: tutorial algorithms
 tags: tutorial depth-first dfs graph search algorithm
@@ -12,7 +13,7 @@ equally bored as when you started the darned game). In contrast to games like Ch
 the noble sport of Tic-Tac-Toe is simple enough for our feeble minds to plan to its
 inevitable end:
 
-![Tic-Tac-Toe draw states](/assets/tutorials/algorithms/tic-tac-toe/draws.png "Draw!")
+![Tic-Tac-Toe draw states](/assets/posts/2018-06-16-Butter-Cheese-DFS/draws.png "Draw!")
 
 ## Why you draw
 When you are mentally preparing your moves, your brain is performing
@@ -22,12 +23,12 @@ Depth-first search is an algorithm that works on trees. A tree is a graph that
 contains a collection of nodes that are connected in a parent-child relationship.
 Imagine a hereditary tree where one parent can have multiple children (without loops, this family cannot travel through time):
 
-![A hereditary tree](/assets/tutorials/algorithms/tic-tac-toe/tree.png "A very special family.")
+![A hereditary tree](/assets/posts/2018-06-16-Butter-Cheese-DFS/tree.png "A very special family.")
 
 Depth-first search is a searching algorithm that traverses down a branch of the tree and checks for every node in the branch if a particular condition has been met. If it reaches a leaf, it moves back up the tree and starts traversing the next alternative branch. For example, imagine the algorithm looking for `Jessy`,
 it would find him like so:
 
-![A hereditary tree](/assets/tutorials/algorithms/tic-tac-toe/tree.gif "Find Jessy.")
+![A hereditary tree](/assets/posts/2018-06-16-Butter-Cheese-DFS/tree.gif "Find Jessy.")
 
 One can see how this simple search can help you solve Tic-Tac-Toe: you
 mentally imagine what will happen if you place a marker on the board and envision
@@ -83,7 +84,7 @@ Try to beat the algorithm yourselves, the AI already played the center piece, as
     <div id="playing-field">
     </div>
 </div>
-<script src="/assets/tutorials/algorithms/tic-tac-toe/TTT-dfs.js"></script>
+<script src="/assets/posts/2018-06-16-Butter-Cheese-DFS/TTT-dfs.js"></script>
 
 ## Stepping up the game
 In an effort to increase the complexity of this game, bored scientist have invented

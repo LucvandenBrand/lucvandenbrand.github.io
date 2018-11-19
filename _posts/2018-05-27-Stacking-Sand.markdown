@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Stacking Sand with Bill Bigsby"
+summary: "Tetris, but with capitalism."
 date:   2018-05-27
 categories: games stacking-sand
 ---
@@ -12,7 +13,7 @@ At least a million[^1] variants of tetris must exist by now. However, despite th
 
 In order to do something about this cultural void, I hereby announce **Stacking Sand with  Bill Bigsby**: Tetris with more **CAPITALISM**.
 
-![Game Cover Image](/assets/games/stacking-sand/boxart.png "The Game Cover")
+![Game Cover Image](/assets/posts/2018-05-27-Stacking-Sand/boxart.png "The Game Cover")
 
 In addition to a more monetary focus, the game features a storyline _loosely_ inspired by 19th-century-America's mining barons.
 

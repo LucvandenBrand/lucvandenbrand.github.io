@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Butter, Cheese and Recursion"
+summary: "An introduction to the concept of recursion"
 date:   2018-07-14
 categories: tutorial programming
 tags: tutorial programming recursion
@@ -16,7 +17,7 @@ The playing field of TTT consist of a 3 by 3 grid of 9 cells in total, and
 all M-TTT does is insert a new TTT grid in every cell. Thus, M-TTT is a TTT grid
 where every cell is a TTT grid in itself:
 
-![Meta Tic-Tac-Toe](/assets/tutorials/programming/meta-tic-tac-toe/MetaTTT.png "Meta is Meta.")
+![Meta Tic-Tac-Toe](/assets/posts/2018-07-14-Butter-Cheese-Recursion/MetaTTT.png "Meta is Meta.")
 
 This concept is known to programmers as **recursion**: defining something by
 using its own definition. Of course there needs to be a **base case** to this recursive
@@ -189,13 +190,13 @@ Go find a bored opponent, and play some M-TTT!
         <button id="new-game">New Game of Meta <span id="level-value"></span></button>
     </div>
 </div>
-<script src="/assets/tutorials/programming/meta-tic-tac-toe/metaTTT.js"></script>
+<script src="/assets/posts/2018-07-14-Butter-Cheese-Recursion/metaTTT.js"></script>
 
 Now you know how the game works, the true place for any TTT game to
 be played is on a piece of paper (or in the dirt, whilst waiting for the hourly bus to arrive).
 Simply grab a pen, some paper, and then ask your friend:
 
-![How Meta?](/assets/tutorials/programming/meta-tic-tac-toe/Comic.png "Never go more meta than 2, in my opinion.")
+![How Meta?](/assets/posts/2018-07-14-Butter-Cheese-Recursion/Comic.png "Never go more meta than 2, in my opinion.")
 
 ---
 

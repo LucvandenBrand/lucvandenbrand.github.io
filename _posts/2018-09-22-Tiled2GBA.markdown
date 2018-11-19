@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Tiled maps on the Game Boy Advance"
+summary: "A simple tool to make your own GBA maps"
 date:   2018-09-22
 categories: tools tiled2gba
 ---
@@ -27,11 +28,11 @@ as parameters.
 
 As an example, have a look at the tiled map below:
 
-![Tiled Image](/assets/tools/Tiled2GBA/Tiled_map.png "The map in Tiled...")
+![Tiled Image](/assets/posts/2018-09-22-Tiled2GBA/Tiled_map.png "The map in Tiled...")
 
 Running `Tiled2GBA map.tmx map.bin --binary` and appending it to the end of `mapViewer.gba` will allow you to view it on your GBA:
 
-<div style="text-align:center; padding-bottom:1em"><img src ="/assets/tools/Tiled2GBA/GBA_map.gif" /></div>
+<div style="text-align:center; padding-bottom:1em"><img src ="/assets/posts/2018-09-22-Tiled2GBA/GBA_map.gif" /></div>
 
 Cool right? This is the power of a **data-driven architecture**, where your game can both run on a Windows-10 x64 machine, as well as an ARM-based console from 2001. You cannot convince me that this isn't _extremely neat_.
 

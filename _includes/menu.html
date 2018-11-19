@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="{{ "/assets/css/menu.css" | relative_url }}">
+<nav id="site-menu">
+  {% for item in site.data.navigation limit:max_links %}
+    <a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>

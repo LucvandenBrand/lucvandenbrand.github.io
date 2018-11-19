@@ -1,0 +1,25 @@
+---
+---
+
+@font-face {
+  font-family: "IMFePIrm28P";
+  src: url("/assets/fonts/IMFePIrm28P.ttf");
+}
+
+#site-header {
+  display: block;
+  width:100%;
+}
+
+#site-header text {
+  font-family: 'IMFePIrm28P', sans-serif;
+}
+
+svg {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: normal;
+}

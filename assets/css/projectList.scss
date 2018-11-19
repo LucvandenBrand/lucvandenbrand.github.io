@@ -1,0 +1,48 @@
+---
+---
+
+.project-listing {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  border: 2px dashed saddlebrown;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+
+  transition: 0.2s;
+  background-image: linear-gradient(to right, #fff8ef 0%, #ffedd8 51%, #fffcf9 100%);
+}
+
+.project-listing:hover {
+  background-image: linear-gradient(to right, #fff8ef 0%, #ffeee9 51%, #fffcf9 100%);
+}
+
+.project-listing h3, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.project-listing a {
+  position: absolute;
+  bottom: 1vh;
+  right: 2vw;
+}
+
+.project-icon {
+  display: inline-block;
+  flex: 1 1 inherit;
+  height:auto;
+  padding: 1em;
+}
+
+.project-icon img {
+  width:5em;
+}
+
+.project-description {
+  display: inline;
+  flex: 9;
+  padding: 1em;
+}

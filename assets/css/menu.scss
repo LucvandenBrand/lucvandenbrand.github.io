@@ -1,0 +1,33 @@
+---
+---
+
+#site-menu {
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-image: linear-gradient(160deg, #AAA, #FFF);
+}
+
+#site-menu a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#site-menu a:hover:not(.active) {
+  background-color: #888;
+  color:white;
+}
+
+#site-menu a.active {
+  background-color: #777;
+  color:white;
+}
+
+@media screen and (max-width: 600px){
+    #site-menu a {float: none;}
+}
