@@ -117,17 +117,17 @@ Go find a bored opponent, and play some M-TTT!
 
 <style>
 #grid-container {
-    display: table;
     margin: auto;
     width: 40vh;
     height: 40vh;
 }
+
 #grid-container div {
     display: grid;
     grid-template-columns: auto auto auto;
 
-    width: 95%;
-    height: 95%;
+    width: 92%;
+    height: 92%;
     margin: 2.5%;
 
     border-radius: 1vh;
@@ -158,6 +158,7 @@ Go find a bored opponent, and play some M-TTT!
 #grid-container div:not(.enabled) {
     background-color: rgba(100, 100, 100, 1);
 }
+
 #demo {
     height: 100%;
     text-align: center;
