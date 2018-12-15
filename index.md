@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-![A handsome image of a handsome man.]({{ "/assets/cover/avatar.png" | relative_url }}){: .figure .left .small}
+![A handsome image of a handsome man.]({{ "/assets/cover/avatar.jpeg" | relative_url }}){: .figure .left .small}
 
 Hello! My name is Luc and I am a freelance software engineer housed at the [Game Bakery](https://gamebakery.nl/). Engineering effective solutions to problems in Game Development is my specialty.
 
