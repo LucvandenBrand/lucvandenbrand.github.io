@@ -172,7 +172,9 @@ Go find a bored opponent, and play some M-TTT!
 #meta-level {
     display: block;
     margin: auto;
-    width: 40vh;
+    width: 15em;
+    padding-left: 0;
+    padding-right: 0;
     padding-top: 2vh;
     padding-bottom: 2vh;
 }
