@@ -14,7 +14,7 @@ Computer scientists are blessed with the fact that we can wiggle ourselves into 
 
 - Language learning platforms
 - Reversible computing
-- Porting games to modern consoles
+- Programming retro game consoles
 - Visual novel game engines
 
 ...and more. If you have a problem you need to get solved, then please do not hesitate to [get in contact](/contact)! Simply want to read about some of the things I do? Then the [blog](/blog) and [projects](/projects) page should be a good place to start.
