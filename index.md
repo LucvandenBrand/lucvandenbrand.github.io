@@ -7,7 +7,7 @@ layout: default
 
 Hello! My name is Luc and I am a freelance software engineer housed at the [Game Bakery](https://gamebakery.nl/). Engineering effective solutions to problems in Game Development is my specialty.
 
-I used to (and sometimes still do!) teach students as a Teaching Assistant for the [University of Groningen](https://www.rug.nl). I have thought a diverse range of subjects in Computing Science, from _Advanced Object Oriented Programming_ to _Software Startups and Requirements Engineering_.
+I used to (and sometimes still do!) teach students as a Teaching Assistant for the [University of Groningen](https://www.rug.nl). I have taught a diverse range of subjects in Computing Science, from _Advanced Object Oriented Programming_ to _Software Startups and Requirements Engineering_.
 
 ## What I do
 Computer scientists are blessed with the fact that we can wiggle ourselves into **any field or subject that peeks our interest**. Smart algorithms and computational models can describe anything from the likelihood of enjoying a movie to the collision of galaxies between millions of stars. I am no different, and have worked on things such as:
