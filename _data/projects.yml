@@ -1,8 +1,12 @@
-- project: stacking-sand
-  name: Stacking Sand with Bill Bigsby
-  description: A simple C++ Tetris game where different blocks react to eachother and transform. Contains a simple story as well.
-  link: https://github.com/LucvandenBrand/Stacking-Sand/releases
+- project: floppy-challenge
+  name: Floppy Challenge
+  description: Programming challenge to create enough software to fill 242 individual 3.5" floppies.
+  link: https://floppychallenge.com
 - project: tiled2gba
   name: Tiled2GBA
   description: Simple tool for converting Tiled map data to a format better-suited for the Game Boy Advance.
   link: https://github.com/LucvandenBrand/Tiled2GBA/releases
+- project: stacking-sand
+  name: Stacking Sand with Bill Bigsby
+  description: A simple C++ Tetris game where different blocks react to eachother and transform. Contains a simple story as well.
+  link: https://github.com/LucvandenBrand/Stacking-Sand/releases
