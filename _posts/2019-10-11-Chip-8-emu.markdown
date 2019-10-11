@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Bad timing and Emulating CHIP-8"
+summary: "Some notes on writing your first emulator, and what to look out for."
+date:   2019-10-04
+categories: challenge programming retro emulation
+---
+
+As a challenge, [I am trying to write source code for a large number of 3.5" floppy disks]({ site.baseurl }}{% post_url 2019-10-04-Floppy-Challenge%}). As of a few days ago, the first floppy has been completed! It is an emulator for the CHIP-8 gaming computer. You can find the sources [here]().
+
+Although hardware implementations have been made, the CHIP-8 was never meant to be a physical computer. Instead, it was one of the first virtual machines implemented to improve the ease of developing cross-platform computer games. At this it has succeeded, with the CHIP-8 becoming the go-to platform to implement as a aspiring emulation developer (one look at the [emudev](https://www.reddit.com/r/EmuDev/) subreddit should prove enough).
+
+I thought it would be good to write down some of my own thoughts on developing a (albeit very simple) CHIP-8 emulator. Do with it what you will, I hope at least it will help some people when they're stuck in development :).
+
+## Timing
+
+## Test Driven Development
+
+## Poking Pixels
+Directly manipulating pixels on the screen used to be common. At some point you could have a graphics card (GPU) installed, but this was _optional_. For a while you wouldn't even use the graphics card for all draw operations, as it was faster to do it in software. These days things are quite the opposite.
+
+On modern computers we draw graphics using an abstraction layer and remote graphics devices, where you push textures to the GPU and request these textures to be drawn within the confines of your window (something specific to your operating system). This has enabled developers to do amazing things, as especially 3D graphics greatly benefits from the speed gained when using a device specifically optimised for efficiently processing and rendering polygon data. As an example, see how Quake improved when it's introduced to dedicated hardware (or when modified to support hardware raytracing).
+
+[Figure of quake]
+
+As with most advances in software, we also lose some control by using this dedicated hardware. Software rendering in modern applications now required the following steps.
+
+1. Creating a window.
+2. Creating a render context for this window.
+3. Creating a frame buffer for this window using the render context.
+4. Change pixels of the frame buffer.
+5. Push the frame buffer to the render device.
+6. Requesting an update of the render context to show the changes.
+
