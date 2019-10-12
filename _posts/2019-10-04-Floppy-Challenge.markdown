@@ -12,6 +12,6 @@ In order to make some use out of them, I created a challenge for myself:
 
 **Fill all 242 floppies with your own software.**
 
-There are no additional rules, as long as the program fits, it sits. I will be sharing my progress on this blog, where I'll try to explain how every floppy has been filled for those who might be interested. Of course I do not expect this project to end anytime soon. However, why the rush? I'm looking forward to seeing what I'll learn during the upcoming years :).
+There are no additional rules, as long as the program fits, it sits. I will be sharing my progress on this blog, where I'll try to explain how every floppy has been filled for those who might be interested. Of course I do not expect this project to end anytime soon. However, why the rush? I'm looking forward to seeing what I'll learn during the upcoming years 😌.
 
 For every floppy filled, I will add an entry to the project's main website: [https://floppychallenge.com](https://floppychallenge.com). Do you want to follow the project more closely? Feel free to star the associated [GitHub repository](https://github.com/LucvandenBrand/FloppyChallenge).
