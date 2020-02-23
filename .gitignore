@@ -1,6 +1,7 @@
 # Ignore build files
 _site
 .sass-cache
+.jekyll-cache
 
 # Ignore editor files
 .idea
