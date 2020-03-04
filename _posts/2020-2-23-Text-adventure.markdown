@@ -48,7 +48,7 @@ DIRECTION := north | east | south | west
 
 The topmost definition shows the three main things a user can do in this game: an **action** (walking, taking, placing, locking, unlocking and killing), a **movement** and **exit**. The keen reader might notice that this grammar represent a graph of possible commands, with `STATEMENT` at the root and things like `ENTITY` and `ITEM` as the leaves.
 
-[GRAPH IMAGE]
+![Grammar Graph](/assets/posts/2020-2-23-Text-adventure/grammar_graph.svg "Grammar Graph.")
 
 This idea of a graph is a very useful mental model to have, as we can now give **meaning** to each path in our tree, from root to leaf. As long as the user provides a sequence of characters that allow us to traverse the tree, the user wrote a correct statement! If not, we have a pretty good idea of where we diverted from our tree and what kind of feedback to give.
 
