@@ -1,0 +1,3840 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns1="https://launchpad.net/jessyink"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="176.32588mm"
+   height="63.743423mm"
+   viewBox="0 0 176.32588 63.743423"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="game_loop.svg">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2027"
+       x="-0.018670162"
+       width="1.0373403"
+       y="-0.30837584"
+       height="1.6167517">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.0753695"
+         id="feGaussianBlur2029" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2031"
+       x="-0.029996511"
+       width="1.059993"
+       y="-0.32126462"
+       height="1.6425292">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.0753695"
+         id="feGaussianBlur2033" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2035"
+       x="-0.019714056"
+       width="1.0394281"
+       y="-0.12608562"
+       height="1.2521713">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.0753695"
+         id="feGaussianBlur2037" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2039"
+       x="-0.23783489"
+       width="1.4756697"
+       y="-0.24188454"
+       height="1.4837691">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.0753695"
+         id="feGaussianBlur2041" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="374.3509"
+     inkscape:cy="167.29554"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g2604"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="CRT"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.473214,-7.354516)"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 15.413179,9.3601189 c 0,0 1.259985,-2.0594984 36.971648,-2.0045215 34.251028,0.052728 37.148422,2.0045215 37.148422,2.0045215 1.623114,0.135267 2.939965,1.3112241 2.939965,2.9399651 v 54.12007 c 0,1.628741 -1.311224,2.939965 -2.939965,2.939965 0,0 -5.197944,1.774139 -36.881152,1.737252 -28.732652,-0.03345 -37.238918,-1.737252 -37.238918,-1.737252 -1.626972,-0.0759 -2.939965,-1.311224 -2.939965,-2.939965 v -54.12007 c 0,-1.628741 1.311224,-2.9399651 2.939965,-2.9399651 z"
+       id="rect18"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssssssss" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Text"
+     transform="translate(-12.473214,-7.354516)"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <g
+       id="g2057">
+      <g
+         aria-label="&gt;Walk north."
+         transform="matrix(0.26458333,0,0,0.26458333,-7.7561887,-58.943675)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1;font-family:Courier;-inkscape-font-specification:Courier;letter-spacing:0px;word-spacing:0px;fill:#00af00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="flowRoot1380">
+        <path
+           d="m 88.649047,313.0618 -0.48,1.056 9.144,4.2 -9.144,4.296 0.48,1.08 11.328,-5.376 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2362"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 101.31167,312.1978 v 1.128 h 1.128 l 1.68,12.384 h 1.2 l 3.096,-8.736 h 0.048 l 3.048,8.736 h 1.2 l 1.8,-12.384 h 1.104 v -1.128 h -4.68 v 1.128 h 2.448 l -1.392,10.08 h -0.048 l -3.024,-8.736 h -0.816 l -3.096,8.736 h -0.048 l -1.344,-10.08 h 2.424 v -1.128 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2364"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 126.7183,318.6058 c 0,-0.936 0,-3.696 -4.08,-3.696 -1.896,0 -3.552,0.648 -4.584,1.08 l 0.456,1.08 c 1.92,-0.84 3.24,-1.008 4.104,-1.008 2.904,0 2.904,1.776 2.904,2.544 v 0.744 c -1.464,-0.288 -3.144,-0.312 -3.36,-0.312 -3.984,0 -5.088,2.328 -5.088,3.624 0,1.656 1.488,3.384 3.864,3.384 1.968,0 3.6,-1.152 4.584,-2.064 v 1.728 h 3.336 v -1.128 h -2.136 z m -1.2,3.768 c -2.064,2.304 -3.816,2.52 -4.608,2.52 -1.344,0 -2.544,-1.008 -2.544,-2.208 0,-0.288 0.072,-2.496 4.032,-2.496 1.32,0 2.568,0.168 3.12,0.264 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2366"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 132.61292,311.3818 0.12,1.104 3.912,-0.288 v 12.384 h -4.176 v 1.128 h 9.552 v -1.128 h -4.176 v -13.536 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2368"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 145.29955,310.9258 0.096,1.128 2.28,-0.192 v 12.72 h -1.992 v 1.128 h 3.192 v -4.392 l 1.344,-1.032 c 2.328,2.16 3.288,3.12 4.272,4.296 h -1.536 v 1.128 h 4.992 v -1.128 h -2.016 c -0.864,-1.104 -2.856,-3.216 -4.8,-4.968 l 4.032,-3.096 h 1.872 v -1.128 h -5.016 v 1.128 h 1.344 v 0.048 l -4.488,3.408 v -9.36 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2370"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 174.0328,315.3898 v 1.128 h 1.968 v 8.064 h -1.968 v 1.128 h 5.184 v -1.128 h -2.016 v -6.432 c 2.16,-1.704 3.36,-1.92 4.152,-1.92 1.416,0 2.352,1.104 2.352,2.856 v 5.496 h -2.064 v 1.128 h 5.184 v -1.128 h -1.92 v -5.592 c 0,-2.328 -1.392,-3.96 -3.576,-3.96 -1.752,0 -3.072,0.96 -4.128,1.704 v -1.344 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2372"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 188.85542,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2374"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 203.99005,315.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2376"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 220.54067,312.1978 v 3.528 h -1.632 v 1.128 h 1.632 v 4.536 c 0,1.584 0,2.736 0.84,3.576 0.504,0.504 1.488,1.08 2.976,1.08 1.56,0 3.408,-0.672 4.944,-1.368 l -0.432,-1.08 c -2.808,1.176 -3.84,1.248 -4.632,1.248 -2.52,0 -2.496,-1.68 -2.496,-3.456 v -4.536 h 5.808 v -1.128 h -5.808 v -3.528 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2378"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 231.3793,310.9018 0.096,1.128 2.232,-0.192 v 12.744 h -2.016 v 1.128 h 5.112 v -1.128 h -1.896 v -6.432 c 1.152,-0.936 2.64,-1.92 4.152,-1.92 1.416,0 2.304,1.128 2.304,2.856 v 5.496 h -2.04 v 1.128 h 5.256 v -1.128 h -2.016 v -5.592 c 0,-2.328 -1.368,-3.96 -3.552,-3.96 -1.728,0 -3.048,0.936 -4.104,1.704 v -6.12 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2380"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 252.36992,322.8538 c -0.888,0 -1.848,0.624 -1.848,1.632 0,1.056 1.008,1.632 1.848,1.632 0.888,0 1.848,-0.624 1.848,-1.632 0,-0.984 -0.936,-1.632 -1.848,-1.632 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2382"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="g2064">
+      <g
+         aria-label="&gt;You walked north. The room is red."
+         transform="matrix(0.26458333,0,0,0.26458333,-7.7561887,-49.872627)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1;font-family:Courier;-inkscape-font-specification:Courier;letter-spacing:0px;word-spacing:0px;fill:#00af00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="flowRoot1388">
+        <path
+           d="m 88.649047,313.0618 -0.48,1.056 9.144,4.2 -9.144,4.296 0.48,1.08 11.328,-5.376 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2303"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 102.03167,312.1978 v 1.128 h 1.512 l 4.344,7.152 v 4.104 h -2.856 v 1.128 h 6.888 v -1.128 h -2.832 v -4.104 l 4.296,-7.152 h 1.512 v -1.128 h -4.656 v 1.128 h 1.872 l -3.576,5.952 -3.624,-5.952 h 1.824 v -1.128 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2305"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 116.9023,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2307"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 130.81292,315.3898 v 1.128 h 1.968 v 5.232 c 0,1.896 0.672,4.296 3.696,4.296 1.848,0 3.096,-1.056 3.768,-1.656 v 1.32 h 3.144 v -1.128 h -1.944 v -9.192 h -3.264 v 1.128 h 2.064 v 6.24 c -1.296,1.44 -2.544,2.088 -3.864,2.088 -2.4,0 -2.4,-2.472 -2.4,-3.096 v -6.36 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2309"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 158.87417,315.3898 v 1.128 h 1.032 l 2.712,9.192 h 1.176 l 2.232,-6.192 2.28,6.192 h 1.248 l 2.688,-9.192 h 0.936 v -1.128 h -4.08 v 1.128 h 2.016 l -2.16,7.368 h -0.048 l -2.376,-6.624 h -0.84 l -2.352,6.528 h -0.048 l -2.112,-7.272 h 1.992 v -1.128 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2311"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 184.2808,318.6058 c 0,-0.936 0,-3.696 -4.08,-3.696 -1.896,0 -3.552,0.648 -4.584,1.08 l 0.456,1.08 c 1.92,-0.84 3.24,-1.008 4.104,-1.008 2.904,0 2.904,1.776 2.904,2.544 v 0.744 c -1.464,-0.288 -3.144,-0.312 -3.36,-0.312 -3.984,0 -5.088,2.328 -5.088,3.624 0,1.656 1.488,3.384 3.864,3.384 1.968,0 3.6,-1.152 4.584,-2.064 v 1.728 h 3.336 v -1.128 h -2.136 z m -1.2,3.768 c -2.064,2.304 -3.816,2.52 -4.608,2.52 -1.344,0 -2.544,-1.008 -2.544,-2.208 0,-0.288 0.072,-2.496 4.032,-2.496 1.32,0 2.568,0.168 3.12,0.264 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2313"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 190.17542,311.3818 0.12,1.104 3.912,-0.288 v 12.384 h -4.176 v 1.128 h 9.552 v -1.128 h -4.176 v -13.536 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2315"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 202.86205,310.9258 0.096,1.128 2.28,-0.192 v 12.72 h -1.992 v 1.128 h 3.192 v -4.392 l 1.344,-1.032 c 2.328,2.16 3.288,3.12 4.272,4.296 h -1.536 v 1.128 h 4.992 v -1.128 h -2.016 c -0.864,-1.104 -2.856,-3.216 -4.8,-4.968 l 4.032,-3.096 h 1.872 v -1.128 h -5.016 v 1.128 h 1.344 v 0.048 l -4.488,3.408 v -9.36 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2317"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 229.25267,323.2858 c -1.008,0.504 -3.216,1.608 -5.232,1.608 -3.696,0 -4.488,-2.76 -4.56,-4.008 h 9.792 c 0,-0.168 0.048,-0.696 0.048,-1.08 0,-2.208 -1.824,-4.776 -5.448,-4.776 -3.528,0 -5.688,2.568 -5.688,5.544 0,2.832 1.92,5.472 5.832,5.472 2.232,0 4.56,-1.008 5.808,-1.704 z m -9.792,-3.528 c 0.168,-1.08 1.224,-3.576 4.392,-3.576 2.88,0 4.128,2.016 4.152,3.576 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2319"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 237.5473,311.1178 0.072,1.08 3.864,-0.24 v 5.4 h -0.048 c -0.888,-1.32 -2.64,-2.064 -4.104,-2.064 -2.592,0 -5.28,2.088 -5.28,5.328 0,2.88 2.328,5.328 5.328,5.328 0.456,0 2.568,0 4.056,-2.016 h 0.048 v 1.776 h 3.24 v -1.128 h -2.04 v -13.92 z m 3.888,9.552 c 0,2.352 -1.872,4.08 -4.056,4.08 -2.16,0 -4.032,-1.704 -4.032,-4.152 0,-2.472 1.92,-4.104 4.032,-4.104 2.664,0 4.056,2.28 4.056,4.176 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2321"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 260.37655,315.3898 v 1.128 h 1.968 v 8.064 h -1.968 v 1.128 h 5.184 v -1.128 h -2.016 v -6.432 c 2.16,-1.704 3.36,-1.92 4.152,-1.92 1.416,0 2.352,1.104 2.352,2.856 v 5.496 h -2.064 v 1.128 h 5.184 v -1.128 h -1.92 v -5.592 c 0,-2.328 -1.392,-3.96 -3.576,-3.96 -1.752,0 -3.072,0.96 -4.128,1.704 v -1.344 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2323"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 275.19917,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2325"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 290.3338,315.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2327"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 306.88442,312.1978 v 3.528 h -1.632 v 1.128 h 1.632 v 4.536 c 0,1.584 0,2.736 0.84,3.576 0.504,0.504 1.488,1.08 2.976,1.08 1.56,0 3.408,-0.672 4.944,-1.368 l -0.432,-1.08 c -2.808,1.176 -3.84,1.248 -4.632,1.248 -2.52,0 -2.496,-1.68 -2.496,-3.456 v -4.536 h 5.808 v -1.128 h -5.808 v -3.528 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2329"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 317.72305,310.9018 0.096,1.128 2.232,-0.192 v 12.744 h -2.016 v 1.128 h 5.112 v -1.128 h -1.896 v -6.432 c 1.152,-0.936 2.64,-1.92 4.152,-1.92 1.416,0 2.304,1.128 2.304,2.856 v 5.496 h -2.04 v 1.128 h 5.256 v -1.128 h -2.016 v -5.592 c 0,-2.328 -1.368,-3.96 -3.552,-3.96 -1.728,0 -3.048,0.936 -4.104,1.704 v -6.12 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2331"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 338.71367,322.8538 c -0.888,0 -1.848,0.624 -1.848,1.632 0,1.056 1.008,1.632 1.848,1.632 0.888,0 1.848,-0.624 1.848,-1.632 0,-0.984 -0.936,-1.632 -1.848,-1.632 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2333"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 88.313047,336.1978 -0.408,5.664 1.152,0.144 0.336,-4.68 h 4.08 v 11.256 h -2.904 v 1.128 h 7.008 v -1.128 h -2.904 v -11.256 h 4.08 l 0.336,4.68 1.152003,-0.144 -0.408003,-5.664 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2335"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 101.86367,334.9018 0.096,1.128 2.232,-0.192 v 12.744 h -2.016 v 1.128 h 5.112 v -1.128 h -1.896 v -6.432 c 1.152,-0.936 2.64,-1.92 4.152,-1.92 1.416,0 2.304,1.128 2.304,2.856 v 5.496 h -2.04 v 1.128 h 5.256 v -1.128 h -2.016 v -5.592 c 0,-2.328 -1.368,-3.96 -3.552,-3.96 -1.728,0 -3.048,0.936 -4.104,1.704 v -6.12 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2337"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 128.5183,347.2858 c -1.008,0.504 -3.216,1.608 -5.232,1.608 -3.696,0 -4.488,-2.76 -4.56,-4.008 h 9.792 c 0,-0.168 0.048,-0.696 0.048,-1.08 0,-2.208 -1.824,-4.776 -5.448,-4.776 -3.528,0 -5.688,2.568 -5.688,5.544 0,2.832 1.92,5.472 5.832,5.472 2.232,0 4.56,-1.008 5.808,-1.704 z m -9.792,-3.528 c 0.168,-1.08 1.224,-3.576 4.392,-3.576 2.88,0 4.128,2.016 4.152,3.576 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2339"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 146.42755,339.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2341"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 160.07417,344.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2343"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 174.4648,344.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2345"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 187.60742,339.3898 v 1.128 h 1.632 v 8.064 h -1.632 v 1.128 h 4.464 v -1.128 h -1.632 v -6.912 c 0.408,-0.504 1.128,-1.344 2.304,-1.344 1.608,0 1.584,1.704 1.584,2.76 v 6.624 h 2.688 v -1.128 h -1.488 v -6.672 c 0.888,-1.248 1.68,-1.584 2.352,-1.584 1.56,0 1.536,1.512 1.536,2.856 v 6.528 h 2.568 v -1.128 h -1.368 v -5.4 c 0,-1.824 -0.168,-2.352 -0.624,-3.024 -0.408,-0.624 -1.32,-1.032 -2.136,-1.032 -1.128,0 -2.04,0.696 -2.736,1.512 -0.456,-0.96 -1.392,-1.512 -2.4,-1.512 -1.152,0 -1.992,0.768 -2.064,0.84 l -0.312,0.264 v -0.84 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2347"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 219.50867,339.3898 v 1.128 h 3.528 v 8.064 h -4.224 v 1.128 h 9.576 v -1.128 h -4.152 v -9.192 z m 3,-2.568 h 1.728 v -2.856 h -1.728 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2349"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 241.2673,338.9098 c -0.048,0.168 -0.072,0.192 -0.144,0.504 -0.048,0.144 -0.168,0.576 -0.432,0.576 -0.192,0 -0.48,-0.168 -0.528,-0.216 -0.432,-0.264 -1.368,-0.696 -2.76,-0.696 -2.52,0 -4.248,1.296 -4.248,3.024 0,2.904 3.72,3.048 4.992,3.096 1.992,0.072 3.432,0.144 3.432,1.584 0,1.848 -2.592,2.088 -3.552,2.088 -3.336,0 -3.72,-2.04 -3.864,-2.856 l -1.056,0.12 c 0.048,0.552 0.144,1.344 0.144,2.376 0,0.792 -0.072,1.104 -0.144,1.512 h 1.056 c 0.144,-0.552 0.264,-1.008 0.48,-1.008 0.048,0 0.12,0.048 0.12,0.048 0.552,0.312 1.8,1.008 3.528,1.008 2.088,0 4.584,-1.008 4.584,-3.336 0,-2.52 -2.928,-2.664 -3.48,-2.688 -2.808,-0.144 -4.944,-0.24 -4.944,-1.992 0,-0.984 1.08,-1.776 2.976,-1.776 3.312,0 3.6,1.56 3.768,2.496 l 1.056,-0.12 c -0.048,-0.408 -0.12,-0.84 -0.12,-1.512 0,-0.936 0.12,-1.56 0.216,-2.064 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2351"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 261.55255,339.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2353"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 286.81517,347.2858 c -1.008,0.504 -3.216,1.608 -5.232,1.608 -3.696,0 -4.488,-2.76 -4.56,-4.008 h 9.792 c 0,-0.168 0.048,-0.696 0.048,-1.08 0,-2.208 -1.824,-4.776 -5.448,-4.776 -3.528,0 -5.688,2.568 -5.688,5.544 0,2.832 1.92,5.472 5.832,5.472 2.232,0 4.56,-1.008 5.808,-1.704 z m -9.792,-3.528 c 0.168,-1.08 1.224,-3.576 4.392,-3.576 2.88,0 4.128,2.016 4.152,3.576 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2355"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 295.1098,335.1178 0.072,1.08 3.864,-0.24 v 5.4 h -0.048 c -0.888,-1.32 -2.64,-2.064 -4.104,-2.064 -2.592,0 -5.28,2.088 -5.28,5.328 0,2.88 2.328,5.328 5.328,5.328 0.456,0 2.568,0 4.056,-2.016 h 0.048 v 1.776 h 3.24 v -1.128 h -2.04 v -13.92 z m 3.888,9.552 c 0,2.352 -1.872,4.08 -4.056,4.08 -2.16,0 -4.032,-1.704 -4.032,-4.152 0,-2.472 1.92,-4.104 4.032,-4.104 2.664,0 4.056,2.28 4.056,4.176 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2357"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 309.93242,346.8538 c -0.888,0 -1.848,0.624 -1.848,1.632 0,1.056 1.008,1.632 1.848,1.632 0.888,0 1.848,-0.624 1.848,-1.632 0,-0.984 -0.936,-1.632 -1.848,-1.632 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2359"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="g2051">
+      <g
+         aria-label="&gt;You are in a room."
+         transform="matrix(0.26458333,0,0,0.26458333,-7.6225539,-68.955538)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1;font-family:Courier;-inkscape-font-specification:Courier;letter-spacing:0px;word-spacing:0px;fill:#00af00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="flowRoot830">
+        <path
+           d="m 88.649047,313.0618 -0.48,1.056 9.144,4.2 -9.144,4.296 0.48,1.08 11.328,-5.376 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2241"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 102.03167,312.1978 v 1.128 h 1.512 l 4.344,7.152 v 4.104 h -2.856 v 1.128 h 6.888 v -1.128 h -2.832 v -4.104 l 4.296,-7.152 h 1.512 v -1.128 h -4.656 v 1.128 h 1.872 l -3.576,5.952 -3.624,-5.952 h 1.824 v -1.128 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2243"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 116.9023,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2245"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 130.81292,315.3898 v 1.128 h 1.968 v 5.232 c 0,1.896 0.672,4.296 3.696,4.296 1.848,0 3.096,-1.056 3.768,-1.656 v 1.32 h 3.144 v -1.128 h -1.944 v -9.192 h -3.264 v 1.128 h 2.064 v 6.24 c -1.296,1.44 -2.544,2.088 -3.864,2.088 -2.4,0 -2.4,-2.472 -2.4,-3.096 v -6.36 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2247"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 169.89017,318.6058 c 0,-0.936 0,-3.696 -4.08,-3.696 -1.896,0 -3.552,0.648 -4.584,1.08 l 0.456,1.08 c 1.92,-0.84 3.24,-1.008 4.104,-1.008 2.904,0 2.904,1.776 2.904,2.544 v 0.744 c -1.464,-0.288 -3.144,-0.312 -3.36,-0.312 -3.984,0 -5.088,2.328 -5.088,3.624 0,1.656 1.488,3.384 3.864,3.384 1.968,0 3.6,-1.152 4.584,-2.064 v 1.728 h 3.336 v -1.128 h -2.136 z m -1.2,3.768 c -2.064,2.304 -3.816,2.52 -4.608,2.52 -1.344,0 -2.544,-1.008 -2.544,-2.208 0,-0.288 0.072,-2.496 4.032,-2.496 1.32,0 2.568,0.168 3.12,0.264 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2249"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 175.2088,315.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2251"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 200.47142,323.2858 c -1.008,0.504 -3.216,1.608 -5.232,1.608 -3.696,0 -4.488,-2.76 -4.56,-4.008 h 9.792 c 0,-0.168 0.048,-0.696 0.048,-1.08 0,-2.208 -1.824,-4.776 -5.448,-4.776 -3.528,0 -5.688,2.568 -5.688,5.544 0,2.832 1.92,5.472 5.832,5.472 2.232,0 4.56,-1.008 5.808,-1.704 z m -9.792,-3.528 c 0.168,-1.08 1.224,-3.576 4.392,-3.576 2.88,0 4.128,2.016 4.152,3.576 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2253"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 219.50867,315.3898 v 1.128 h 3.528 v 8.064 h -4.224 v 1.128 h 9.576 v -1.128 h -4.152 v -9.192 z m 3,-2.568 h 1.728 v -2.856 h -1.728 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2255"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 231.5953,315.3898 v 1.128 h 1.968 v 8.064 h -1.968 v 1.128 h 5.184 v -1.128 h -2.016 v -6.432 c 2.16,-1.704 3.36,-1.92 4.152,-1.92 1.416,0 2.352,1.104 2.352,2.856 v 5.496 h -2.064 v 1.128 h 5.184 v -1.128 h -1.92 v -5.592 c 0,-2.328 -1.392,-3.96 -3.576,-3.96 -1.752,0 -3.072,0.96 -4.128,1.704 v -1.344 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2257"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 270.62455,318.6058 c 0,-0.936 0,-3.696 -4.08,-3.696 -1.896,0 -3.552,0.648 -4.584,1.08 l 0.456,1.08 c 1.92,-0.84 3.24,-1.008 4.104,-1.008 2.904,0 2.904,1.776 2.904,2.544 v 0.744 c -1.464,-0.288 -3.144,-0.312 -3.36,-0.312 -3.984,0 -5.088,2.328 -5.088,3.624 0,1.656 1.488,3.384 3.864,3.384 1.968,0 3.6,-1.152 4.584,-2.064 v 1.728 h 3.336 v -1.128 h -2.136 z m -1.2,3.768 c -2.064,2.304 -3.816,2.52 -4.608,2.52 -1.344,0 -2.544,-1.008 -2.544,-2.208 0,-0.288 0.072,-2.496 4.032,-2.496 1.32,0 2.568,0.168 3.12,0.264 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2259"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 290.3338,315.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2261"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 303.98042,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2263"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 318.37105,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2265"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 331.51367,315.3898 v 1.128 h 1.632 v 8.064 h -1.632 v 1.128 h 4.464 v -1.128 h -1.632 v -6.912 c 0.408,-0.504 1.128,-1.344 2.304,-1.344 1.608,0 1.584,1.704 1.584,2.76 v 6.624 h 2.688 v -1.128 h -1.488 v -6.672 c 0.888,-1.248 1.68,-1.584 2.352,-1.584 1.56,0 1.536,1.512 1.536,2.856 v 6.528 h 2.568 v -1.128 h -1.368 v -5.4 c 0,-1.824 -0.168,-2.352 -0.624,-3.024 -0.408,-0.624 -1.32,-1.032 -2.136,-1.032 -1.128,0 -2.04,0.696 -2.736,1.512 -0.456,-0.96 -1.392,-1.512 -2.4,-1.512 -1.152,0 -1.992,0.768 -2.064,0.84 l -0.312,0.264 v -0.84 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2267"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 353.1043,322.8538 c -0.888,0 -1.848,0.624 -1.848,1.632 0,1.056 1.008,1.632 1.848,1.632 0.888,0 1.848,-0.624 1.848,-1.632 0,-0.984 -0.936,-1.632 -1.848,-1.632 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2269"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         aria-label="&gt;You are in a room."
+         transform="matrix(0.26458333,0,0,0.26458333,-7.6225539,-68.955538)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1;font-family:Courier;-inkscape-font-specification:Courier;letter-spacing:0px;word-spacing:0px;fill:#00af00;fill-opacity:1;stroke:none;stroke-opacity:1;filter:url(#filter2027)"
+         id="flowRoot1663">
+        <path
+           d="m 88.649047,313.0618 -0.48,1.056 9.144,4.2 -9.144,4.296 0.48,1.08 11.328,-5.376 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2272"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 102.03167,312.1978 v 1.128 h 1.512 l 4.344,7.152 v 4.104 h -2.856 v 1.128 h 6.888 v -1.128 h -2.832 v -4.104 l 4.296,-7.152 h 1.512 v -1.128 h -4.656 v 1.128 h 1.872 l -3.576,5.952 -3.624,-5.952 h 1.824 v -1.128 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2274"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 116.9023,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2276"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 130.81292,315.3898 v 1.128 h 1.968 v 5.232 c 0,1.896 0.672,4.296 3.696,4.296 1.848,0 3.096,-1.056 3.768,-1.656 v 1.32 h 3.144 v -1.128 h -1.944 v -9.192 h -3.264 v 1.128 h 2.064 v 6.24 c -1.296,1.44 -2.544,2.088 -3.864,2.088 -2.4,0 -2.4,-2.472 -2.4,-3.096 v -6.36 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2278"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 169.89017,318.6058 c 0,-0.936 0,-3.696 -4.08,-3.696 -1.896,0 -3.552,0.648 -4.584,1.08 l 0.456,1.08 c 1.92,-0.84 3.24,-1.008 4.104,-1.008 2.904,0 2.904,1.776 2.904,2.544 v 0.744 c -1.464,-0.288 -3.144,-0.312 -3.36,-0.312 -3.984,0 -5.088,2.328 -5.088,3.624 0,1.656 1.488,3.384 3.864,3.384 1.968,0 3.6,-1.152 4.584,-2.064 v 1.728 h 3.336 v -1.128 h -2.136 z m -1.2,3.768 c -2.064,2.304 -3.816,2.52 -4.608,2.52 -1.344,0 -2.544,-1.008 -2.544,-2.208 0,-0.288 0.072,-2.496 4.032,-2.496 1.32,0 2.568,0.168 3.12,0.264 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2280"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 175.2088,315.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2282"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 200.47142,323.2858 c -1.008,0.504 -3.216,1.608 -5.232,1.608 -3.696,0 -4.488,-2.76 -4.56,-4.008 h 9.792 c 0,-0.168 0.048,-0.696 0.048,-1.08 0,-2.208 -1.824,-4.776 -5.448,-4.776 -3.528,0 -5.688,2.568 -5.688,5.544 0,2.832 1.92,5.472 5.832,5.472 2.232,0 4.56,-1.008 5.808,-1.704 z m -9.792,-3.528 c 0.168,-1.08 1.224,-3.576 4.392,-3.576 2.88,0 4.128,2.016 4.152,3.576 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2284"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 219.50867,315.3898 v 1.128 h 3.528 v 8.064 h -4.224 v 1.128 h 9.576 v -1.128 h -4.152 v -9.192 z m 3,-2.568 h 1.728 v -2.856 h -1.728 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2286"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 231.5953,315.3898 v 1.128 h 1.968 v 8.064 h -1.968 v 1.128 h 5.184 v -1.128 h -2.016 v -6.432 c 2.16,-1.704 3.36,-1.92 4.152,-1.92 1.416,0 2.352,1.104 2.352,2.856 v 5.496 h -2.064 v 1.128 h 5.184 v -1.128 h -1.92 v -5.592 c 0,-2.328 -1.392,-3.96 -3.576,-3.96 -1.752,0 -3.072,0.96 -4.128,1.704 v -1.344 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2288"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 270.62455,318.6058 c 0,-0.936 0,-3.696 -4.08,-3.696 -1.896,0 -3.552,0.648 -4.584,1.08 l 0.456,1.08 c 1.92,-0.84 3.24,-1.008 4.104,-1.008 2.904,0 2.904,1.776 2.904,2.544 v 0.744 c -1.464,-0.288 -3.144,-0.312 -3.36,-0.312 -3.984,0 -5.088,2.328 -5.088,3.624 0,1.656 1.488,3.384 3.864,3.384 1.968,0 3.6,-1.152 4.584,-2.064 v 1.728 h 3.336 v -1.128 h -2.136 z m -1.2,3.768 c -2.064,2.304 -3.816,2.52 -4.608,2.52 -1.344,0 -2.544,-1.008 -2.544,-2.208 0,-0.288 0.072,-2.496 4.032,-2.496 1.32,0 2.568,0.168 3.12,0.264 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2290"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 290.3338,315.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2292"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 303.98042,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2294"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 318.37105,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2296"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 331.51367,315.3898 v 1.128 h 1.632 v 8.064 h -1.632 v 1.128 h 4.464 v -1.128 h -1.632 v -6.912 c 0.408,-0.504 1.128,-1.344 2.304,-1.344 1.608,0 1.584,1.704 1.584,2.76 v 6.624 h 2.688 v -1.128 h -1.488 v -6.672 c 0.888,-1.248 1.68,-1.584 2.352,-1.584 1.56,0 1.536,1.512 1.536,2.856 v 6.528 h 2.568 v -1.128 h -1.368 v -5.4 c 0,-1.824 -0.168,-2.352 -0.624,-3.024 -0.408,-0.624 -1.32,-1.032 -2.136,-1.032 -1.128,0 -2.04,0.696 -2.736,1.512 -0.456,-0.96 -1.392,-1.512 -2.4,-1.512 -1.152,0 -1.992,0.768 -2.064,0.84 l -0.312,0.264 v -0.84 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2298"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 353.1043,322.8538 c -0.888,0 -1.848,0.624 -1.848,1.632 0,1.056 1.008,1.632 1.848,1.632 0.888,0 1.848,-0.624 1.848,-1.632 0,-0.984 -0.936,-1.632 -1.848,-1.632 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2300"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       aria-label="&gt;Walk north."
+       transform="matrix(0.26458333,0,0,0.26458333,-7.7561887,-58.943675)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1;font-family:Courier;-inkscape-font-specification:Courier;letter-spacing:0px;word-spacing:0px;fill:#00af00;fill-opacity:1;stroke:none;stroke-opacity:1;filter:url(#filter2031)"
+       id="flowRoot1671">
+      <path
+         d="m 88.649047,313.0618 -0.48,1.056 9.144,4.2 -9.144,4.296 0.48,1.08 11.328,-5.376 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2218"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 101.31167,312.1978 v 1.128 h 1.128 l 1.68,12.384 h 1.2 l 3.096,-8.736 h 0.048 l 3.048,8.736 h 1.2 l 1.8,-12.384 h 1.104 v -1.128 h -4.68 v 1.128 h 2.448 l -1.392,10.08 h -0.048 l -3.024,-8.736 h -0.816 l -3.096,8.736 h -0.048 l -1.344,-10.08 h 2.424 v -1.128 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2220"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 126.7183,318.6058 c 0,-0.936 0,-3.696 -4.08,-3.696 -1.896,0 -3.552,0.648 -4.584,1.08 l 0.456,1.08 c 1.92,-0.84 3.24,-1.008 4.104,-1.008 2.904,0 2.904,1.776 2.904,2.544 v 0.744 c -1.464,-0.288 -3.144,-0.312 -3.36,-0.312 -3.984,0 -5.088,2.328 -5.088,3.624 0,1.656 1.488,3.384 3.864,3.384 1.968,0 3.6,-1.152 4.584,-2.064 v 1.728 h 3.336 v -1.128 h -2.136 z m -1.2,3.768 c -2.064,2.304 -3.816,2.52 -4.608,2.52 -1.344,0 -2.544,-1.008 -2.544,-2.208 0,-0.288 0.072,-2.496 4.032,-2.496 1.32,0 2.568,0.168 3.12,0.264 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2222"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 132.61292,311.3818 0.12,1.104 3.912,-0.288 v 12.384 h -4.176 v 1.128 h 9.552 v -1.128 h -4.176 v -13.536 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2224"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 145.29955,310.9258 0.096,1.128 2.28,-0.192 v 12.72 h -1.992 v 1.128 h 3.192 v -4.392 l 1.344,-1.032 c 2.328,2.16 3.288,3.12 4.272,4.296 h -1.536 v 1.128 h 4.992 v -1.128 h -2.016 c -0.864,-1.104 -2.856,-3.216 -4.8,-4.968 l 4.032,-3.096 h 1.872 v -1.128 h -5.016 v 1.128 h 1.344 v 0.048 l -4.488,3.408 v -9.36 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2226"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 174.0328,315.3898 v 1.128 h 1.968 v 8.064 h -1.968 v 1.128 h 5.184 v -1.128 h -2.016 v -6.432 c 2.16,-1.704 3.36,-1.92 4.152,-1.92 1.416,0 2.352,1.104 2.352,2.856 v 5.496 h -2.064 v 1.128 h 5.184 v -1.128 h -1.92 v -5.592 c 0,-2.328 -1.392,-3.96 -3.576,-3.96 -1.752,0 -3.072,0.96 -4.128,1.704 v -1.344 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2228"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 188.85542,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2230"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 203.99005,315.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2232"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 220.54067,312.1978 v 3.528 h -1.632 v 1.128 h 1.632 v 4.536 c 0,1.584 0,2.736 0.84,3.576 0.504,0.504 1.488,1.08 2.976,1.08 1.56,0 3.408,-0.672 4.944,-1.368 l -0.432,-1.08 c -2.808,1.176 -3.84,1.248 -4.632,1.248 -2.52,0 -2.496,-1.68 -2.496,-3.456 v -4.536 h 5.808 v -1.128 h -5.808 v -3.528 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2234"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 231.3793,310.9018 0.096,1.128 2.232,-0.192 v 12.744 h -2.016 v 1.128 h 5.112 v -1.128 h -1.896 v -6.432 c 1.152,-0.936 2.64,-1.92 4.152,-1.92 1.416,0 2.304,1.128 2.304,2.856 v 5.496 h -2.04 v 1.128 h 5.256 v -1.128 h -2.016 v -5.592 c 0,-2.328 -1.368,-3.96 -3.552,-3.96 -1.728,0 -3.048,0.936 -4.104,1.704 v -6.12 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2236"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 252.36992,322.8538 c -0.888,0 -1.848,0.624 -1.848,1.632 0,1.056 1.008,1.632 1.848,1.632 0.888,0 1.848,-0.624 1.848,-1.632 0,-0.984 -0.936,-1.632 -1.848,-1.632 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2238"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       aria-label="&gt;You walked north. The room is red."
+       transform="matrix(0.26458333,0,0,0.26458333,-7.7561887,-49.872627)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1;font-family:Courier;-inkscape-font-specification:Courier;letter-spacing:0px;word-spacing:0px;fill:#00af00;fill-opacity:1;stroke:none;stroke-opacity:1;filter:url(#filter2035)"
+       id="flowRoot1681">
+      <path
+         d="m 88.649047,313.0618 -0.48,1.056 9.144,4.2 -9.144,4.296 0.48,1.08 11.328,-5.376 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2159"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 102.03167,312.1978 v 1.128 h 1.512 l 4.344,7.152 v 4.104 h -2.856 v 1.128 h 6.888 v -1.128 h -2.832 v -4.104 l 4.296,-7.152 h 1.512 v -1.128 h -4.656 v 1.128 h 1.872 l -3.576,5.952 -3.624,-5.952 h 1.824 v -1.128 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2161"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 116.9023,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2163"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 130.81292,315.3898 v 1.128 h 1.968 v 5.232 c 0,1.896 0.672,4.296 3.696,4.296 1.848,0 3.096,-1.056 3.768,-1.656 v 1.32 h 3.144 v -1.128 h -1.944 v -9.192 h -3.264 v 1.128 h 2.064 v 6.24 c -1.296,1.44 -2.544,2.088 -3.864,2.088 -2.4,0 -2.4,-2.472 -2.4,-3.096 v -6.36 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2165"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 158.87417,315.3898 v 1.128 h 1.032 l 2.712,9.192 h 1.176 l 2.232,-6.192 2.28,6.192 h 1.248 l 2.688,-9.192 h 0.936 v -1.128 h -4.08 v 1.128 h 2.016 l -2.16,7.368 h -0.048 l -2.376,-6.624 h -0.84 l -2.352,6.528 h -0.048 l -2.112,-7.272 h 1.992 v -1.128 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2167"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 184.2808,318.6058 c 0,-0.936 0,-3.696 -4.08,-3.696 -1.896,0 -3.552,0.648 -4.584,1.08 l 0.456,1.08 c 1.92,-0.84 3.24,-1.008 4.104,-1.008 2.904,0 2.904,1.776 2.904,2.544 v 0.744 c -1.464,-0.288 -3.144,-0.312 -3.36,-0.312 -3.984,0 -5.088,2.328 -5.088,3.624 0,1.656 1.488,3.384 3.864,3.384 1.968,0 3.6,-1.152 4.584,-2.064 v 1.728 h 3.336 v -1.128 h -2.136 z m -1.2,3.768 c -2.064,2.304 -3.816,2.52 -4.608,2.52 -1.344,0 -2.544,-1.008 -2.544,-2.208 0,-0.288 0.072,-2.496 4.032,-2.496 1.32,0 2.568,0.168 3.12,0.264 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2169"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 190.17542,311.3818 0.12,1.104 3.912,-0.288 v 12.384 h -4.176 v 1.128 h 9.552 v -1.128 h -4.176 v -13.536 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2171"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 202.86205,310.9258 0.096,1.128 2.28,-0.192 v 12.72 h -1.992 v 1.128 h 3.192 v -4.392 l 1.344,-1.032 c 2.328,2.16 3.288,3.12 4.272,4.296 h -1.536 v 1.128 h 4.992 v -1.128 h -2.016 c -0.864,-1.104 -2.856,-3.216 -4.8,-4.968 l 4.032,-3.096 h 1.872 v -1.128 h -5.016 v 1.128 h 1.344 v 0.048 l -4.488,3.408 v -9.36 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2173"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 229.25267,323.2858 c -1.008,0.504 -3.216,1.608 -5.232,1.608 -3.696,0 -4.488,-2.76 -4.56,-4.008 h 9.792 c 0,-0.168 0.048,-0.696 0.048,-1.08 0,-2.208 -1.824,-4.776 -5.448,-4.776 -3.528,0 -5.688,2.568 -5.688,5.544 0,2.832 1.92,5.472 5.832,5.472 2.232,0 4.56,-1.008 5.808,-1.704 z m -9.792,-3.528 c 0.168,-1.08 1.224,-3.576 4.392,-3.576 2.88,0 4.128,2.016 4.152,3.576 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2175"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 237.5473,311.1178 0.072,1.08 3.864,-0.24 v 5.4 h -0.048 c -0.888,-1.32 -2.64,-2.064 -4.104,-2.064 -2.592,0 -5.28,2.088 -5.28,5.328 0,2.88 2.328,5.328 5.328,5.328 0.456,0 2.568,0 4.056,-2.016 h 0.048 v 1.776 h 3.24 v -1.128 h -2.04 v -13.92 z m 3.888,9.552 c 0,2.352 -1.872,4.08 -4.056,4.08 -2.16,0 -4.032,-1.704 -4.032,-4.152 0,-2.472 1.92,-4.104 4.032,-4.104 2.664,0 4.056,2.28 4.056,4.176 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2177"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 260.37655,315.3898 v 1.128 h 1.968 v 8.064 h -1.968 v 1.128 h 5.184 v -1.128 h -2.016 v -6.432 c 2.16,-1.704 3.36,-1.92 4.152,-1.92 1.416,0 2.352,1.104 2.352,2.856 v 5.496 h -2.064 v 1.128 h 5.184 v -1.128 h -1.92 v -5.592 c 0,-2.328 -1.392,-3.96 -3.576,-3.96 -1.752,0 -3.072,0.96 -4.128,1.704 v -1.344 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2179"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 275.19917,320.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2181"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 290.3338,315.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2183"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 306.88442,312.1978 v 3.528 h -1.632 v 1.128 h 1.632 v 4.536 c 0,1.584 0,2.736 0.84,3.576 0.504,0.504 1.488,1.08 2.976,1.08 1.56,0 3.408,-0.672 4.944,-1.368 l -0.432,-1.08 c -2.808,1.176 -3.84,1.248 -4.632,1.248 -2.52,0 -2.496,-1.68 -2.496,-3.456 v -4.536 h 5.808 v -1.128 h -5.808 v -3.528 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2185"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 317.72305,310.9018 0.096,1.128 2.232,-0.192 v 12.744 h -2.016 v 1.128 h 5.112 v -1.128 h -1.896 v -6.432 c 1.152,-0.936 2.64,-1.92 4.152,-1.92 1.416,0 2.304,1.128 2.304,2.856 v 5.496 h -2.04 v 1.128 h 5.256 v -1.128 h -2.016 v -5.592 c 0,-2.328 -1.368,-3.96 -3.552,-3.96 -1.728,0 -3.048,0.936 -4.104,1.704 v -6.12 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2187"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 338.71367,322.8538 c -0.888,0 -1.848,0.624 -1.848,1.632 0,1.056 1.008,1.632 1.848,1.632 0.888,0 1.848,-0.624 1.848,-1.632 0,-0.984 -0.936,-1.632 -1.848,-1.632 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2189"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 88.313047,336.1978 -0.408,5.664 1.152,0.144 0.336,-4.68 h 4.08 v 11.256 h -2.904 v 1.128 h 7.008 v -1.128 h -2.904 v -11.256 h 4.08 l 0.336,4.68 1.152003,-0.144 -0.408003,-5.664 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2191"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 101.86367,334.9018 0.096,1.128 2.232,-0.192 v 12.744 h -2.016 v 1.128 h 5.112 v -1.128 h -1.896 v -6.432 c 1.152,-0.936 2.64,-1.92 4.152,-1.92 1.416,0 2.304,1.128 2.304,2.856 v 5.496 h -2.04 v 1.128 h 5.256 v -1.128 h -2.016 v -5.592 c 0,-2.328 -1.368,-3.96 -3.552,-3.96 -1.728,0 -3.048,0.936 -4.104,1.704 v -6.12 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2193"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 128.5183,347.2858 c -1.008,0.504 -3.216,1.608 -5.232,1.608 -3.696,0 -4.488,-2.76 -4.56,-4.008 h 9.792 c 0,-0.168 0.048,-0.696 0.048,-1.08 0,-2.208 -1.824,-4.776 -5.448,-4.776 -3.528,0 -5.688,2.568 -5.688,5.544 0,2.832 1.92,5.472 5.832,5.472 2.232,0 4.56,-1.008 5.808,-1.704 z m -9.792,-3.528 c 0.168,-1.08 1.224,-3.576 4.392,-3.576 2.88,0 4.128,2.016 4.152,3.576 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2195"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 146.42755,339.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2197"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 160.07417,344.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2199"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 174.4648,344.4778 c 0,2.856 2.04,5.568 5.952,5.568 4.008,0 5.952,-2.808 5.952,-5.568 0,-2.76 -1.944,-5.568 -5.952,-5.568 -3.912,0 -5.952,2.688 -5.952,5.568 z m 1.296,0 c 0,-2.28 1.656,-4.368 4.656,-4.368 3.072,0 4.656,2.136 4.656,4.368 0,2.208 -1.584,4.368 -4.656,4.368 -3.024,0 -4.656,-2.112 -4.656,-4.368 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2201"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 187.60742,339.3898 v 1.128 h 1.632 v 8.064 h -1.632 v 1.128 h 4.464 v -1.128 h -1.632 v -6.912 c 0.408,-0.504 1.128,-1.344 2.304,-1.344 1.608,0 1.584,1.704 1.584,2.76 v 6.624 h 2.688 v -1.128 h -1.488 v -6.672 c 0.888,-1.248 1.68,-1.584 2.352,-1.584 1.56,0 1.536,1.512 1.536,2.856 v 6.528 h 2.568 v -1.128 h -1.368 v -5.4 c 0,-1.824 -0.168,-2.352 -0.624,-3.024 -0.408,-0.624 -1.32,-1.032 -2.136,-1.032 -1.128,0 -2.04,0.696 -2.736,1.512 -0.456,-0.96 -1.392,-1.512 -2.4,-1.512 -1.152,0 -1.992,0.768 -2.064,0.84 l -0.312,0.264 v -0.84 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2203"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 219.50867,339.3898 v 1.128 h 3.528 v 8.064 h -4.224 v 1.128 h 9.576 v -1.128 h -4.152 v -9.192 z m 3,-2.568 h 1.728 v -2.856 h -1.728 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2205"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 241.2673,338.9098 c -0.048,0.168 -0.072,0.192 -0.144,0.504 -0.048,0.144 -0.168,0.576 -0.432,0.576 -0.192,0 -0.48,-0.168 -0.528,-0.216 -0.432,-0.264 -1.368,-0.696 -2.76,-0.696 -2.52,0 -4.248,1.296 -4.248,3.024 0,2.904 3.72,3.048 4.992,3.096 1.992,0.072 3.432,0.144 3.432,1.584 0,1.848 -2.592,2.088 -3.552,2.088 -3.336,0 -3.72,-2.04 -3.864,-2.856 l -1.056,0.12 c 0.048,0.552 0.144,1.344 0.144,2.376 0,0.792 -0.072,1.104 -0.144,1.512 h 1.056 c 0.144,-0.552 0.264,-1.008 0.48,-1.008 0.048,0 0.12,0.048 0.12,0.048 0.552,0.312 1.8,1.008 3.528,1.008 2.088,0 4.584,-1.008 4.584,-3.336 0,-2.52 -2.928,-2.664 -3.48,-2.688 -2.808,-0.144 -4.944,-0.24 -4.944,-1.992 0,-0.984 1.08,-1.776 2.976,-1.776 3.312,0 3.6,1.56 3.768,2.496 l 1.056,-0.12 c -0.048,-0.408 -0.12,-0.84 -0.12,-1.512 0,-0.936 0.12,-1.56 0.216,-2.064 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2207"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 261.55255,339.3898 v 1.128 h 2.784 v 8.064 h -2.976 v 1.128 h 8.736 v -1.128 h -4.56 v -5.256 c 0.816,-0.912 2.712,-3.072 4.776,-3.072 0.96,0 1.272,0.528 1.512,0.888 0,0.048 0.072,0.144 0.096,0.168 l 1.272,-0.936 c -0.528,-0.624 -1.176,-1.32 -2.688,-1.32 -2.28,0 -3.888,1.656 -4.968,2.736 v -2.4 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2209"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 286.81517,347.2858 c -1.008,0.504 -3.216,1.608 -5.232,1.608 -3.696,0 -4.488,-2.76 -4.56,-4.008 h 9.792 c 0,-0.168 0.048,-0.696 0.048,-1.08 0,-2.208 -1.824,-4.776 -5.448,-4.776 -3.528,0 -5.688,2.568 -5.688,5.544 0,2.832 1.92,5.472 5.832,5.472 2.232,0 4.56,-1.008 5.808,-1.704 z m -9.792,-3.528 c 0.168,-1.08 1.224,-3.576 4.392,-3.576 2.88,0 4.128,2.016 4.152,3.576 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2211"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 295.1098,335.1178 0.072,1.08 3.864,-0.24 v 5.4 h -0.048 c -0.888,-1.32 -2.64,-2.064 -4.104,-2.064 -2.592,0 -5.28,2.088 -5.28,5.328 0,2.88 2.328,5.328 5.328,5.328 0.456,0 2.568,0 4.056,-2.016 h 0.048 v 1.776 h 3.24 v -1.128 h -2.04 v -13.92 z m 3.888,9.552 c 0,2.352 -1.872,4.08 -4.056,4.08 -2.16,0 -4.032,-1.704 -4.032,-4.152 0,-2.472 1.92,-4.104 4.032,-4.104 2.664,0 4.056,2.28 4.056,4.176 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2213"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 309.93242,346.8538 c -0.888,0 -1.848,0.624 -1.848,1.632 0,1.056 1.008,1.632 1.848,1.632 0.888,0 1.848,-0.624 1.848,-1.632 0,-0.984 -0.936,-1.632 -1.848,-1.632 z"
+         style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="path2215"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g2074">
+      <g
+         aria-label="&gt;|"
+         transform="matrix(0.26458333,0,0,0.26458333,-7.8898235,-35.327926)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1;font-family:Courier;-inkscape-font-specification:Courier;letter-spacing:0px;word-spacing:0px;fill:#00af00;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="flowRoot1400">
+        <path
+           d="m 88.649047,313.0618 -0.48,1.056 9.144,4.2 -9.144,4.296 0.48,1.08 11.328,-5.376 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2149"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 109.11167,309.5578 h -1.272 v 20.592 h 1.272 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2151"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         aria-label="&gt;|"
+         transform="matrix(0.26458333,0,0,0.26458333,-7.8898235,-35.327926)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1;font-family:Courier;-inkscape-font-specification:Courier;letter-spacing:0px;word-spacing:0px;fill:#00af00;fill-opacity:1;stroke:none;stroke-opacity:1;filter:url(#filter2039)"
+         id="flowRoot1689">
+        <path
+           d="m 88.649047,313.0618 -0.48,1.056 9.144,4.2 -9.144,4.296 0.48,1.08 11.328,-5.376 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2154"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 109.11167,309.5578 h -1.272 v 20.592 h 1.272 z"
+           style="font-size:24px;line-height:1;fill:#ffaf00;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="path2156"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Paper"
+     transform="translate(-12.473214,-7.354516)"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ece9dc;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2128"
+       width="91.848213"
+       height="56.129463"
+       x="96.95089"
+       y="11.25"
+       rx="3.7325034"
+       ry="1.8190116" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Code"
+     style="opacity:1"
+     transform="translate(-12.473214,-7.354516)"
+     sodipodi:insensitive="true">
+    <g
+       aria-label="1. Print introduction.  2. Get input.  3. Print results."
+       transform="matrix(0.26458333,0,0,0.26458333,15.563224,5.755792)"
+       style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2077">
+      <path
+         d="m 393.90625,71 h 3.86719 V 57.652344 l -4.20703,0.84375 v -2.15625 l 4.18359,-0.84375 h 2.36719 V 71 h 3.86718 v 1.992187 h -10.07812 z"
+         id="path2385"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 408.77734,70.015625 H 411.25 v 2.976562 h -2.47266 z"
+         id="path2387"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 426.21484,57.441406 v 6.574219 h 2.97657 q 1.65234,0 2.55468,-0.855469 0.90235,-0.855469 0.90235,-2.4375 0,-1.570312 -0.90235,-2.425781 -0.90234,-0.855469 -2.55468,-0.855469 z m -2.36718,-1.945312 h 5.34375 q 2.9414,0 4.4414,1.335937 1.51172,1.324219 1.51172,3.890625 0,2.589844 -1.51172,3.914063 -1.5,1.324218 -4.4414,1.324218 h -2.97657 v 7.03125 h -2.36718 z"
+         id="path2389"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 445.42187,61.882812 q -0.36328,-0.210937 -0.79687,-0.304687 -0.42188,-0.105469 -0.9375,-0.105469 -1.82813,0 -2.8125,1.195313 -0.97266,1.183593 -0.97266,3.410156 v 6.914062 h -2.16797 v -13.125 h 2.16797 v 2.039063 q 0.67969,-1.195313 1.76953,-1.769531 1.08985,-0.585938 2.64844,-0.585938 0.22266,0 0.49219,0.03516 0.26953,0.02344 0.59766,0.08203 z"
+         id="path2391"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 447.70703,59.867187 h 2.15625 v 13.125 h -2.15625 z m 0,-5.109375 h 2.15625 v 2.730469 h -2.15625 z"
+         id="path2393"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 465.27344,65.070312 v 7.921875 h -2.15625 v -7.851562 q 0,-1.863281 -0.72657,-2.789063 -0.72656,-0.925781 -2.17968,-0.925781 -1.7461,0 -2.75391,1.113281 -1.00781,1.113282 -1.00781,3.035157 v 7.417968 h -2.16797 v -13.125 h 2.16797 v 2.039063 q 0.77344,-1.183594 1.8164,-1.769531 1.05469,-0.585938 2.42579,-0.585938 2.26171,0 3.42187,1.40625 1.16016,1.394531 1.16016,4.113281 z"
+         id="path2395"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 471.73047,56.140625 v 3.726562 h 4.4414 v 1.675782 h -4.4414 v 7.125 q 0,1.605468 0.43359,2.0625 0.44531,0.457031 1.79297,0.457031 h 2.21484 v 1.804687 h -2.21484 q -2.49609,0 -3.44531,-0.925781 -0.94922,-0.9375 -0.94922,-3.398437 v -7.125 h -1.58203 v -1.675782 h 1.58203 v -3.726562 z"
+         id="path2397"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 486.66016,59.867187 h 2.15625 v 13.125 h -2.15625 z m 0,-5.109375 h 2.15625 v 2.730469 h -2.15625 z"
+         id="path2399"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 504.22656,65.070312 v 7.921875 h -2.15625 v -7.851562 q 0,-1.863281 -0.72656,-2.789063 -0.72656,-0.925781 -2.17969,-0.925781 -1.74609,0 -2.7539,1.113281 -1.00782,1.113282 -1.00782,3.035157 v 7.417968 h -2.16797 v -13.125 h 2.16797 v 2.039063 q 0.77344,-1.183594 1.81641,-1.769531 1.05469,-0.585938 2.42578,-0.585938 2.26172,0 3.42188,1.40625 1.16015,1.394531 1.16015,4.113281 z"
+         id="path2401"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 510.68359,56.140625 v 3.726562 h 4.44141 v 1.675782 h -4.44141 v 7.125 q 0,1.605468 0.4336,2.0625 0.44531,0.457031 1.79297,0.457031 h 2.21484 v 1.804687 h -2.21484 q -2.4961,0 -3.44532,-0.925781 -0.94922,-0.9375 -0.94922,-3.398437 v -7.125 h -1.58203 v -1.675782 h 1.58203 v -3.726562 z"
+         id="path2403"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 525.57812,61.882812 q -0.36328,-0.210937 -0.79687,-0.304687 -0.42188,-0.105469 -0.9375,-0.105469 -1.82813,0 -2.8125,1.195313 -0.97266,1.183593 -0.97266,3.410156 v 6.914062 h -2.16797 v -13.125 h 2.16797 v 2.039063 q 0.67969,-1.195313 1.76953,-1.769531 1.08985,-0.585938 2.64844,-0.585938 0.22266,0 0.49219,0.03516 0.26953,0.02344 0.59766,0.08203 z"
+         id="path2405"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 532.43359,61.378906 q -1.73437,0 -2.74218,1.359375 -1.00782,1.347656 -1.00782,3.703125 0,2.355469 0.9961,3.714844 1.00781,1.347656 2.7539,1.347656 1.72266,0 2.73047,-1.359375 1.00781,-1.359375 1.00781,-3.703125 0,-2.332031 -1.00781,-3.691406 -1.00781,-1.371094 -2.73047,-1.371094 z m 0,-1.828125 q 2.8125,0 4.41797,1.828125 1.60547,1.828125 1.60547,5.0625 0,3.222656 -1.60547,5.0625 -1.60547,1.828125 -4.41797,1.828125 -2.82422,0 -4.42968,-1.828125 -1.59375,-1.839844 -1.59375,-5.0625 0,-3.234375 1.59375,-5.0625 1.60546,-1.828125 4.42968,-1.828125 z"
+         id="path2407"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 550.65625,61.859375 v -7.101563 h 2.15625 v 18.234375 h -2.15625 v -1.96875 q -0.67969,1.171875 -1.72266,1.746094 -1.03125,0.5625 -2.48437,0.5625 -2.37891,0 -3.87891,-1.898437 -1.48828,-1.898438 -1.48828,-4.992188 0,-3.09375 1.48828,-4.992187 1.5,-1.898438 3.87891,-1.898438 1.45312,0 2.48437,0.574219 1.04297,0.5625 1.72266,1.734375 z m -7.34766,4.582031 q 0,2.378906 0.97266,3.738281 0.98437,1.347657 2.69531,1.347657 1.71094,0 2.69531,-1.347657 0.98438,-1.359375 0.98438,-3.738281 0,-2.378906 -0.98438,-3.726562 -0.98437,-1.359375 -2.69531,-1.359375 -1.71094,0 -2.69531,1.359375 -0.97266,1.347656 -0.97266,3.726562 z"
+         id="path2409"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 557.03125,67.8125 v -7.945313 h 2.15625 v 7.863282 q 0,1.863281 0.72656,2.800781 0.72656,0.925781 2.17969,0.925781 1.74609,0 2.75391,-1.113281 1.01953,-1.113281 1.01953,-3.035156 v -7.441407 h 2.15625 v 13.125 h -2.15625 v -2.015625 q -0.78516,1.195313 -1.82813,1.78125 -1.03125,0.574219 -2.40234,0.574219 -2.26172,0 -3.4336,-1.40625 -1.17187,-1.40625 -1.17187,-4.113281 z m 5.42578,-8.261719 z"
+         id="path2411"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 581.93359,60.371094 v 2.015625 q -0.91406,-0.503907 -1.83984,-0.75 -0.91406,-0.257813 -1.85156,-0.257813 -2.09766,0 -3.25782,1.335938 -1.16015,1.324218 -1.16015,3.726562 0,2.402344 1.16015,3.738281 1.16016,1.324219 3.25782,1.324219 0.9375,0 1.85156,-0.246094 Q 581.01953,71 581.93359,70.496094 v 1.992187 q -0.90234,0.421875 -1.875,0.632813 -0.96093,0.210937 -2.05078,0.210937 -2.96484,0 -4.71094,-1.863281 -1.74609,-1.863281 -1.74609,-5.027344 0,-3.210937 1.75781,-5.050781 1.76953,-1.839844 4.83985,-1.839844 0.99609,0 1.94531,0.210938 0.94922,0.199218 1.83984,0.609375 z"
+         id="path2413"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 587.83984,56.140625 v 3.726562 h 4.44141 v 1.675782 h -4.44141 v 7.125 q 0,1.605468 0.4336,2.0625 0.44531,0.457031 1.79297,0.457031 h 2.21484 v 1.804687 h -2.21484 q -2.4961,0 -3.44532,-0.925781 -0.94922,-0.9375 -0.94922,-3.398437 v -7.125 h -1.58203 v -1.675782 h 1.58203 v -3.726562 z"
+         id="path2415"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 595.12891,59.867187 h 2.15625 v 13.125 h -2.15625 z m 0,-5.109375 h 2.15625 v 2.730469 h -2.15625 z"
+         id="path2417"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 606.87109,61.378906 q -1.73437,0 -2.74218,1.359375 -1.00782,1.347656 -1.00782,3.703125 0,2.355469 0.9961,3.714844 1.00781,1.347656 2.7539,1.347656 1.72266,0 2.73047,-1.359375 1.00781,-1.359375 1.00781,-3.703125 0,-2.332031 -1.00781,-3.691406 -1.00781,-1.371094 -2.73047,-1.371094 z m 0,-1.828125 q 2.8125,0 4.41797,1.828125 1.60547,1.828125 1.60547,5.0625 0,3.222656 -1.60547,5.0625 -1.60547,1.828125 -4.41797,1.828125 -2.82422,0 -4.42968,-1.828125 -1.59375,-1.839844 -1.59375,-5.0625 0,-3.234375 1.59375,-5.0625 1.60546,-1.828125 4.42968,-1.828125 z"
+         id="path2419"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 627.36719,65.070312 v 7.921875 h -2.15625 v -7.851562 q 0,-1.863281 -0.72657,-2.789063 -0.72656,-0.925781 -2.17968,-0.925781 -1.7461,0 -2.75391,1.113281 -1.00781,1.113282 -1.00781,3.035157 v 7.417968 H 616.375 v -13.125 h 2.16797 v 2.039063 q 0.77344,-1.183594 1.8164,-1.769531 1.05469,-0.585938 2.42579,-0.585938 2.26171,0 3.42187,1.40625 1.16016,1.394531 1.16016,4.113281 z"
+         id="path2421"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 631.99609,70.015625 h 2.47266 v 2.976562 h -2.47266 z"
+         id="path2423"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 395.53516,131 h 8.26171 v 1.99219 H 392.6875 V 131 q 1.34766,-1.39453 3.66797,-3.73828 2.33203,-2.35547 2.92969,-3.03516 1.13671,-1.27734 1.58203,-2.15625 0.45703,-0.89062 0.45703,-1.74609 0,-1.39453 -0.98438,-2.27344 -0.97265,-0.8789 -2.54297,-0.8789 -1.11328,0 -2.35546,0.38671 -1.23047,0.38672 -2.63672,1.17188 v -2.39063 q 1.42968,-0.57421 2.67187,-0.86718 1.24219,-0.29297 2.27344,-0.29297 2.71875,0 4.33594,1.35937 1.61718,1.35938 1.61718,3.63282 0,1.07812 -0.41015,2.05078 -0.39844,0.96093 -1.46485,2.27343 -0.29296,0.33985 -1.86328,1.96875 -1.57031,1.61719 -4.42968,4.53516 z"
+         id="path2425"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 408.77734,130.01562 H 411.25 v 2.97657 h -2.47266 z"
+         id="path2427"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 435.77734,130.49609 v -4.69921 h -3.86718 v -1.94532 h 6.21093 v 7.51172 q -1.37109,0.97266 -3.02343,1.47656 -1.65235,0.49219 -3.52735,0.49219 -4.10156,0 -6.42187,-2.39062 -2.3086,-2.40235 -2.3086,-6.67969 0,-4.28906 2.3086,-6.67969 2.32031,-2.40234 6.42187,-2.40234 1.71094,0 3.2461,0.42187 1.54687,0.42188 2.84765,1.24219 v 2.51953 q -1.3125,-1.11328 -2.78906,-1.67578 -1.47656,-0.5625 -3.10547,-0.5625 -3.21094,0 -4.82812,1.79297 -1.60547,1.79297 -1.60547,5.34375 0,3.53906 1.60547,5.33203 1.61718,1.79297 4.82812,1.79297 1.25391,0 2.23828,-0.21094 0.98438,-0.22266 1.76953,-0.67969 z"
+         id="path2429"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 453.58984,125.89063 v 1.05468 h -9.91406 q 0.14063,2.22656 1.33594,3.39844 1.20703,1.16016 3.35156,1.16016 1.24219,0 2.40234,-0.30469 1.17188,-0.30469 2.32032,-0.91406 v 2.03906 q -1.16016,0.49219 -2.37891,0.75 -1.21875,0.25781 -2.47266,0.25781 -3.14062,0 -4.98046,-1.82812 -1.82813,-1.82813 -1.82813,-4.94532 0,-3.22265 1.73438,-5.10937 1.74609,-1.89844 4.69921,-1.89844 2.64844,0 4.1836,1.71094 1.54687,1.69922 1.54687,4.62891 z m -2.15625,-0.63282 q -0.0234,-1.76953 -0.99609,-2.82422 -0.96094,-1.05468 -2.55469,-1.05468 -1.80469,0 -2.89453,1.01953 -1.07812,1.01953 -1.24219,2.87109 z"
+         id="path2431"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 459.26172,116.14063 v 3.72656 h 4.4414 v 1.67578 h -4.4414 v 7.125 q 0,1.60547 0.43359,2.0625 0.44531,0.45703 1.79297,0.45703 h 2.21484 v 1.80469 h -2.21484 q -2.49609,0 -3.44531,-0.92578 -0.94922,-0.9375 -0.94922,-3.39844 v -7.125 h -1.58203 v -1.67578 h 1.58203 v -3.72656 z"
+         id="path2433"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 474.19141,119.86719 h 2.15625 v 13.125 h -2.15625 z m 0,-5.10938 h 2.15625 v 2.73047 h -2.15625 z"
+         id="path2435"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 491.75781,125.07031 v 7.92188 h -2.15625 v -7.85156 q 0,-1.86329 -0.72656,-2.78907 -0.72656,-0.92578 -2.17969,-0.92578 -1.74609,0 -2.7539,1.11328 -1.00782,1.11328 -1.00782,3.03516 v 7.41797 h -2.16797 v -13.125 h 2.16797 v 2.03906 q 0.77344,-1.18359 1.81641,-1.76953 1.05469,-0.58594 2.42578,-0.58594 2.26172,0 3.42188,1.40625 1.16015,1.39453 1.16015,4.11328 z"
+         id="path2437"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 498.16797,131.02344 v 6.96093 H 496 v -18.11718 h 2.16797 v 1.99219 q 0.67969,-1.17188 1.71094,-1.73438 1.04296,-0.57422 2.48437,-0.57422 2.39063,0 3.87891,1.89844 1.5,1.89844 1.5,4.99219 0,3.09375 -1.5,4.99218 -1.48828,1.89844 -3.87891,1.89844 -1.44141,0 -2.48437,-0.5625 -1.03125,-0.57422 -1.71094,-1.74609 z m 7.33594,-4.58203 q 0,-2.37891 -0.98438,-3.72657 -0.97266,-1.35937 -2.68359,-1.35937 -1.71094,0 -2.69532,1.35937 -0.97265,1.34766 -0.97265,3.72657 0,2.3789 0.97265,3.73828 0.98438,1.34765 2.69532,1.34765 1.71093,0 2.68359,-1.34765 0.98438,-1.35938 0.98438,-3.73828 z"
+         id="path2439"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 511.09375,127.8125 v -7.94531 H 513.25 v 7.86328 q 0,1.86328 0.72656,2.80078 0.72656,0.92578 2.17969,0.92578 1.74609,0 2.75391,-1.11328 1.01953,-1.11328 1.01953,-3.03516 v -7.4414 h 2.15625 v 13.125 h -2.15625 v -2.01563 q -0.78516,1.19531 -1.82813,1.78125 -1.03125,0.57422 -2.40234,0.57422 -2.26172,0 -3.4336,-1.40625 -1.17187,-1.40625 -1.17187,-4.11328 z m 5.42578,-8.26172 z"
+         id="path2441"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 528.68359,116.14063 v 3.72656 h 4.44141 v 1.67578 h -4.44141 v 7.125 q 0,1.60547 0.4336,2.0625 0.44531,0.45703 1.79297,0.45703 h 2.21484 v 1.80469 h -2.21484 q -2.4961,0 -3.44532,-0.92578 -0.94922,-0.9375 -0.94922,-3.39844 v -7.125 h -1.58203 v -1.67578 h 1.58203 v -3.72656 z"
+         id="path2443"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 536.27734,130.01562 H 538.75 v 2.97657 h -2.47266 z"
+         id="path2445"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 400.66797,183.55859 q 1.69922,0.36328 2.64844,1.51172 0.96093,1.14844 0.96093,2.83594 0,2.58984 -1.78125,4.00781 -1.78125,1.41797 -5.0625,1.41797 -1.10156,0 -2.27343,-0.22266 -1.16016,-0.21093 -2.40235,-0.64453 v -2.28515 q 0.98438,0.57422 2.15625,0.86718 1.17188,0.29297 2.44922,0.29297 2.22656,0 3.38672,-0.8789 1.17187,-0.87891 1.17187,-2.55469 0,-1.54688 -1.08984,-2.41406 -1.07812,-0.87891 -3.01172,-0.87891 h -2.03906 v -1.94531 h 2.13281 q 1.7461,0 2.67188,-0.69141 0.92578,-0.70312 0.92578,-2.01562 0,-1.34766 -0.96094,-2.0625 -0.94922,-0.72657 -2.73047,-0.72657 -0.97265,0 -2.08594,0.21094 -1.11328,0.21094 -2.44921,0.65625 v -2.10937 q 1.34765,-0.375 2.51953,-0.5625 1.18359,-0.1875 2.22656,-0.1875 2.69531,0 4.26562,1.23047 1.57032,1.21875 1.57032,3.30468 0,1.45313 -0.83203,2.46094 -0.83204,0.99609 -2.36719,1.38281 z"
+         id="path2447"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 408.77734,190.01562 H 411.25 v 2.97657 h -2.47266 z"
+         id="path2449"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 426.21484,177.44141 v 6.57421 h 2.97657 q 1.65234,0 2.55468,-0.85546 0.90235,-0.85547 0.90235,-2.4375 0,-1.57032 -0.90235,-2.42579 -0.90234,-0.85546 -2.55468,-0.85546 z m -2.36718,-1.94532 h 5.34375 q 2.9414,0 4.4414,1.33594 1.51172,1.32422 1.51172,3.89063 0,2.58984 -1.51172,3.91406 -1.5,1.32422 -4.4414,1.32422 h -2.97657 v 7.03125 h -2.36718 z"
+         id="path2451"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 445.42187,181.88281 q -0.36328,-0.21094 -0.79687,-0.30469 -0.42188,-0.10546 -0.9375,-0.10546 -1.82813,0 -2.8125,1.19531 -0.97266,1.18359 -0.97266,3.41015 v 6.91407 h -2.16797 v -13.125 h 2.16797 v 2.03906 q 0.67969,-1.19531 1.76953,-1.76953 1.08985,-0.58594 2.64844,-0.58594 0.22266,0 0.49219,0.0352 0.26953,0.0234 0.59766,0.082 z"
+         id="path2453"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 447.70703,179.86719 h 2.15625 v 13.125 h -2.15625 z m 0,-5.10938 h 2.15625 v 2.73047 h -2.15625 z"
+         id="path2455"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 465.27344,185.07031 v 7.92188 h -2.15625 v -7.85157 q 0,-1.86328 -0.72657,-2.78906 -0.72656,-0.92578 -2.17968,-0.92578 -1.7461,0 -2.75391,1.11328 -1.00781,1.11328 -1.00781,3.03516 v 7.41797 h -2.16797 v -13.125 h 2.16797 v 2.03906 q 0.77344,-1.18359 1.8164,-1.76953 1.05469,-0.58594 2.42579,-0.58594 2.26171,0 3.42187,1.40625 1.16016,1.39453 1.16016,4.11328 z"
+         id="path2457"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 471.73047,176.14062 v 3.72657 h 4.4414 v 1.67578 h -4.4414 v 7.125 q 0,1.60547 0.43359,2.0625 0.44531,0.45703 1.79297,0.45703 h 2.21484 v 1.80469 h -2.21484 q -2.49609,0 -3.44531,-0.92578 -0.94922,-0.9375 -0.94922,-3.39844 v -7.125 h -1.58203 v -1.67578 h 1.58203 v -3.72657 z"
+         id="path2459"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 494.26562,181.88281 q -0.36328,-0.21094 -0.79687,-0.30469 -0.42188,-0.10546 -0.9375,-0.10546 -1.82813,0 -2.8125,1.19531 -0.97266,1.18359 -0.97266,3.41015 v 6.91407 h -2.16797 v -13.125 h 2.16797 v 2.03906 q 0.67969,-1.19531 1.76953,-1.76953 1.08985,-0.58594 2.64844,-0.58594 0.22266,0 0.49219,0.0352 0.26953,0.0234 0.59766,0.082 z"
+         id="path2461"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 507.26172,185.89062 v 1.05469 h -9.91406 q 0.14062,2.22656 1.33593,3.39844 1.20703,1.16016 3.35157,1.16016 1.24218,0 2.40234,-0.30469 1.17187,-0.30469 2.32031,-0.91406 v 2.03906 q -1.16015,0.49219 -2.3789,0.75 -1.21875,0.25781 -2.47266,0.25781 -3.14063,0 -4.98047,-1.82812 -1.82812,-1.82813 -1.82812,-4.94532 0,-3.22265 1.73437,-5.10937 1.74609,-1.89844 4.69922,-1.89844 2.64844,0 4.18359,1.71094 1.54688,1.69922 1.54688,4.6289 z m -2.15625,-0.63281 q -0.0234,-1.76953 -0.9961,-2.82422 -0.96093,-1.05468 -2.55468,-1.05468 -1.80469,0 -2.89453,1.01953 -1.07813,1.01953 -1.24219,2.87109 z"
+         id="path2463"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 519.16797,180.25391 v 2.03906 q -0.91406,-0.46875 -1.89844,-0.70313 -0.98437,-0.23437 -2.03906,-0.23437 -1.60547,0 -2.41406,0.49219 -0.79688,0.49218 -0.79688,1.47656 0,0.75 0.57422,1.18359 0.57422,0.42188 2.30859,0.8086 l 0.73828,0.16406 q 2.29688,0.49219 3.25782,1.39453 0.97265,0.89062 0.97265,2.49609 0,1.82813 -1.45312,2.89453 -1.44141,1.06641 -3.97266,1.06641 -1.05469,0 -2.20312,-0.21094 -1.13672,-0.19922 -2.40235,-0.60937 v -2.22656 q 1.19532,0.62109 2.35547,0.9375 1.16016,0.30468 2.29688,0.30468 1.52343,0 2.34375,-0.51562 0.82031,-0.52735 0.82031,-1.47656 0,-0.87891 -0.59766,-1.34766 -0.58593,-0.46875 -2.58984,-0.90234 l -0.75,-0.17579 q -2.00391,-0.42187 -2.89453,-1.28906 -0.89063,-0.8789 -0.89063,-2.40234 0,-1.85156 1.3125,-2.85938 1.3125,-1.00781 3.72657,-1.00781 1.19531,0 2.25,0.17578 1.05468,0.17578 1.94531,0.52735 z"
+         id="path2465"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 523.09375,187.8125 v -7.94531 H 525.25 v 7.86328 q 0,1.86328 0.72656,2.80078 0.72656,0.92578 2.17969,0.92578 1.74609,0 2.75391,-1.11328 1.01953,-1.11328 1.01953,-3.03516 v -7.4414 h 2.15625 v 13.125 h -2.15625 v -2.01563 q -0.78516,1.19531 -1.82813,1.78125 -1.03125,0.57422 -2.40234,0.57422 -2.26172,0 -3.4336,-1.40625 -1.17187,-1.40625 -1.17187,-4.11328 z m 5.42578,-8.26172 z"
+         id="path2467"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 538.55078,174.75781 h 2.15625 v 18.23438 h -2.15625 z"
+         id="path2469"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 547.33984,176.14062 v 3.72657 h 4.44141 v 1.67578 h -4.44141 v 7.125 q 0,1.60547 0.4336,2.0625 0.44531,0.45703 1.79297,0.45703 h 2.21484 v 1.80469 h -2.21484 q -2.4961,0 -3.44532,-0.92578 -0.94922,-0.9375 -0.94922,-3.39844 v -7.125 h -1.58203 v -1.67578 h 1.58203 v -3.72657 z"
+         id="path2471"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 562.99609,180.25391 v 2.03906 q -0.91406,-0.46875 -1.89843,-0.70313 -0.98438,-0.23437 -2.03907,-0.23437 -1.60547,0 -2.41406,0.49219 -0.79687,0.49218 -0.79687,1.47656 0,0.75 0.57421,1.18359 0.57422,0.42188 2.3086,0.8086 l 0.73828,0.16406 q 2.29687,0.49219 3.25781,1.39453 0.97266,0.89062 0.97266,2.49609 0,1.82813 -1.45313,2.89453 -1.4414,1.06641 -3.97265,1.06641 -1.05469,0 -2.20313,-0.21094 -1.13672,-0.19922 -2.40234,-0.60937 v -2.22656 q 1.19531,0.62109 2.35547,0.9375 1.16015,0.30468 2.29687,0.30468 1.52344,0 2.34375,-0.51562 0.82031,-0.52735 0.82031,-1.47656 0,-0.87891 -0.59765,-1.34766 -0.58594,-0.46875 -2.58985,-0.90234 l -0.75,-0.17579 q -2.0039,-0.42187 -2.89453,-1.28906 -0.89062,-0.8789 -0.89062,-2.40234 0,-1.85156 1.3125,-2.85938 1.3125,-1.00781 3.72656,-1.00781 1.19531,0 2.25,0.17578 1.05469,0.17578 1.94531,0.52735 z"
+         id="path2473"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 567.44922,190.01562 h 2.47265 v 2.97657 h -2.47265 z"
+         id="path2475"
+         inkscape:connector-curvature="0" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2085"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion2087"><rect
+           id="rect2089"
+           width="264.65997"
+           height="51.51778"
+           x="380.82751"
+           y="76.001648" /></flowRegion><flowPara
+         id="flowPara2091" /></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Arrows"
+     transform="translate(-12.473214,-7.354516)"
+     style="display:inline"
+     ns1:transitionIn="name:appear;length:800"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 103.9907,21.69159 8.97693,0.377977 -0.23216,-2.495435 4.0592,3.416753 -3.95433,3.263793 0.12693,-2.366099 -8.97692,0.118117 c -2.06765,0.02721 -2.5986,0.117031 -2.5986,-1.204799 0,-1.321831 0.5326,-1.197296 2.59859,-1.110307 z"
+       id="rect2124"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccsssc" />
+    <path
+       sodipodi:nodetypes="ccccccsssc"
+       inkscape:connector-curvature="0"
+       id="path2592"
+       d="m 103.9907,37.5666 8.97693,0.377977 -0.23216,-2.495435 4.0592,3.416753 -3.95433,3.263793 0.12693,-2.366099 -8.97692,0.118117 c -2.06765,0.02721 -2.5986,0.117031 -2.5986,-1.204799 0,-1.321831 0.5326,-1.197296 2.59859,-1.110307 z"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 103.9907,53.44161 8.97693,0.377977 -0.23216,-2.495435 4.0592,3.416753 -3.95433,3.263793 0.12693,-2.366099 -8.97692,0.118117 c -2.06765,0.02721 -2.5986,0.117031 -2.5986,-1.204799 0,-1.321831 0.5326,-1.197296 2.59859,-1.110307 z"
+       id="path2594"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccsssc" />
+  </g>
+  <g
+     style="display:none"
+     sodipodi:insensitive="true"
+     inkscape:label="Block_0 copy"
+     id="g2612"
+     inkscape:groupmode="layer">
+    <rect
+       ry="1.8190104"
+       rx="0"
+       y="12.716639"
+       x="0.94494045"
+       height="39.6875"
+       width="73.516373"
+       id="rect2608"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       ry="1.8190104"
+       y="24.433901"
+       x="86.556549"
+       height="29.237089"
+       width="19.127714"
+       id="rect2610"
+       style="fill:#ece9dc;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     style="display:none"
+     inkscape:groupmode="layer"
+     id="g2622"
+     inkscape:label="Block_1 copy">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2616"
+       width="72.638824"
+       height="29.182936"
+       x="1.8224925"
+       y="23.221201"
+       rx="0"
+       ry="1.8190104" />
+    <rect
+       style="fill:#ece9dc;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2618"
+       width="19.505693"
+       height="11.661197"
+       x="86.178574"
+       y="42.009792"
+       ry="1.8190104" />
+    <rect
+       ry="1.8190104"
+       y="10.259773"
+       x="86.178574"
+       height="11.661197"
+       width="19.505693"
+       id="rect2620"
+       style="fill:#ece9dc;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Block_2"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2590"
+       width="72.078003"
+       height="13.909291"
+       x="2.3833172"
+       y="38.494846"
+       rx="0"
+       ry="1.8190104" />
+    <rect
+       style="fill:#ece9dc;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2598"
+       width="19.127714"
+       height="29.237089"
+       x="86.422913"
+       y="10.66952"
+       ry="1.8190104" />
+  </g>
+  <g
+     inkscape:label="Block_3"
+     id="g2604"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <rect
+       ry="1.8190104"
+       y="42.009792"
+       x="86.178574"
+       height="11.661197"
+       width="19.505693"
+       id="rect2602"
+       style="fill:#ece9dc;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#ece9dc;fill-opacity:1;stroke:none;stroke-width:0;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2606"
+       width="19.505693"
+       height="11.661197"
+       x="86.178574"
+       y="10.259773"
+       ry="1.8190104" />
+  </g>
+  <script
+     ns1:version="1.5.5"
+     id="JessyInk">// Copyright 2008, 2009 Hannes Hochreiner
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see http://www.gnu.org/licenses/.
+
+// Set onload event handler.
+window.onload = jessyInkInit;
+
+// Creating a namespace dictionary. The standard Inkscape namespaces are taken from inkex.py.
+var NSS = new Object();
+NSS['sodipodi']='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd';
+NSS['cc']='http://web.resource.org/cc/';
+NSS['svg']='http://www.w3.org/2000/svg';
+NSS['dc']='http://purl.org/dc/elements/1.1/';
+NSS['rdf']='http://www.w3.org/1999/02/22-rdf-syntax-ns#';
+NSS['inkscape']='http://www.inkscape.org/namespaces/inkscape';
+NSS['xlink']='http://www.w3.org/1999/xlink';
+NSS['xml']='http://www.w3.org/XML/1998/namespace';
+NSS['jessyink']='https://launchpad.net/jessyink';
+
+// Keycodes.
+var LEFT_KEY = 37; // cursor left keycode
+var UP_KEY = 38; // cursor up keycode
+var RIGHT_KEY = 39; // cursor right keycode
+var DOWN_KEY = 40; // cursor down keycode
+var PAGE_UP_KEY = 33; // page up keycode
+var PAGE_DOWN_KEY = 34; // page down keycode
+var HOME_KEY = 36; // home keycode
+var END_KEY = 35; // end keycode
+var ENTER_KEY = 13; // next slide
+var SPACE_KEY = 32;
+var ESCAPE_KEY = 27;
+
+// Presentation modes.
+var SLIDE_MODE = 1;
+var INDEX_MODE = 2;
+var DRAWING_MODE = 3;
+
+// Mouse handler actions.
+var MOUSE_UP = 1;
+var MOUSE_DOWN = 2;
+var MOUSE_MOVE = 3;
+var MOUSE_WHEEL = 4;
+
+// Parameters.
+var ROOT_NODE = document.getElementsByTagNameNS(NSS[&quot;svg&quot;], &quot;svg&quot;)[0];
+var HEIGHT = 0;
+var WIDTH = 0;
+var INDEX_COLUMNS_DEFAULT = 4;
+var INDEX_COLUMNS = INDEX_COLUMNS_DEFAULT;
+var INDEX_OFFSET = 0;
+var STATE_START = -1;
+var STATE_END = -2;
+var BACKGROUND_COLOR = null;
+var slides = new Array();
+
+// Initialisation.
+var currentMode = SLIDE_MODE;
+var masterSlide = null;
+var activeSlide = 0;
+var activeEffect = 0;
+var timeStep = 30; // 40 ms equal 25 frames per second.
+var lastFrameTime = null;
+var processingEffect = false;
+var transCounter = 0;
+var effectArray = 0;
+var defaultTransitionInDict = new Object();
+defaultTransitionInDict[&quot;name&quot;] = &quot;appear&quot;;
+var defaultTransitionOutDict = new Object();
+defaultTransitionOutDict[&quot;name&quot;] = &quot;appear&quot;;
+var jessyInkInitialised = false;
+
+// Initialise char and key code dictionaries.
+var charCodeDictionary = getDefaultCharCodeDictionary();
+var keyCodeDictionary = getDefaultKeyCodeDictionary();
+
+// Initialise mouse handler dictionary.
+var mouseHandlerDictionary = getDefaultMouseHandlerDictionary();
+
+var progress_bar_visible = false;
+var timer_elapsed = 0;
+var timer_start = timer_elapsed;
+var timer_duration = 15; // 15 minutes
+
+var history_counter = 0;
+var history_original_elements = new Array();
+var history_presentation_elements = new Array();
+
+var mouse_original_path = null;
+var mouse_presentation_path = null;
+var mouse_last_x = -1;
+var mouse_last_y = -1;
+var mouse_min_dist_sqr = 3 * 3;
+var path_colour = &quot;red&quot;;
+var path_width_default = 3;
+var path_width = path_width_default;
+var path_paint_width = path_width;
+
+var number_of_added_slides = 0;
+
+/** Initialisation function.
+ *  The whole presentation is set-up in this function.
+ */
+function jessyInkInit()
+{
+	// Make sure we only execute this code once. Double execution can occur if the onload event handler is set
+	// in the main svg tag as well (as was recommended in earlier versions). Executing this function twice does
+	// not lead to any problems, but it takes more time.
+	if (jessyInkInitialised)
+		return;
+
+	// Making the presentation scaleable.
+	var VIEWBOX = ROOT_NODE.getAttribute(&quot;viewBox&quot;);
+
+	if (VIEWBOX)
+	{
+		WIDTH = ROOT_NODE.viewBox.animVal.width;
+		HEIGHT = ROOT_NODE.viewBox.animVal.height;
+	}
+	else
+	{
+		HEIGHT = parseFloat(ROOT_NODE.getAttribute(&quot;height&quot;));
+		WIDTH = parseFloat(ROOT_NODE.getAttribute(&quot;width&quot;));
+		ROOT_NODE.setAttribute(&quot;viewBox&quot;, &quot;0 0 &quot; + WIDTH + &quot; &quot; + HEIGHT);
+	}
+
+	ROOT_NODE.setAttribute(&quot;width&quot;, &quot;100%&quot;);
+	ROOT_NODE.setAttribute(&quot;height&quot;, &quot;100%&quot;);
+
+	// Setting the background color.
+	var namedViews = document.getElementsByTagNameNS(NSS[&quot;sodipodi&quot;], &quot;namedview&quot;);
+
+	for (var counter = 0; counter &lt; namedViews.length; counter++)
+	{
+		if (namedViews[counter].hasAttribute(&quot;id&quot;) &amp;&amp; namedViews[counter].hasAttribute(&quot;pagecolor&quot;))
+		{
+			if (namedViews[counter].getAttribute(&quot;id&quot;) == &quot;base&quot;)
+			{
+				BACKGROUND_COLOR = namedViews[counter].getAttribute(&quot;pagecolor&quot;);
+				var newAttribute = &quot;background-color:&quot; + BACKGROUND_COLOR + &quot;;&quot;;
+
+				if (ROOT_NODE.hasAttribute(&quot;style&quot;))
+					newAttribute += ROOT_NODE.getAttribute(&quot;style&quot;);
+
+				ROOT_NODE.setAttribute(&quot;style&quot;, newAttribute);
+			}
+		}
+	}
+
+	// Defining clip-path.
+	var defsNodes = document.getElementsByTagNameNS(NSS[&quot;svg&quot;], &quot;defs&quot;);
+
+	if (defsNodes.length &gt; 0)
+	{
+		var existingClipPath = document.getElementById(&quot;jessyInkSlideClipPath&quot;);
+
+		if (!existingClipPath)
+		{
+			var rectNode = document.createElementNS(NSS[&quot;svg&quot;], &quot;rect&quot;);
+			var clipPath = document.createElementNS(NSS[&quot;svg&quot;], &quot;clipPath&quot;);
+
+			rectNode.setAttribute(&quot;x&quot;, 0);
+			rectNode.setAttribute(&quot;y&quot;, 0);
+			rectNode.setAttribute(&quot;width&quot;, WIDTH);
+			rectNode.setAttribute(&quot;height&quot;, HEIGHT);
+
+			clipPath.setAttribute(&quot;id&quot;, &quot;jessyInkSlideClipPath&quot;);
+			clipPath.setAttribute(&quot;clipPathUnits&quot;, &quot;userSpaceOnUse&quot;);
+
+			clipPath.appendChild(rectNode);
+			defsNodes[0].appendChild(clipPath);
+		}
+	}
+
+	// Making a list of the slide and finding the master slide.
+	var nodes = document.getElementsByTagNameNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+	var tempSlides = new Array();
+	var existingJessyInkPresentationLayer = null;
+
+	for (var counter = 0; counter &lt; nodes.length; counter++)
+	{
+		if (nodes[counter].getAttributeNS(NSS[&quot;inkscape&quot;], &quot;groupmode&quot;) &amp;&amp; (nodes[counter].getAttributeNS(NSS[&quot;inkscape&quot;], &quot;groupmode&quot;) == &quot;layer&quot;))
+		{
+			if (nodes[counter].getAttributeNS(NSS[&quot;inkscape&quot;], &quot;label&quot;) &amp;&amp; nodes[counter].getAttributeNS(NSS[&quot;jessyink&quot;], &quot;masterSlide&quot;) == &quot;masterSlide&quot;)
+				masterSlide = nodes[counter];
+			else if (nodes[counter].getAttributeNS(NSS[&quot;inkscape&quot;], &quot;label&quot;) &amp;&amp; nodes[counter].getAttributeNS(NSS[&quot;jessyink&quot;], &quot;presentationLayer&quot;) == &quot;presentationLayer&quot;)
+				existingJessyInkPresentationLayer = nodes[counter];
+			else
+				tempSlides.push(nodes[counter].getAttribute(&quot;id&quot;));
+		}
+		else if (nodes[counter].getAttributeNS(NSS['jessyink'], 'element'))
+		{
+			handleElement(nodes[counter]);
+		}
+	}
+
+	// Hide master slide set default transitions.
+	if (masterSlide)
+	{
+		masterSlide.style.display = &quot;none&quot;;
+
+		if (masterSlide.hasAttributeNS(NSS[&quot;jessyink&quot;], &quot;transitionIn&quot;))
+			defaultTransitionInDict = propStrToDict(masterSlide.getAttributeNS(NSS[&quot;jessyink&quot;], &quot;transitionIn&quot;));
+
+		if (masterSlide.hasAttributeNS(NSS[&quot;jessyink&quot;], &quot;transitionOut&quot;))
+			defaultTransitionOutDict = propStrToDict(masterSlide.getAttributeNS(NSS[&quot;jessyink&quot;], &quot;transitionOut&quot;));
+	}
+
+	if (existingJessyInkPresentationLayer != null)
+	{
+		existingJessyInkPresentationLayer.parentNode.removeChild(existingJessyInkPresentationLayer);
+	}
+
+	// Set start slide.
+	var hashObj = new LocationHash(window.location.hash);
+
+	activeSlide = hashObj.slideNumber;
+	activeEffect = hashObj.effectNumber;
+
+	if (activeSlide &lt; 0)
+		activeSlide = 0;
+	else if (activeSlide &gt;= tempSlides.length)
+		activeSlide = tempSlides.length - 1;
+
+	var originalNode = document.getElementById(tempSlides[counter]);
+
+	var JessyInkPresentationLayer = document.createElementNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+	JessyInkPresentationLayer.setAttributeNS(NSS[&quot;inkscape&quot;], &quot;groupmode&quot;, &quot;layer&quot;);
+	JessyInkPresentationLayer.setAttributeNS(NSS[&quot;inkscape&quot;], &quot;label&quot;, &quot;JessyInk Presentation Layer&quot;);
+	JessyInkPresentationLayer.setAttributeNS(NSS[&quot;jessyink&quot;], &quot;presentationLayer&quot;, &quot;presentationLayer&quot;);
+	JessyInkPresentationLayer.setAttribute(&quot;id&quot;, &quot;jessyink_presentation_layer&quot;);
+	JessyInkPresentationLayer.style.display = &quot;inherit&quot;;
+	ROOT_NODE.appendChild(JessyInkPresentationLayer);
+
+	// Gathering all the information about the transitions and effects of the slides, set the background
+	// from the master slide and substitute the auto-texts.
+	for (var counter = 0; counter &lt; tempSlides.length; counter++)
+	{
+		var originalNode = document.getElementById(tempSlides[counter]);
+		originalNode.style.display = &quot;none&quot;;
+		var node = suffixNodeIds(originalNode.cloneNode(true), &quot;_&quot; + counter);
+		JessyInkPresentationLayer.appendChild(node);
+		slides[counter] = new Object();
+		slides[counter][&quot;original_element&quot;] = originalNode;
+		slides[counter][&quot;element&quot;] = node;
+
+		// Set build in transition.
+		slides[counter][&quot;transitionIn&quot;] = new Object();
+
+		var dict;
+
+		if (node.hasAttributeNS(NSS[&quot;jessyink&quot;], &quot;transitionIn&quot;))
+			dict = propStrToDict(node.getAttributeNS(NSS[&quot;jessyink&quot;], &quot;transitionIn&quot;));
+		else
+			dict = defaultTransitionInDict;
+
+		slides[counter][&quot;transitionIn&quot;][&quot;name&quot;] = dict[&quot;name&quot;];
+		slides[counter][&quot;transitionIn&quot;][&quot;options&quot;] = new Object();
+
+		for (key in dict)
+			if (key != &quot;name&quot;)
+				slides[counter][&quot;transitionIn&quot;][&quot;options&quot;][key] = dict[key];
+
+		// Set build out transition.
+		slides[counter][&quot;transitionOut&quot;] = new Object();
+
+		if (node.hasAttributeNS(NSS[&quot;jessyink&quot;], &quot;transitionOut&quot;))
+			dict = propStrToDict(node.getAttributeNS(NSS[&quot;jessyink&quot;], &quot;transitionOut&quot;));
+		else
+			dict = defaultTransitionOutDict;
+
+		slides[counter][&quot;transitionOut&quot;][&quot;name&quot;] = dict[&quot;name&quot;];
+		slides[counter][&quot;transitionOut&quot;][&quot;options&quot;] = new Object();
+
+		for (key in dict)
+			if (key != &quot;name&quot;)
+				slides[counter][&quot;transitionOut&quot;][&quot;options&quot;][key] = dict[key];
+
+		// Copy master slide content.
+		if (masterSlide)
+		{
+			var clonedNode = suffixNodeIds(masterSlide.cloneNode(true), &quot;_&quot; + counter);
+			clonedNode.removeAttributeNS(NSS[&quot;inkscape&quot;], &quot;groupmode&quot;);
+			clonedNode.removeAttributeNS(NSS[&quot;inkscape&quot;], &quot;label&quot;);
+			clonedNode.style.display = &quot;inherit&quot;;
+
+			node.insertBefore(clonedNode, node.firstChild);
+		}
+
+		// Setting clip path.
+		node.setAttribute(&quot;clip-path&quot;, &quot;url(#jessyInkSlideClipPath)&quot;);
+
+		// Substitute auto texts.
+		substituteAutoTexts(node, node.getAttributeNS(NSS[&quot;inkscape&quot;], &quot;label&quot;), counter + 1, tempSlides.length);
+
+		node.removeAttributeNS(NSS[&quot;inkscape&quot;], &quot;groupmode&quot;);
+		node.removeAttributeNS(NSS[&quot;inkscape&quot;], &quot;label&quot;);
+
+		// Set effects.
+		var tempEffects = new Array();
+		var groups = new Object();
+
+		for (var IOCounter = 0; IOCounter &lt;= 1; IOCounter++)
+		{
+			var propName = &quot;&quot;;
+			var dir = 0;
+
+			if (IOCounter == 0)
+			{
+				propName = &quot;effectIn&quot;;
+				dir = 1;
+			}
+			else if (IOCounter == 1)
+			{
+				propName = &quot;effectOut&quot;;
+				dir = -1;
+			}
+
+			var effects = getElementsByPropertyNS(node, NSS[&quot;jessyink&quot;], propName);
+
+			for (var effectCounter = 0; effectCounter &lt; effects.length; effectCounter++)
+			{
+				var element = document.getElementById(effects[effectCounter]);
+				var dict = propStrToDict(element.getAttributeNS(NSS[&quot;jessyink&quot;], propName));
+
+				// Put every element that has an effect associated with it, into its own group.
+				// Unless of course, we already put it into its own group.
+				if (!(groups[element.id]))
+				{
+					var newGroup = document.createElementNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+
+					element.parentNode.insertBefore(newGroup, element);
+					newGroup.appendChild(element.parentNode.removeChild(element));
+					groups[element.id] = newGroup;
+				}
+
+				var effectDict = new Object();
+
+				effectDict[&quot;effect&quot;] = dict[&quot;name&quot;];
+				effectDict[&quot;dir&quot;] = dir;
+				effectDict[&quot;element&quot;] = groups[element.id];
+
+				for (var option in dict)
+				{
+					if ((option != &quot;name&quot;) &amp;&amp; (option != &quot;order&quot;))
+					{
+						if (!effectDict[&quot;options&quot;])
+							effectDict[&quot;options&quot;] = new Object();
+
+						effectDict[&quot;options&quot;][option] = dict[option];
+					}
+				}
+
+				if (!tempEffects[dict[&quot;order&quot;]])
+					tempEffects[dict[&quot;order&quot;]] = new Array();
+
+				tempEffects[dict[&quot;order&quot;]][tempEffects[dict[&quot;order&quot;]].length] = effectDict;
+			}
+		}
+
+		// Make invisible, but keep in rendering tree to ensure that bounding box can be calculated.
+		node.setAttribute(&quot;opacity&quot;,0);
+		node.style.display = &quot;inherit&quot;;
+
+		// Create a transform group.
+		var transformGroup = document.createElementNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+
+		// Add content to transform group.
+		while (node.firstChild)
+			transformGroup.appendChild(node.firstChild);
+
+		// Transfer the transform attribute from the node to the transform group.
+		if (node.getAttribute(&quot;transform&quot;))
+		{
+			transformGroup.setAttribute(&quot;transform&quot;, node.getAttribute(&quot;transform&quot;));
+			node.removeAttribute(&quot;transform&quot;);
+		}
+
+		// Create a view group.
+		var viewGroup = document.createElementNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+
+		viewGroup.appendChild(transformGroup);
+		slides[counter][&quot;viewGroup&quot;] = node.appendChild(viewGroup);
+
+		// Insert background.
+		if (BACKGROUND_COLOR != null)
+		{
+			var rectNode = document.createElementNS(NSS[&quot;svg&quot;], &quot;rect&quot;);
+
+			rectNode.setAttribute(&quot;x&quot;, 0);
+			rectNode.setAttribute(&quot;y&quot;, 0);
+			rectNode.setAttribute(&quot;width&quot;, WIDTH);
+			rectNode.setAttribute(&quot;height&quot;, HEIGHT);
+			rectNode.setAttribute(&quot;id&quot;, &quot;jessyInkBackground&quot; + counter);
+			rectNode.setAttribute(&quot;fill&quot;, BACKGROUND_COLOR);
+
+			slides[counter][&quot;viewGroup&quot;].insertBefore(rectNode, slides[counter][&quot;viewGroup&quot;].firstChild);
+		}
+
+		// Set views.
+		var tempViews = new Array();
+		var views = getElementsByPropertyNS(node, NSS[&quot;jessyink&quot;], &quot;view&quot;);
+		var matrixOld = (new matrixSVG()).fromElements(1, 0, 0, 0, 1, 0, 0, 0, 1);
+
+		// Set initial view even if there are no other views.
+		slides[counter][&quot;viewGroup&quot;].setAttribute(&quot;transform&quot;, matrixOld.toAttribute());
+		slides[counter].initialView = matrixOld.toAttribute();
+
+		for (var viewCounter = 0; viewCounter &lt; views.length; viewCounter++)
+		{
+			var element = document.getElementById(views[viewCounter]);
+			var dict = propStrToDict(element.getAttributeNS(NSS[&quot;jessyink&quot;], &quot;view&quot;));
+
+			if (dict[&quot;order&quot;] == 0)
+			{
+				matrixOld = pointMatrixToTransformation(rectToMatrix(element)).mult((new matrixSVG()).fromSVGMatrix(slides[counter].viewGroup.getScreenCTM()).inv().mult((new matrixSVG()).fromSVGMatrix(element.parentNode.getScreenCTM())).inv());
+				slides[counter].initialView = matrixOld.toAttribute();
+			}
+			else
+			{
+				var effectDict = new Object();
+
+				effectDict[&quot;effect&quot;] = dict[&quot;name&quot;];
+				effectDict[&quot;dir&quot;] = 1;
+				effectDict[&quot;element&quot;] = slides[counter][&quot;viewGroup&quot;];
+				effectDict[&quot;order&quot;] = dict[&quot;order&quot;];
+
+				for (var option in dict)
+				{
+					if ((option != &quot;name&quot;) &amp;&amp; (option != &quot;order&quot;))
+					{
+						if (!effectDict[&quot;options&quot;])
+							effectDict[&quot;options&quot;] = new Object();
+
+						effectDict[&quot;options&quot;][option] = dict[option];
+					}
+				}
+
+				effectDict[&quot;options&quot;][&quot;matrixNew&quot;] = pointMatrixToTransformation(rectToMatrix(element)).mult((new matrixSVG()).fromSVGMatrix(slides[counter].viewGroup.getScreenCTM()).inv().mult((new matrixSVG()).fromSVGMatrix(element.parentNode.getScreenCTM())).inv());
+
+				tempViews[dict[&quot;order&quot;]] = effectDict;
+			}
+
+			// Remove element.
+			element.parentNode.removeChild(element);
+		}
+
+		// Consolidate view array and append it to the effect array.
+		if (tempViews.length &gt; 0)
+		{
+			for (var viewCounter = 0; viewCounter &lt; tempViews.length; viewCounter++)
+			{
+				if (tempViews[viewCounter])
+				{
+					tempViews[viewCounter][&quot;options&quot;][&quot;matrixOld&quot;] = matrixOld;
+					matrixOld = tempViews[viewCounter][&quot;options&quot;][&quot;matrixNew&quot;];
+
+					if (!tempEffects[tempViews[viewCounter][&quot;order&quot;]])
+						tempEffects[tempViews[viewCounter][&quot;order&quot;]] = new Array();
+
+					tempEffects[tempViews[viewCounter][&quot;order&quot;]][tempEffects[tempViews[viewCounter][&quot;order&quot;]].length] = tempViews[viewCounter];
+				}
+			}
+		}
+
+		// Set consolidated effect array.
+		if (tempEffects.length &gt; 0)
+		{
+			slides[counter][&quot;effects&quot;] = new Array();
+
+			for (var effectCounter = 0; effectCounter &lt; tempEffects.length; effectCounter++)
+			{
+				if (tempEffects[effectCounter])
+					slides[counter][&quot;effects&quot;][slides[counter][&quot;effects&quot;].length] = tempEffects[effectCounter];
+			}
+		}
+
+		node.setAttribute(&quot;onmouseover&quot;, &quot;if ((currentMode == INDEX_MODE) &amp;&amp; ( activeSlide != &quot; + counter + &quot;)) { indexSetActiveSlide(&quot; + counter + &quot;); };&quot;);
+
+		// Set visibility for initial state.
+		if (counter == activeSlide)
+		{
+			node.style.display = &quot;inherit&quot;;
+			node.setAttribute(&quot;opacity&quot;,1);
+		}
+		else
+		{
+			node.style.display = &quot;none&quot;;
+			node.setAttribute(&quot;opacity&quot;,0);
+		}
+	}
+
+	// Set key handler.
+	var jessyInkObjects = document.getElementsByTagNameNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+
+	for (var counter = 0; counter &lt; jessyInkObjects.length; counter++)
+	{
+		var elem = jessyInkObjects[counter];
+
+		if (elem.getAttributeNS(NSS[&quot;jessyink&quot;], &quot;customKeyBindings&quot;))
+		{
+			if (elem.getCustomKeyBindings != undefined)
+				keyCodeDictionary = elem.getCustomKeyBindings();
+
+			if (elem.getCustomCharBindings != undefined)
+				charCodeDictionary = elem.getCustomCharBindings();
+		}
+	}
+
+	// Set mouse handler.
+	var jessyInkMouseHandler = document.getElementsByTagNameNS(NSS[&quot;jessyink&quot;], &quot;mousehandler&quot;);
+
+	for (var counter = 0; counter &lt; jessyInkMouseHandler.length; counter++)
+	{
+		var elem = jessyInkMouseHandler[counter];
+
+		if (elem.getMouseHandler != undefined)
+		{
+			var tempDict = elem.getMouseHandler();
+
+			for (mode in tempDict)
+			{
+				if (!mouseHandlerDictionary[mode])
+					mouseHandlerDictionary[mode] = new Object();
+
+				for (handler in tempDict[mode])
+					mouseHandlerDictionary[mode][handler] = tempDict[mode][handler];
+			}
+		}
+	}
+
+	// Check effect number.
+	if ((activeEffect &lt; 0) || (!slides[activeSlide].effects))
+	{
+		activeEffect = 0;
+	}
+	else if (activeEffect &gt; slides[activeSlide].effects.length)
+	{
+		activeEffect = slides[activeSlide].effects.length;
+	}
+
+	createProgressBar(JessyInkPresentationLayer);
+	hideProgressBar();
+	setProgressBarValue(activeSlide);
+	setTimeIndicatorValue(0);
+	setInterval(&quot;updateTimer()&quot;, 1000);
+	setSlideToState(activeSlide, activeEffect);
+	jessyInkInitialised = true;
+}
+
+/** Function to subtitute the auto-texts.
+ *
+ *  @param node the node
+ *  @param slideName name of the slide the node is on
+ *  @param slideNumber number of the slide the node is on
+ *  @param numberOfSlides number of slides in the presentation
+ */
+function substituteAutoTexts(node, slideName, slideNumber, numberOfSlides)
+{
+	var texts = node.getElementsByTagNameNS(NSS[&quot;svg&quot;], &quot;tspan&quot;);
+
+	for (var textCounter = 0; textCounter &lt; texts.length; textCounter++)
+	{
+		if (texts[textCounter].getAttributeNS(NSS[&quot;jessyink&quot;], &quot;autoText&quot;) == &quot;slideNumber&quot;)
+			texts[textCounter].firstChild.nodeValue = slideNumber;
+		else if (texts[textCounter].getAttributeNS(NSS[&quot;jessyink&quot;], &quot;autoText&quot;) == &quot;numberOfSlides&quot;)
+			texts[textCounter].firstChild.nodeValue = numberOfSlides;
+		else if (texts[textCounter].getAttributeNS(NSS[&quot;jessyink&quot;], &quot;autoText&quot;) == &quot;slideTitle&quot;)
+			texts[textCounter].firstChild.nodeValue = slideName;
+	}
+}
+
+/** Convenience function to get an element depending on whether it has a property with a particular name.
+ *	This function emulates some dearly missed XPath functionality.
+ *
+ *  @param node the node
+ *  @param namespace namespace of the attribute
+ *  @param name attribute name
+ */
+function getElementsByPropertyNS(node, namespace, name)
+{
+	var elems = new Array();
+
+	if (node.getAttributeNS(namespace, name))
+		elems.push(node.getAttribute(&quot;id&quot;));
+
+	for (var counter = 0; counter &lt; node.childNodes.length; counter++)
+	{
+		if (node.childNodes[counter].nodeType == 1)
+			elems = elems.concat(getElementsByPropertyNS(node.childNodes[counter], namespace, name));
+	}
+
+	return elems;
+}
+
+/** Function to dispatch the next effect, if there is none left, change the slide.
+ *
+ *  @param dir direction of the change (1 = forwards, -1 = backwards)
+ */
+function dispatchEffects(dir)
+{
+	if (slides[activeSlide][&quot;effects&quot;] &amp;&amp; (((dir == 1) &amp;&amp; (activeEffect &lt; slides[activeSlide][&quot;effects&quot;].length)) || ((dir == -1) &amp;&amp; (activeEffect &gt; 0))))
+	{
+		processingEffect = true;
+
+		if (dir == 1)
+		{
+			effectArray = slides[activeSlide][&quot;effects&quot;][activeEffect];
+			activeEffect += dir;
+		}
+		else if (dir == -1)
+		{
+			activeEffect += dir;
+			effectArray = slides[activeSlide][&quot;effects&quot;][activeEffect];
+		}
+
+		transCounter = 0;
+		startTime = (new Date()).getTime();
+		lastFrameTime = null;
+		effect(dir);
+	}
+	else if (((dir == 1) &amp;&amp; (activeSlide &lt; (slides.length - 1))) || (((dir == -1) &amp;&amp; (activeSlide &gt; 0))))
+	{
+		changeSlide(dir);
+	}
+}
+
+/** Function to skip effects and directly either put the slide into start or end state or change slides.
+ *
+ *  @param dir direction of the change (1 = forwards, -1 = backwards)
+ */
+function skipEffects(dir)
+{
+	if (slides[activeSlide][&quot;effects&quot;] &amp;&amp; (((dir == 1) &amp;&amp; (activeEffect &lt; slides[activeSlide][&quot;effects&quot;].length)) || ((dir == -1) &amp;&amp; (activeEffect &gt; 0))))
+	{
+		processingEffect = true;
+
+		if (slides[activeSlide][&quot;effects&quot;] &amp;&amp; (dir == 1))
+			activeEffect = slides[activeSlide][&quot;effects&quot;].length;
+		else
+			activeEffect = 0;
+
+		if (dir == 1)
+			setSlideToState(activeSlide, STATE_END);
+		else
+			setSlideToState(activeSlide, STATE_START);
+
+		processingEffect = false;
+	}
+	else if (((dir == 1) &amp;&amp; (activeSlide &lt; (slides.length - 1))) || (((dir == -1) &amp;&amp; (activeSlide &gt; 0))))
+	{
+		changeSlide(dir);
+	}
+}
+
+/** Function to change between slides.
+ *
+ *  @param dir direction (1 = forwards, -1 = backwards)
+ */
+function changeSlide(dir)
+{
+	processingEffect = true;
+	effectArray = new Array();
+
+	effectArray[0] = new Object();
+	if (dir == 1)
+	{
+		effectArray[0][&quot;effect&quot;] = slides[activeSlide][&quot;transitionOut&quot;][&quot;name&quot;];
+		effectArray[0][&quot;options&quot;] = slides[activeSlide][&quot;transitionOut&quot;][&quot;options&quot;];
+		effectArray[0][&quot;dir&quot;] = -1;
+	}
+	else if (dir == -1)
+	{
+		effectArray[0][&quot;effect&quot;] = slides[activeSlide][&quot;transitionIn&quot;][&quot;name&quot;];
+		effectArray[0][&quot;options&quot;] = slides[activeSlide][&quot;transitionIn&quot;][&quot;options&quot;];
+		effectArray[0][&quot;dir&quot;] = 1;
+	}
+	effectArray[0][&quot;element&quot;] = slides[activeSlide][&quot;element&quot;];
+
+	activeSlide += dir;
+	setProgressBarValue(activeSlide);
+
+	effectArray[1] = new Object();
+
+	if (dir == 1)
+	{
+		effectArray[1][&quot;effect&quot;] = slides[activeSlide][&quot;transitionIn&quot;][&quot;name&quot;];
+		effectArray[1][&quot;options&quot;] = slides[activeSlide][&quot;transitionIn&quot;][&quot;options&quot;];
+		effectArray[1][&quot;dir&quot;] = 1;
+	}
+	else if (dir == -1)
+	{
+		effectArray[1][&quot;effect&quot;] = slides[activeSlide][&quot;transitionOut&quot;][&quot;name&quot;];
+		effectArray[1][&quot;options&quot;] = slides[activeSlide][&quot;transitionOut&quot;][&quot;options&quot;];
+		effectArray[1][&quot;dir&quot;] = -1;
+	}
+
+	effectArray[1][&quot;element&quot;] = slides[activeSlide][&quot;element&quot;];
+
+	if (slides[activeSlide][&quot;effects&quot;] &amp;&amp; (dir == -1))
+		activeEffect = slides[activeSlide][&quot;effects&quot;].length;
+	else
+		activeEffect = 0;
+
+	if (dir == -1)
+		setSlideToState(activeSlide, STATE_END);
+	else
+		setSlideToState(activeSlide, STATE_START);
+
+	transCounter = 0;
+	startTime = (new Date()).getTime();
+	lastFrameTime = null;
+	effect(dir);
+}
+
+/** Function to toggle between index and slide mode.
+*/
+function toggleSlideIndex()
+{
+	var suspendHandle = ROOT_NODE.suspendRedraw(500);
+
+	if (currentMode == SLIDE_MODE)
+	{
+		hideProgressBar();		
+		INDEX_OFFSET = -1;
+		indexSetPageSlide(activeSlide);
+		currentMode = INDEX_MODE;
+	}
+	else if (currentMode == INDEX_MODE)
+	{
+		for (var counter = 0; counter &lt; slides.length; counter++)
+		{
+			slides[counter][&quot;element&quot;].setAttribute(&quot;transform&quot;,&quot;scale(1)&quot;);
+
+			if (counter == activeSlide)
+			{
+				slides[counter][&quot;element&quot;].style.display = &quot;inherit&quot;;
+				slides[counter][&quot;element&quot;].setAttribute(&quot;opacity&quot;,1);
+				activeEffect = 0;
+			}
+			else
+			{
+				slides[counter][&quot;element&quot;].setAttribute(&quot;opacity&quot;,0);
+				slides[counter][&quot;element&quot;].style.display = &quot;none&quot;;
+			}
+		}
+		currentMode = SLIDE_MODE;
+		setSlideToState(activeSlide, STATE_START);
+		setProgressBarValue(activeSlide);
+
+		if (progress_bar_visible)
+		{
+			showProgressBar();
+		}
+	}
+
+	ROOT_NODE.unsuspendRedraw(suspendHandle);
+	ROOT_NODE.forceRedraw();
+}
+
+/** Function to run an effect.
+ *
+ *  @param dir direction in which to play the effect (1 = forwards, -1 = backwards)
+ */
+function effect(dir)
+{
+	var done = true;
+
+	var suspendHandle = ROOT_NODE.suspendRedraw(200);
+
+	for (var counter = 0; counter &lt; effectArray.length; counter++)
+	{
+		if (effectArray[counter][&quot;effect&quot;] == &quot;fade&quot;)
+			done &amp;= fade(parseInt(effectArray[counter][&quot;dir&quot;]) * dir, effectArray[counter][&quot;element&quot;], transCounter, effectArray[counter][&quot;options&quot;]);
+		else if (effectArray[counter][&quot;effect&quot;] == &quot;appear&quot;)
+			done &amp;= appear(parseInt(effectArray[counter][&quot;dir&quot;]) * dir, effectArray[counter][&quot;element&quot;], transCounter, effectArray[counter][&quot;options&quot;]);
+		else if (effectArray[counter][&quot;effect&quot;] == &quot;pop&quot;)
+			done &amp;= pop(parseInt(effectArray[counter][&quot;dir&quot;]) * dir, effectArray[counter][&quot;element&quot;], transCounter, effectArray[counter][&quot;options&quot;]);
+		else if (effectArray[counter][&quot;effect&quot;] == &quot;view&quot;)
+			done &amp;= view(parseInt(effectArray[counter][&quot;dir&quot;]) * dir, effectArray[counter][&quot;element&quot;], transCounter, effectArray[counter][&quot;options&quot;]);
+	}
+
+	ROOT_NODE.unsuspendRedraw(suspendHandle);
+	ROOT_NODE.forceRedraw();
+
+	if (!done)
+	{
+		var currentTime = (new Date()).getTime();
+		var timeDiff = 1;
+
+		transCounter = currentTime - startTime;
+
+		if (lastFrameTime != null)
+		{
+			timeDiff = timeStep - (currentTime - lastFrameTime);
+
+			if (timeDiff &lt;= 0)
+				timeDiff = 1;
+		}
+
+		lastFrameTime = currentTime;
+
+		window.setTimeout(&quot;effect(&quot; + dir + &quot;)&quot;, timeDiff);
+	}
+	else
+	{
+		window.location.hash = (activeSlide + 1) + '_' + activeEffect;
+		processingEffect = false;
+	}
+}
+
+/** Function to display the index sheet.
+ *
+ *  @param offsetNumber offset number
+ */
+function displayIndex(offsetNumber)
+{
+	var offsetX = 0;
+	var offsetY = 0;
+
+	if (offsetNumber &lt; 0)
+		offsetNumber = 0;
+	else if (offsetNumber &gt;= slides.length)
+		offsetNumber = slides.length - 1;
+
+	for (var counter = 0; counter &lt; slides.length; counter++)
+	{
+		if ((counter &lt; offsetNumber) || (counter &gt; offsetNumber + INDEX_COLUMNS * INDEX_COLUMNS - 1))
+		{
+			slides[counter][&quot;element&quot;].setAttribute(&quot;opacity&quot;,0);
+			slides[counter][&quot;element&quot;].style.display = &quot;none&quot;;
+		}
+		else
+		{
+			offsetX = ((counter - offsetNumber) % INDEX_COLUMNS) * WIDTH;
+			offsetY = Math.floor((counter - offsetNumber) / INDEX_COLUMNS) * HEIGHT;
+
+			slides[counter][&quot;element&quot;].setAttribute(&quot;transform&quot;,&quot;scale(&quot;+1/INDEX_COLUMNS+&quot;) translate(&quot;+offsetX+&quot;,&quot;+offsetY+&quot;)&quot;);
+			slides[counter][&quot;element&quot;].style.display = &quot;inherit&quot;;
+			slides[counter][&quot;element&quot;].setAttribute(&quot;opacity&quot;,0.5);
+		}
+
+		setSlideToState(counter, STATE_END);
+	}
+
+	//do we need to save the current offset?
+	if (INDEX_OFFSET != offsetNumber)
+		INDEX_OFFSET = offsetNumber;
+}
+
+/** Function to set the active slide in the slide view.
+ *
+ *  @param nbr index of the active slide
+ */
+function slideSetActiveSlide(nbr)
+{
+	if (nbr &gt;= slides.length)
+		nbr = slides.length - 1;
+	else if (nbr &lt; 0)
+		nbr = 0;
+
+	slides[activeSlide][&quot;element&quot;].setAttribute(&quot;opacity&quot;,0);
+	slides[activeSlide][&quot;element&quot;].style.display = &quot;none&quot;;
+
+	activeSlide = parseInt(nbr);
+
+	setSlideToState(activeSlide, STATE_START);
+	slides[activeSlide][&quot;element&quot;].style.display = &quot;inherit&quot;;
+	slides[activeSlide][&quot;element&quot;].setAttribute(&quot;opacity&quot;,1);
+
+	activeEffect = 0;
+	setProgressBarValue(nbr);
+}
+
+/** Function to set the active slide in the index view.
+ *
+ *  @param nbr index of the active slide
+ */
+function indexSetActiveSlide(nbr)
+{
+	if (nbr &gt;= slides.length)
+		nbr = slides.length - 1;
+	else if (nbr &lt; 0)
+		nbr = 0;
+
+	slides[activeSlide][&quot;element&quot;].setAttribute(&quot;opacity&quot;,0.5);
+
+	activeSlide = parseInt(nbr);
+	window.location.hash = (activeSlide + 1) + '_0';
+
+	slides[activeSlide][&quot;element&quot;].setAttribute(&quot;opacity&quot;,1);
+}
+
+/** Function to set the page and active slide in index view. 
+ *
+ *  @param nbr index of the active slide
+ *
+ *  NOTE: To force a redraw,
+ *  set INDEX_OFFSET to -1 before calling indexSetPageSlide().
+ *
+ *  This is necessary for zooming (otherwise the index might not
+ *  get redrawn) and when switching to index mode.
+ *
+ *  INDEX_OFFSET = -1
+ *  indexSetPageSlide(activeSlide);
+ */
+function indexSetPageSlide(nbr)
+{
+	if (nbr &gt;= slides.length)
+		nbr = slides.length - 1;
+	else if (nbr &lt; 0)
+		nbr = 0;
+
+	//calculate the offset
+	var offset = nbr - nbr % (INDEX_COLUMNS * INDEX_COLUMNS);
+
+	if (offset &lt; 0)
+		offset = 0;
+
+	//if different from kept offset, then record and change the page
+	if (offset != INDEX_OFFSET)
+	{
+		INDEX_OFFSET = offset;
+		displayIndex(INDEX_OFFSET);
+	}
+
+	//set the active slide
+	indexSetActiveSlide(nbr);
+}
+
+/** Event handler for key press.
+ *
+ *  @param e the event
+ */
+function keydown(e)
+{
+	if (!e)
+		e = window.event;
+
+	code = e.keyCode || e.charCode;
+
+	if (!processingEffect &amp;&amp; keyCodeDictionary[currentMode] &amp;&amp; keyCodeDictionary[currentMode][code])
+		return keyCodeDictionary[currentMode][code]();
+	else
+		document.onkeypress = keypress;
+}
+// Set event handler for key down.
+document.onkeydown = keydown;
+
+/** Event handler for key press.
+ *
+ *  @param e the event
+ */
+function keypress(e)
+{
+	document.onkeypress = null;
+
+	if (!e)
+		e = window.event;
+
+	str = String.fromCharCode(e.keyCode || e.charCode);
+
+	if (!processingEffect &amp;&amp; charCodeDictionary[currentMode] &amp;&amp; charCodeDictionary[currentMode][str])
+		return charCodeDictionary[currentMode][str]();
+}
+
+/** Function to supply the default char code dictionary.
+ *
+ * @returns default char code dictionary
+ */
+function getDefaultCharCodeDictionary()
+{
+	var charCodeDict = new Object();
+
+	charCodeDict[SLIDE_MODE] = new Object();
+	charCodeDict[INDEX_MODE] = new Object();
+	charCodeDict[DRAWING_MODE] = new Object();
+
+	charCodeDict[SLIDE_MODE][&quot;i&quot;] = function () { return toggleSlideIndex(); };
+	charCodeDict[SLIDE_MODE][&quot;d&quot;] = function () { return slideSwitchToDrawingMode(); };
+	charCodeDict[SLIDE_MODE][&quot;D&quot;] = function () { return slideQueryDuration(); };
+	charCodeDict[SLIDE_MODE][&quot;n&quot;] = function () { return slideAddSlide(activeSlide); };
+	charCodeDict[SLIDE_MODE][&quot;p&quot;] = function () { return slideToggleProgressBarVisibility(); };
+	charCodeDict[SLIDE_MODE][&quot;t&quot;] = function () { return slideResetTimer(); };
+	charCodeDict[SLIDE_MODE][&quot;e&quot;] = function () { return slideUpdateExportLayer(); };
+
+	charCodeDict[DRAWING_MODE][&quot;d&quot;] = function () { return drawingSwitchToSlideMode(); };
+	charCodeDict[DRAWING_MODE][&quot;0&quot;] = function () { return drawingResetPathWidth(); };
+	charCodeDict[DRAWING_MODE][&quot;1&quot;] = function () { return drawingSetPathWidth(1.0); };
+	charCodeDict[DRAWING_MODE][&quot;3&quot;] = function () { return drawingSetPathWidth(3.0); };
+	charCodeDict[DRAWING_MODE][&quot;5&quot;] = function () { return drawingSetPathWidth(5.0); };
+	charCodeDict[DRAWING_MODE][&quot;7&quot;] = function () { return drawingSetPathWidth(7.0); };
+	charCodeDict[DRAWING_MODE][&quot;9&quot;] = function () { return drawingSetPathWidth(9.0); };
+	charCodeDict[DRAWING_MODE][&quot;b&quot;] = function () { return drawingSetPathColour(&quot;blue&quot;); };
+	charCodeDict[DRAWING_MODE][&quot;c&quot;] = function () { return drawingSetPathColour(&quot;cyan&quot;); };
+	charCodeDict[DRAWING_MODE][&quot;g&quot;] = function () { return drawingSetPathColour(&quot;green&quot;); };
+	charCodeDict[DRAWING_MODE][&quot;k&quot;] = function () { return drawingSetPathColour(&quot;black&quot;); };
+	charCodeDict[DRAWING_MODE][&quot;m&quot;] = function () { return drawingSetPathColour(&quot;magenta&quot;); };
+	charCodeDict[DRAWING_MODE][&quot;o&quot;] = function () { return drawingSetPathColour(&quot;orange&quot;); };
+	charCodeDict[DRAWING_MODE][&quot;r&quot;] = function () { return drawingSetPathColour(&quot;red&quot;); };
+	charCodeDict[DRAWING_MODE][&quot;w&quot;] = function () { return drawingSetPathColour(&quot;white&quot;); };
+	charCodeDict[DRAWING_MODE][&quot;y&quot;] = function () { return drawingSetPathColour(&quot;yellow&quot;); };
+	charCodeDict[DRAWING_MODE][&quot;z&quot;] = function () { return drawingUndo(); };
+
+	charCodeDict[INDEX_MODE][&quot;i&quot;] = function () { return toggleSlideIndex(); };
+	charCodeDict[INDEX_MODE][&quot;-&quot;] = function () { return indexDecreaseNumberOfColumns(); };
+	charCodeDict[INDEX_MODE][&quot;=&quot;] = function () { return indexIncreaseNumberOfColumns(); };
+	charCodeDict[INDEX_MODE][&quot;+&quot;] = function () { return indexIncreaseNumberOfColumns(); };
+	charCodeDict[INDEX_MODE][&quot;0&quot;] = function () { return indexResetNumberOfColumns(); };
+
+	return charCodeDict;
+}
+
+/** Function to supply the default key code dictionary.
+ *
+ * @returns default key code dictionary
+ */
+function getDefaultKeyCodeDictionary()
+{
+	var keyCodeDict = new Object();
+
+	keyCodeDict[SLIDE_MODE] = new Object();
+	keyCodeDict[INDEX_MODE] = new Object();
+	keyCodeDict[DRAWING_MODE] = new Object();
+
+	keyCodeDict[SLIDE_MODE][LEFT_KEY] = function() { return dispatchEffects(-1); };
+	keyCodeDict[SLIDE_MODE][RIGHT_KEY] = function() { return dispatchEffects(1); };
+	keyCodeDict[SLIDE_MODE][UP_KEY] = function() { return skipEffects(-1); };
+	keyCodeDict[SLIDE_MODE][DOWN_KEY] = function() { return skipEffects(1); };
+	keyCodeDict[SLIDE_MODE][PAGE_UP_KEY] = function() { return dispatchEffects(-1); };
+	keyCodeDict[SLIDE_MODE][PAGE_DOWN_KEY] = function() { return dispatchEffects(1); };
+	keyCodeDict[SLIDE_MODE][HOME_KEY] = function() { return slideSetActiveSlide(0); };
+	keyCodeDict[SLIDE_MODE][END_KEY] = function() { return slideSetActiveSlide(slides.length - 1); };
+	keyCodeDict[SLIDE_MODE][SPACE_KEY] = function() { return dispatchEffects(1); };
+
+	keyCodeDict[INDEX_MODE][LEFT_KEY] = function() { return indexSetPageSlide(activeSlide - 1); };
+	keyCodeDict[INDEX_MODE][RIGHT_KEY] = function() { return indexSetPageSlide(activeSlide + 1); };
+	keyCodeDict[INDEX_MODE][UP_KEY] = function() { return indexSetPageSlide(activeSlide - INDEX_COLUMNS); };
+	keyCodeDict[INDEX_MODE][DOWN_KEY] = function() { return indexSetPageSlide(activeSlide + INDEX_COLUMNS); };
+	keyCodeDict[INDEX_MODE][PAGE_UP_KEY] = function() { return indexSetPageSlide(activeSlide - INDEX_COLUMNS * INDEX_COLUMNS); };
+	keyCodeDict[INDEX_MODE][PAGE_DOWN_KEY] = function() { return indexSetPageSlide(activeSlide + INDEX_COLUMNS * INDEX_COLUMNS); };
+	keyCodeDict[INDEX_MODE][HOME_KEY] = function() { return indexSetPageSlide(0); };
+	keyCodeDict[INDEX_MODE][END_KEY] = function() { return indexSetPageSlide(slides.length - 1); };
+	keyCodeDict[INDEX_MODE][ENTER_KEY] = function() { return toggleSlideIndex(); };
+
+	keyCodeDict[DRAWING_MODE][ESCAPE_KEY] = function () { return drawingSwitchToSlideMode(); };
+
+	return keyCodeDict;
+}
+
+/** Function to handle all mouse events.
+ *
+ *	@param	evnt	event
+ *	@param	action	type of event (e.g. mouse up, mouse wheel)
+ */
+function mouseHandlerDispatch(evnt, action)
+{
+	if (!evnt)
+		evnt = window.event;
+
+	var retVal = true;
+
+	if (!processingEffect &amp;&amp; mouseHandlerDictionary[currentMode] &amp;&amp; mouseHandlerDictionary[currentMode][action])
+	{
+		var subRetVal = mouseHandlerDictionary[currentMode][action](evnt);
+
+		if (subRetVal != null &amp;&amp; subRetVal != undefined)
+			retVal = subRetVal;
+	}
+
+	if (evnt.preventDefault &amp;&amp; !retVal)
+		evnt.preventDefault();
+
+	evnt.returnValue = retVal;
+
+	return retVal;
+}
+
+// Set mouse event handler.
+document.onmousedown = function(e) { return mouseHandlerDispatch(e, MOUSE_DOWN); };
+document.onmouseup = function(e) { return mouseHandlerDispatch(e, MOUSE_UP); };
+document.onmousemove = function(e) { return mouseHandlerDispatch(e, MOUSE_MOVE); };
+
+// Moz
+if (window.addEventListener)
+{
+	window.addEventListener('DOMMouseScroll', function(e) { return mouseHandlerDispatch(e, MOUSE_WHEEL); }, false);
+}
+
+// Opera Safari OK - may not work in IE
+window.onmousewheel = function(e) { return mouseHandlerDispatch(e, MOUSE_WHEEL); };
+
+/** Function to supply the default mouse handler dictionary.
+ *
+ * @returns default mouse handler dictionary
+ */
+function getDefaultMouseHandlerDictionary()
+{
+	var mouseHandlerDict = new Object();
+
+	mouseHandlerDict[SLIDE_MODE] = new Object();
+	mouseHandlerDict[INDEX_MODE] = new Object();
+	mouseHandlerDict[DRAWING_MODE] = new Object();
+
+	mouseHandlerDict[SLIDE_MODE][MOUSE_DOWN] = function(evnt) { return dispatchEffects(1); };
+	mouseHandlerDict[SLIDE_MODE][MOUSE_WHEEL] = function(evnt) { return slideMousewheel(evnt); };
+
+	mouseHandlerDict[INDEX_MODE][MOUSE_DOWN] = function(evnt) { return toggleSlideIndex(); };
+
+	mouseHandlerDict[DRAWING_MODE][MOUSE_DOWN] = function(evnt) { return drawingMousedown(evnt); };
+	mouseHandlerDict[DRAWING_MODE][MOUSE_UP] = function(evnt) { return drawingMouseup(evnt); };
+	mouseHandlerDict[DRAWING_MODE][MOUSE_MOVE] = function(evnt) { return drawingMousemove(evnt); };
+
+	return mouseHandlerDict;
+}
+
+/** Function to switch from slide mode to drawing mode.
+*/
+function slideSwitchToDrawingMode()
+{
+	currentMode = DRAWING_MODE;
+
+	var tempDict;
+
+	if (ROOT_NODE.hasAttribute(&quot;style&quot;))
+		tempDict = propStrToDict(ROOT_NODE.getAttribute(&quot;style&quot;));
+	else
+		tempDict = new Object();
+
+	tempDict[&quot;cursor&quot;] = &quot;crosshair&quot;;
+	ROOT_NODE.setAttribute(&quot;style&quot;, dictToPropStr(tempDict));
+}
+
+/** Function to switch from drawing mode to slide mode.
+*/
+function drawingSwitchToSlideMode()
+{
+	currentMode = SLIDE_MODE;
+
+	var tempDict;
+
+	if (ROOT_NODE.hasAttribute(&quot;style&quot;))
+		tempDict = propStrToDict(ROOT_NODE.getAttribute(&quot;style&quot;));
+	else
+		tempDict = new Object();
+
+	tempDict[&quot;cursor&quot;] = &quot;auto&quot;;
+	ROOT_NODE.setAttribute(&quot;style&quot;, dictToPropStr(tempDict));
+}
+
+/** Function to decrease the number of columns in index mode.
+*/
+function indexDecreaseNumberOfColumns()
+{
+	if (INDEX_COLUMNS &gt;= 3)
+	{
+		INDEX_COLUMNS -= 1;
+		INDEX_OFFSET = -1
+			indexSetPageSlide(activeSlide);
+	}
+}
+
+/** Function to increase the number of columns in index mode.
+*/
+function indexIncreaseNumberOfColumns()
+{
+	if (INDEX_COLUMNS &lt; 7)
+	{
+		INDEX_COLUMNS += 1;
+		INDEX_OFFSET = -1
+			indexSetPageSlide(activeSlide);
+	}
+}
+
+/** Function to reset the number of columns in index mode.
+*/
+function indexResetNumberOfColumns()
+{
+	if (INDEX_COLUMNS != INDEX_COLUMNS_DEFAULT)
+	{
+		INDEX_COLUMNS = INDEX_COLUMNS_DEFAULT;
+		INDEX_OFFSET = -1
+			indexSetPageSlide(activeSlide);
+	}
+}
+
+/** Function to reset path width in drawing mode.
+*/
+function drawingResetPathWidth()
+{
+	path_width = path_width_default;
+	set_path_paint_width();
+}
+
+/** Function to set path width in drawing mode.
+ *
+ * @param width new path width
+ */
+function drawingSetPathWidth(width)
+{
+	path_width = width;
+	set_path_paint_width();
+}
+
+/** Function to set path colour in drawing mode.
+ *
+ * @param colour new path colour
+ */
+function drawingSetPathColour(colour)
+{
+	path_colour = colour;
+}
+
+/** Function to query the duration of the presentation from the user in slide mode.
+*/
+function slideQueryDuration()
+{
+	var new_duration = prompt(&quot;Length of presentation in minutes?&quot;, timer_duration);
+
+	if ((new_duration != null) &amp;&amp; (new_duration != ''))
+	{
+		timer_duration = new_duration;
+	}
+
+	updateTimer();
+}
+
+/** Function to add new slide in slide mode.
+ *
+ * @param afterSlide after which slide to insert the new one
+ */
+function slideAddSlide(afterSlide)
+{
+	addSlide(afterSlide);
+	slideSetActiveSlide(afterSlide + 1);
+	updateTimer();
+}
+
+/** Function to toggle the visibility of the progress bar in slide mode.
+*/
+function slideToggleProgressBarVisibility()
+{
+	if (progress_bar_visible)
+	{
+		progress_bar_visible = false;
+		hideProgressBar();
+	}
+	else
+	{
+		progress_bar_visible = true;
+		showProgressBar();
+	}
+}
+
+/** Function to reset the timer in slide mode.
+*/
+function slideResetTimer()
+{
+	timer_start = timer_elapsed;
+	updateTimer();
+}
+
+/** Convenience function to pad a string with zero in front up to a certain length.
+ */
+function padString(str, len)
+{
+	var outStr = str;
+
+	while (outStr.length &lt; len)
+	{
+		outStr = '0' + outStr;
+	}
+
+	return outStr;
+}
+
+/** Function to update the export layer.
+ */
+function slideUpdateExportLayer()
+{
+	// Suspend redraw since we are going to mess with the slides.
+	var suspendHandle = ROOT_NODE.suspendRedraw(2000);
+
+	var tmpActiveSlide = activeSlide;
+	var tmpActiveEffect = activeEffect;
+	var exportedLayers = new Array();
+
+	for (var counterSlides = 0; counterSlides &lt; slides.length; counterSlides++)
+	{
+		var exportNode;
+
+		setSlideToState(counterSlides, STATE_START);
+
+		var maxEffect = 0;
+
+		if (slides[counterSlides].effects)
+		{
+			maxEffect = slides[counterSlides].effects.length;
+		}
+
+		exportNode = slides[counterSlides].element.cloneNode(true);
+		exportNode.setAttributeNS(NSS[&quot;inkscape&quot;], &quot;groupmode&quot;, &quot;layer&quot;);
+		exportNode.setAttributeNS(NSS[&quot;inkscape&quot;], &quot;label&quot;, &quot;slide_&quot; + padString((counterSlides + 1).toString(), slides.length.toString().length) + &quot;_effect_&quot; + padString(&quot;0&quot;, maxEffect.toString().length));
+
+		exportedLayers.push(exportNode);
+
+		if (slides[counterSlides][&quot;effects&quot;])
+		{	
+			for (var counter = 0; counter &lt; slides[counterSlides][&quot;effects&quot;].length; counter++)
+			{
+				for (var subCounter = 0; subCounter &lt; slides[counterSlides][&quot;effects&quot;][counter].length; subCounter++)
+				{
+					var effect = slides[counterSlides][&quot;effects&quot;][counter][subCounter];
+					if (effect[&quot;effect&quot;] == &quot;fade&quot;)
+						fade(parseInt(effect[&quot;dir&quot;]), effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;appear&quot;)
+						appear(parseInt(effect[&quot;dir&quot;]), effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;pop&quot;)
+						pop(parseInt(effect[&quot;dir&quot;]), effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;view&quot;)
+						view(parseInt(effect[&quot;dir&quot;]), effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+				}
+
+				var layerName = &quot;slide_&quot; + padString((counterSlides + 1).toString(), slides.length.toString().length) + &quot;_effect_&quot; + padString((counter + 1).toString(), maxEffect.toString().length);
+				exportNode = slides[counterSlides].element.cloneNode(true);
+				exportNode.setAttributeNS(NSS[&quot;inkscape&quot;], &quot;groupmode&quot;, &quot;layer&quot;);
+				exportNode.setAttributeNS(NSS[&quot;inkscape&quot;], &quot;label&quot;, layerName);
+				exportNode.setAttribute(&quot;id&quot;, layerName);
+
+				exportedLayers.push(exportNode);
+			}
+		}
+	}
+
+	activeSlide = tmpActiveSlide;
+	activeEffect = tmpActiveEffect;
+	setSlideToState(activeSlide, activeEffect);
+
+	// Copy image.
+	var newDoc = document.documentElement.cloneNode(true);
+
+	// Delete viewbox form new imag and set width and height.
+	newDoc.removeAttribute('viewbox');
+	newDoc.setAttribute('width', WIDTH);
+	newDoc.setAttribute('height', HEIGHT);
+
+	// Delete all layers and script elements.
+	var nodesToBeRemoved = new Array();
+
+	for (var childCounter = 0; childCounter &lt;  newDoc.childNodes.length; childCounter++)
+	{
+		var child = newDoc.childNodes[childCounter];
+
+		if (child.nodeType == 1)
+		{
+			if ((child.nodeName.toUpperCase() == 'G') || (child.nodeName.toUpperCase() == 'SCRIPT'))
+			{
+				nodesToBeRemoved.push(child);
+			}
+		}
+	}
+
+	for (var ndCounter = 0; ndCounter &lt; nodesToBeRemoved.length; ndCounter++)
+	{
+		var nd = nodesToBeRemoved[ndCounter];
+
+		// Before removing the node, check whether it contains any definitions.
+		var defs = nd.getElementsByTagNameNS(NSS[&quot;svg&quot;], &quot;defs&quot;);
+
+		for (var defsCounter = 0; defsCounter &lt; defs.length; defsCounter++)
+		{
+			if (defs[defsCounter].id)
+			{
+				newDoc.appendChild(defs[defsCounter].cloneNode(true));
+			}
+		}
+
+		// Remove node.
+		nd.parentNode.removeChild(nd);
+	}
+
+	// Set current layer.
+	if (exportedLayers[0])
+	{
+		var namedView;
+
+		for (var nodeCounter = 0; nodeCounter &lt; newDoc.childNodes.length; nodeCounter++)
+		{
+			if ((newDoc.childNodes[nodeCounter].nodeType == 1) &amp;&amp; (newDoc.childNodes[nodeCounter].getAttribute('id') == 'base'))
+			{
+				namedView = newDoc.childNodes[nodeCounter];
+			}
+		}
+
+		if (namedView)
+		{
+			namedView.setAttributeNS(NSS['inkscape'], 'current-layer', exportedLayers[0].getAttributeNS(NSS['inkscape'], 'label'));
+		}
+	}
+
+	// Add exported layers.
+	while (exportedLayers.length &gt; 0)
+	{
+		var nd = exportedLayers.pop();
+
+		nd.setAttribute(&quot;opacity&quot;,1);
+		nd.style.display = &quot;inherit&quot;;
+
+		newDoc.appendChild(nd);
+	}
+
+	// Serialise the new document.
+  window.location = 'data:application/svg+xml;base64;charset=utf-8,' + window.btoa(unescape(encodeURIComponent((new XMLSerializer()).serializeToString(newDoc))));
+
+	// Unsuspend redraw.
+	ROOT_NODE.unsuspendRedraw(suspendHandle);
+	ROOT_NODE.forceRedraw();
+}
+
+/** Function to undo last drawing operation.
+*/
+function drawingUndo()
+{
+	mouse_presentation_path = null;
+	mouse_original_path = null;
+
+	if (history_presentation_elements.length &gt; 0)
+	{
+		var p = history_presentation_elements.pop();
+		var parent = p.parentNode.removeChild(p);
+
+		p = history_original_elements.pop();
+		parent = p.parentNode.removeChild(p);
+	}
+}
+
+/** Event handler for mouse down in drawing mode.
+ *
+ *  @param e the event
+ */
+function drawingMousedown(e)
+{
+	var value = 0;
+
+	if (e.button)
+		value = e.button;
+	else if (e.which)
+		value = e.which;
+
+	if (value == 1)
+	{
+		history_counter++;
+
+		var p = calcCoord(e);
+
+		mouse_last_x = e.clientX;
+		mouse_last_y = e.clientY;
+		mouse_original_path = document.createElementNS(NSS[&quot;svg&quot;], &quot;path&quot;);
+		mouse_original_path.setAttribute(&quot;stroke&quot;, path_colour);
+		mouse_original_path.setAttribute(&quot;stroke-width&quot;, path_paint_width);
+		mouse_original_path.setAttribute(&quot;fill&quot;, &quot;none&quot;);
+		mouse_original_path.setAttribute(&quot;id&quot;, &quot;path &quot; + Date());
+		mouse_original_path.setAttribute(&quot;d&quot;, &quot;M&quot; + p.x + &quot;,&quot; + p.y);
+		slides[activeSlide][&quot;original_element&quot;].appendChild(mouse_original_path);
+		history_original_elements.push(mouse_original_path);
+
+		mouse_presentation_path = document.createElementNS(NSS[&quot;svg&quot;], &quot;path&quot;);
+		mouse_presentation_path.setAttribute(&quot;stroke&quot;, path_colour);
+		mouse_presentation_path.setAttribute(&quot;stroke-width&quot;, path_paint_width);
+		mouse_presentation_path.setAttribute(&quot;fill&quot;, &quot;none&quot;);
+		mouse_presentation_path.setAttribute(&quot;id&quot;, &quot;path &quot; + Date() + &quot; presentation copy&quot;);
+		mouse_presentation_path.setAttribute(&quot;d&quot;, &quot;M&quot; + p.x + &quot;,&quot; + p.y);
+
+		if (slides[activeSlide][&quot;viewGroup&quot;])
+			slides[activeSlide][&quot;viewGroup&quot;].appendChild(mouse_presentation_path);
+		else
+			slides[activeSlide][&quot;element&quot;].appendChild(mouse_presentation_path);
+
+		history_presentation_elements.push(mouse_presentation_path);
+
+		return false;
+	}
+
+	return true;
+}
+
+/** Event handler for mouse up in drawing mode.
+ *
+ *  @param e the event
+ */
+function drawingMouseup(e)
+{
+	if(!e)
+		e = window.event;
+
+	if (mouse_presentation_path != null)
+	{
+		var p = calcCoord(e);
+		var d = mouse_presentation_path.getAttribute(&quot;d&quot;);
+		d += &quot; L&quot; + p.x + &quot;,&quot; + p.y;
+		mouse_presentation_path.setAttribute(&quot;d&quot;, d);
+		mouse_presentation_path = null;
+		mouse_original_path.setAttribute(&quot;d&quot;, d);
+		mouse_original_path = null;
+
+		return false;
+	}
+
+	return true;
+}
+
+/** Event handler for mouse move in drawing mode.
+ *
+ *  @param e the event
+ */
+function drawingMousemove(e)
+{
+	if(!e)
+		e = window.event;
+
+	var dist = (mouse_last_x - e.clientX) * (mouse_last_x - e.clientX) + (mouse_last_y - e.clientY) * (mouse_last_y - e.clientY);
+
+	if (mouse_presentation_path == null)
+	{
+		return true;
+	}
+
+	if (dist &gt;= mouse_min_dist_sqr)
+	{
+		var p = calcCoord(e);
+		var d = mouse_presentation_path.getAttribute(&quot;d&quot;);
+		d += &quot; L&quot; + p.x + &quot;,&quot; + p.y;
+		mouse_presentation_path.setAttribute(&quot;d&quot;, d);
+		mouse_original_path.setAttribute(&quot;d&quot;, d);
+		mouse_last_x = e.clientX;
+		mouse_last_y = e.clientY;
+	}
+
+	return false;
+}
+
+/** Event handler for mouse wheel events in slide mode.
+ *  based on http://adomas.org/javascript-mouse-wheel/
+ *
+ *  @param e the event
+ */
+function slideMousewheel(e)
+{
+	var delta = 0;
+
+	if (!e)
+		e = window.event;
+
+	if (e.wheelDelta)
+	{ // IE Opera
+		delta = e.wheelDelta/120;
+	}
+	else if (e.detail)
+	{ // MOZ
+		delta = -e.detail/3;
+	}
+
+	if (delta &gt; 0)
+		skipEffects(-1);
+	else if (delta &lt; 0)
+		skipEffects(1);
+
+	if (e.preventDefault)
+		e.preventDefault();
+
+	e.returnValue = false;
+}
+
+/** Event handler for mouse wheel events in index mode.
+ *  based on http://adomas.org/javascript-mouse-wheel/
+ *
+ *  @param e the event
+ */
+function indexMousewheel(e)
+{
+	var delta = 0;
+
+	if (!e)
+		e = window.event;
+
+	if (e.wheelDelta)
+	{ // IE Opera
+		delta = e.wheelDelta/120;
+	}
+	else if (e.detail)
+	{ // MOZ
+		delta = -e.detail/3;
+	}
+
+	if (delta &gt; 0)
+		indexSetPageSlide(activeSlide - INDEX_COLUMNS * INDEX_COLUMNS);
+	else if (delta &lt; 0)
+		indexSetPageSlide(activeSlide + INDEX_COLUMNS * INDEX_COLUMNS);
+
+	if (e.preventDefault)
+		e.preventDefault();
+
+	e.returnValue = false;
+}
+
+/** Function to set the path paint width.
+*/
+function set_path_paint_width()
+{
+	var svgPoint1 = document.documentElement.createSVGPoint();
+	var svgPoint2 = document.documentElement.createSVGPoint();
+
+	svgPoint1.x = 0.0;
+	svgPoint1.y = 0.0;
+	svgPoint2.x = 1.0;
+	svgPoint2.y = 0.0;
+
+	var matrix = slides[activeSlide][&quot;element&quot;].getTransformToElement(ROOT_NODE);
+
+	if (slides[activeSlide][&quot;viewGroup&quot;])
+		matrix = slides[activeSlide][&quot;viewGroup&quot;].getTransformToElement(ROOT_NODE);
+
+	svgPoint1 = svgPoint1.matrixTransform(matrix);
+	svgPoint2 = svgPoint2.matrixTransform(matrix);
+
+	path_paint_width = path_width / Math.sqrt((svgPoint2.x - svgPoint1.x) * (svgPoint2.x - svgPoint1.x) + (svgPoint2.y - svgPoint1.y) * (svgPoint2.y - svgPoint1.y));
+}
+
+/** The view effect.
+ *
+ *  @param dir direction the effect should be played (1 = forwards, -1 = backwards)
+ *  @param element the element the effect should be applied to
+ *  @param time the time that has elapsed since the beginning of the effect
+ *  @param options a dictionary with additional options (e.g. length of the effect); for the view effect the options need to contain the old and the new matrix.
+ */
+function view(dir, element, time, options)
+{
+	var length = 250;
+	var fraction;
+
+	if (!options[&quot;matrixInitial&quot;])
+	{
+		var tempString = slides[activeSlide][&quot;viewGroup&quot;].getAttribute(&quot;transform&quot;);
+
+		if (tempString)
+			options[&quot;matrixInitial&quot;] = (new matrixSVG()).fromAttribute(tempString);
+		else
+			options[&quot;matrixInitial&quot;] = (new matrixSVG()).fromSVGElements(1, 0, 0, 1, 0, 0);
+	}
+
+	if ((time == STATE_END) || (time == STATE_START))
+		fraction = 1;
+	else
+	{
+		if (options &amp;&amp; options[&quot;length&quot;])
+			length = options[&quot;length&quot;];
+
+		fraction = time / length;
+	}
+
+	if (dir == 1)
+	{
+		if (fraction &lt;= 0)
+		{
+			element.setAttribute(&quot;transform&quot;, options[&quot;matrixInitial&quot;].toAttribute());
+		}
+		else if (fraction &gt;= 1)
+		{
+			element.setAttribute(&quot;transform&quot;, options[&quot;matrixNew&quot;].toAttribute());
+
+			set_path_paint_width();
+
+			options[&quot;matrixInitial&quot;] = null;
+			return true;
+		}
+		else
+		{
+			element.setAttribute(&quot;transform&quot;, options[&quot;matrixInitial&quot;].mix(options[&quot;matrixNew&quot;], fraction).toAttribute());
+		}
+	}
+	else if (dir == -1)
+	{
+		if (fraction &lt;= 0)
+		{
+			element.setAttribute(&quot;transform&quot;, options[&quot;matrixInitial&quot;].toAttribute());
+		}
+		else if (fraction &gt;= 1)
+		{
+			element.setAttribute(&quot;transform&quot;, options[&quot;matrixOld&quot;].toAttribute());
+			set_path_paint_width();
+
+			options[&quot;matrixInitial&quot;] = null;
+			return true;
+		}
+		else
+		{
+			element.setAttribute(&quot;transform&quot;, options[&quot;matrixInitial&quot;].mix(options[&quot;matrixOld&quot;], fraction).toAttribute());
+		}
+	}
+
+	return false;
+}
+
+/** The fade effect.
+ *
+ *  @param dir direction the effect should be played (1 = forwards, -1 = backwards)
+ *  @param element the element the effect should be applied to
+ *  @param time the time that has elapsed since the beginning of the effect
+ *  @param options a dictionary with additional options (e.g. length of the effect)
+ */
+function fade(dir, element, time, options)
+{
+	var length = 250;
+	var fraction;
+
+	if ((time == STATE_END) || (time == STATE_START))
+		fraction = 1;
+	else
+	{
+		if (options &amp;&amp; options[&quot;length&quot;])
+			length = options[&quot;length&quot;];
+
+		fraction = time / length;
+	}
+
+	if (dir == 1)
+	{
+		if (fraction &lt;= 0)
+		{
+			element.style.display = &quot;none&quot;;
+			element.setAttribute(&quot;opacity&quot;, 0);
+		}
+		else if (fraction &gt;= 1)
+		{
+			element.style.display = &quot;inherit&quot;;
+			element.setAttribute(&quot;opacity&quot;, 1);
+			return true;
+		}
+		else
+		{
+			element.style.display = &quot;inherit&quot;;
+			element.setAttribute(&quot;opacity&quot;, fraction);
+		}
+	}
+	else if (dir == -1)
+	{
+		if (fraction &lt;= 0)
+		{
+			element.style.display = &quot;inherit&quot;;
+			element.setAttribute(&quot;opacity&quot;, 1);
+		}
+		else if (fraction &gt;= 1)
+		{
+			element.setAttribute(&quot;opacity&quot;, 0);
+			element.style.display = &quot;none&quot;;
+			return true;
+		}
+		else
+		{
+			element.style.display = &quot;inherit&quot;;
+			element.setAttribute(&quot;opacity&quot;, 1 - fraction);
+		}
+	}
+	return false;
+}
+
+/** The appear effect.
+ *
+ *  @param dir direction the effect should be played (1 = forwards, -1 = backwards)
+ *  @param element the element the effect should be applied to
+ *  @param time the time that has elapsed since the beginning of the effect
+ *  @param options a dictionary with additional options (e.g. length of the effect)
+ */
+function appear(dir, element, time, options)
+{
+	if (dir == 1)
+	{
+		element.style.display = &quot;inherit&quot;;
+		element.setAttribute(&quot;opacity&quot;,1);
+	}
+	else if (dir == -1)
+	{
+		element.style.display = &quot;none&quot;;
+		element.setAttribute(&quot;opacity&quot;,0);
+	}
+	return true;
+}
+
+/** The pop effect.
+ *
+ *  @param dir direction the effect should be played (1 = forwards, -1 = backwards)
+ *  @param element the element the effect should be applied to
+ *  @param time the time that has elapsed since the beginning of the effect
+ *  @param options a dictionary with additional options (e.g. length of the effect)
+ */
+function pop(dir, element, time, options)
+{
+	var length = 500;
+	var fraction;
+
+	if ((time == STATE_END) || (time == STATE_START))
+		fraction = 1;
+	else
+	{
+		if (options &amp;&amp; options[&quot;length&quot;])
+			length = options[&quot;length&quot;];
+
+		fraction = time / length;
+	}
+
+	if (dir == 1)
+	{
+		if (fraction &lt;= 0)
+		{
+			element.setAttribute(&quot;opacity&quot;, 0);
+			element.setAttribute(&quot;transform&quot;, &quot;scale(0)&quot;);
+			element.style.display = &quot;none&quot;;
+		}
+		else if (fraction &gt;= 1)
+		{
+			element.setAttribute(&quot;opacity&quot;, 1);
+			element.removeAttribute(&quot;transform&quot;);
+			element.style.display = &quot;inherit&quot;;
+			return true;
+		}
+		else
+		{
+			element.style.display = &quot;inherit&quot;;
+			var opacityFraction = fraction * 3;
+			if (opacityFraction &gt; 1)
+				opacityFraction = 1;
+			element.setAttribute(&quot;opacity&quot;, opacityFraction);
+			var offsetX = WIDTH * (1.0 - fraction) / 2.0;
+			var offsetY = HEIGHT * (1.0 - fraction) / 2.0;
+			element.setAttribute(&quot;transform&quot;, &quot;translate(&quot; + offsetX + &quot;,&quot; + offsetY + &quot;) scale(&quot; + fraction + &quot;)&quot;);
+		}
+	}
+	else if (dir == -1)
+	{
+		if (fraction &lt;= 0)
+		{
+			element.setAttribute(&quot;opacity&quot;, 1);
+			element.setAttribute(&quot;transform&quot;, &quot;scale(1)&quot;);
+			element.style.display = &quot;inherit&quot;;
+		}
+		else if (fraction &gt;= 1)
+		{
+			element.setAttribute(&quot;opacity&quot;, 0);
+			element.removeAttribute(&quot;transform&quot;);
+			element.style.display = &quot;none&quot;;
+			return true;
+		}
+		else
+		{
+			element.setAttribute(&quot;opacity&quot;, 1 - fraction);
+			element.setAttribute(&quot;transform&quot;, &quot;scale(&quot; + 1 - fraction + &quot;)&quot;);
+			element.style.display = &quot;inherit&quot;;
+		}
+	}
+	return false;
+}
+
+/** Function to set a slide either to the start or the end state.
+ *  
+ *  @param slide the slide to use
+ *  @param state the state into which the slide should be set
+ */
+function setSlideToState(slide, state)
+{
+	slides[slide][&quot;viewGroup&quot;].setAttribute(&quot;transform&quot;, slides[slide].initialView);
+
+	if (slides[slide][&quot;effects&quot;])
+	{	
+		if (state == STATE_END)
+		{
+			for (var counter = 0; counter &lt; slides[slide][&quot;effects&quot;].length; counter++)
+			{
+				for (var subCounter = 0; subCounter &lt; slides[slide][&quot;effects&quot;][counter].length; subCounter++)
+				{
+					var effect = slides[slide][&quot;effects&quot;][counter][subCounter];
+					if (effect[&quot;effect&quot;] == &quot;fade&quot;)
+						fade(effect[&quot;dir&quot;], effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;appear&quot;)
+						appear(effect[&quot;dir&quot;], effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;pop&quot;)
+						pop(effect[&quot;dir&quot;], effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;view&quot;)
+						view(effect[&quot;dir&quot;], effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+				}
+			}
+		}
+		else if (state == STATE_START)
+		{
+			for (var counter = slides[slide][&quot;effects&quot;].length - 1; counter &gt;= 0; counter--)
+			{
+				for (var subCounter = 0; subCounter &lt; slides[slide][&quot;effects&quot;][counter].length; subCounter++)
+				{
+					var effect = slides[slide][&quot;effects&quot;][counter][subCounter];
+					if (effect[&quot;effect&quot;] == &quot;fade&quot;)
+						fade(parseInt(effect[&quot;dir&quot;]) * -1, effect[&quot;element&quot;], STATE_START, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;appear&quot;)
+						appear(parseInt(effect[&quot;dir&quot;]) * -1, effect[&quot;element&quot;], STATE_START, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;pop&quot;)
+						pop(parseInt(effect[&quot;dir&quot;]) * -1, effect[&quot;element&quot;], STATE_START, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;view&quot;)
+						view(parseInt(effect[&quot;dir&quot;]) * -1, effect[&quot;element&quot;], STATE_START, effect[&quot;options&quot;]);	
+				}
+			}
+		}
+		else
+		{
+			setSlideToState(slide, STATE_START);
+
+			for (var counter = 0; counter &lt; slides[slide][&quot;effects&quot;].length &amp;&amp; counter &lt; state; counter++)
+			{
+				for (var subCounter = 0; subCounter &lt; slides[slide][&quot;effects&quot;][counter].length; subCounter++)
+				{
+					var effect = slides[slide][&quot;effects&quot;][counter][subCounter];
+					if (effect[&quot;effect&quot;] == &quot;fade&quot;)
+						fade(effect[&quot;dir&quot;], effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;appear&quot;)
+						appear(effect[&quot;dir&quot;], effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;pop&quot;)
+						pop(effect[&quot;dir&quot;], effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+					else if (effect[&quot;effect&quot;] == &quot;view&quot;)
+						view(effect[&quot;dir&quot;], effect[&quot;element&quot;], STATE_END, effect[&quot;options&quot;]);	
+				}
+			}
+		}
+	}
+
+	window.location.hash = (activeSlide + 1) + '_' + activeEffect;
+}
+
+/** Convenience function to translate a attribute string into a dictionary.
+ *
+ *	@param str the attribute string
+ *  @return a dictionary
+ *  @see dictToPropStr
+ */
+function propStrToDict(str)
+{
+	var list = str.split(&quot;;&quot;);
+	var obj = new Object();
+
+	for (var counter = 0; counter &lt; list.length; counter++)
+	{
+		var subStr = list[counter];
+		var subList = subStr.split(&quot;:&quot;);
+		if (subList.length == 2)
+		{
+			obj[subList[0]] = subList[1];
+		}	
+	}
+
+	return obj;
+}
+
+/** Convenience function to translate a dictionary into a string that can be used as an attribute.
+ *
+ *  @param dict the dictionary to convert
+ *  @return a string that can be used as an attribute
+ *  @see propStrToDict
+ */
+function dictToPropStr(dict)
+{
+	var str = &quot;&quot;;
+
+	for (var key in dict)
+	{
+		str += key + &quot;:&quot; + dict[key] + &quot;;&quot;;
+	}
+
+	return str;
+}
+
+/** Sub-function to add a suffix to the ids of the node and all its children.
+ *	
+ *	@param node the node to change
+ *	@param suffix the suffix to add
+ *	@param replace dictionary of replaced ids
+ *  @see suffixNodeIds
+ */
+function suffixNoneIds_sub(node, suffix, replace)
+{
+	if (node.nodeType == 1)
+	{
+		if (node.getAttribute(&quot;id&quot;))
+		{
+			var id = node.getAttribute(&quot;id&quot;)
+				replace[&quot;#&quot; + id] = id + suffix;
+			node.setAttribute(&quot;id&quot;, id + suffix);
+		}
+
+		if ((node.nodeName == &quot;use&quot;) &amp;&amp; (node.getAttributeNS(NSS[&quot;xlink&quot;], &quot;href&quot;)) &amp;&amp; (replace[node.getAttribute(NSS[&quot;xlink&quot;], &quot;href&quot;)]))
+			node.setAttribute(NSS[&quot;xlink&quot;], &quot;href&quot;, node.getAttribute(NSS[&quot;xlink&quot;], &quot;href&quot;) + suffix);
+
+		if (node.childNodes)
+		{
+			for (var counter = 0; counter &lt; node.childNodes.length; counter++)
+				suffixNoneIds_sub(node.childNodes[counter], suffix, replace);
+		}
+	}
+}
+
+/** Function to add a suffix to the ids of the node and all its children.
+ *	
+ *	@param node the node to change
+ *	@param suffix the suffix to add
+ *  @return the changed node
+ *  @see suffixNodeIds_sub
+ */
+function suffixNodeIds(node, suffix)
+{
+	var replace = new Object();
+
+	suffixNoneIds_sub(node, suffix, replace);
+
+	return node;
+}
+
+/** Function to build a progress bar.
+ *	
+ *  @param parent node to attach the progress bar to
+ */
+function createProgressBar(parent_node)
+{
+	var g = document.createElementNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+	g.setAttribute(&quot;clip-path&quot;, &quot;url(#jessyInkSlideClipPath)&quot;);
+	g.setAttribute(&quot;id&quot;, &quot;layer_progress_bar&quot;);
+	g.setAttribute(&quot;style&quot;, &quot;display: none;&quot;);
+
+	var rect_progress_bar = document.createElementNS(NSS[&quot;svg&quot;], &quot;rect&quot;);
+	rect_progress_bar.setAttribute(&quot;style&quot;, &quot;marker: none; fill: rgb(128, 128, 128); stroke: none;&quot;);
+	rect_progress_bar.setAttribute(&quot;id&quot;, &quot;rect_progress_bar&quot;);
+	rect_progress_bar.setAttribute(&quot;x&quot;, 0);
+	rect_progress_bar.setAttribute(&quot;y&quot;, 0.99 * HEIGHT);
+	rect_progress_bar.setAttribute(&quot;width&quot;, 0);
+	rect_progress_bar.setAttribute(&quot;height&quot;, 0.01 * HEIGHT);
+	g.appendChild(rect_progress_bar);
+
+	var circle_timer_indicator = document.createElementNS(NSS[&quot;svg&quot;], &quot;circle&quot;);
+	circle_timer_indicator.setAttribute(&quot;style&quot;, &quot;marker: none; fill: rgb(255, 0, 0); stroke: none;&quot;);
+	circle_timer_indicator.setAttribute(&quot;id&quot;, &quot;circle_timer_indicator&quot;);
+	circle_timer_indicator.setAttribute(&quot;cx&quot;, 0.005 * HEIGHT);
+	circle_timer_indicator.setAttribute(&quot;cy&quot;, 0.995 * HEIGHT);
+	circle_timer_indicator.setAttribute(&quot;r&quot;, 0.005 * HEIGHT);
+	g.appendChild(circle_timer_indicator);
+
+	parent_node.appendChild(g);
+}
+
+/** Function to hide the progress bar.
+ *	
+ */
+function hideProgressBar()
+{
+	var progress_bar = document.getElementById(&quot;layer_progress_bar&quot;);
+
+	if (!progress_bar)
+	{
+		return;
+	}
+
+	progress_bar.setAttribute(&quot;style&quot;, &quot;display: none;&quot;);
+}
+
+/** Function to show the progress bar.
+ *	
+ */
+function showProgressBar()
+{
+	var progress_bar = document.getElementById(&quot;layer_progress_bar&quot;);
+
+	if (!progress_bar)
+	{
+		return;
+	}
+
+	progress_bar.setAttribute(&quot;style&quot;, &quot;display: inherit;&quot;);
+}
+
+/** Set progress bar value.
+ *	
+ *	@param value the current slide number
+ *
+ */
+function setProgressBarValue(value)
+{
+	var rect_progress_bar = document.getElementById(&quot;rect_progress_bar&quot;);
+
+	if (!rect_progress_bar)
+	{
+		return;
+	}
+
+	if (value &lt; 1)
+	{
+		// First slide, assumed to be the title of the presentation
+		var x = 0;
+		var w = 0.01 * HEIGHT;
+	}
+	else if (value &gt;= slides.length - 1)
+	{
+		// Last slide, assumed to be the end of the presentation
+		var x = WIDTH - 0.01 * HEIGHT;
+		var w = 0.01 * HEIGHT;
+	}
+	else
+	{
+		value -= 1;
+		value /= (slides.length - 2);
+
+		var x = WIDTH * value;
+		var w = WIDTH / (slides.length - 2);
+	}
+
+	rect_progress_bar.setAttribute(&quot;x&quot;, x);
+	rect_progress_bar.setAttribute(&quot;width&quot;, w);
+}
+
+/** Set time indicator.
+ *	
+ *	@param value the percentage of time elapse so far between 0.0 and 1.0
+ *
+ */
+function setTimeIndicatorValue(value)
+{
+	var circle_timer_indicator = document.getElementById(&quot;circle_timer_indicator&quot;);
+
+	if (!circle_timer_indicator)
+	{
+		return;
+	}
+
+	if (value &lt; 0.0)
+	{
+		value = 0.0;
+	}
+
+	if (value &gt; 1.0)
+	{
+		value = 1.0;
+	}
+
+	var cx = (WIDTH - 0.01 * HEIGHT) * value + 0.005 * HEIGHT;
+	circle_timer_indicator.setAttribute(&quot;cx&quot;, cx);
+}
+
+/** Update timer.
+ *	
+ */
+function updateTimer()
+{
+	timer_elapsed += 1;
+	setTimeIndicatorValue((timer_elapsed - timer_start) / (60 * timer_duration));
+}
+
+/** Convert screen coordinates to document coordinates.
+ *
+ *  @param e event with screen coordinates
+ *
+ *  @return coordinates in SVG file coordinate system	
+ */
+function calcCoord(e)
+{
+	var svgPoint = document.documentElement.createSVGPoint();
+	svgPoint.x = e.clientX + window.pageXOffset;
+	svgPoint.y = e.clientY + window.pageYOffset;
+
+	var matrix = slides[activeSlide][&quot;element&quot;].getScreenCTM();
+
+	if (slides[activeSlide][&quot;viewGroup&quot;])
+		matrix = slides[activeSlide][&quot;viewGroup&quot;].getScreenCTM();
+
+	svgPoint = svgPoint.matrixTransform(matrix.inverse());
+	return svgPoint;
+}
+
+/** Add slide.
+ *
+ *	@param after_slide after which slide the new slide should be inserted into the presentation
+ */
+function addSlide(after_slide)
+{
+	number_of_added_slides++;
+
+	var g = document.createElementNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+	g.setAttribute(&quot;clip-path&quot;, &quot;url(#jessyInkSlideClipPath)&quot;);
+	g.setAttribute(&quot;id&quot;, &quot;Whiteboard &quot; + Date() + &quot; presentation copy&quot;);
+	g.setAttribute(&quot;style&quot;, &quot;display: none;&quot;);
+
+	var new_slide = new Object();
+	new_slide[&quot;element&quot;] = g;
+
+	// Set build in transition.
+	new_slide[&quot;transitionIn&quot;] = new Object();
+	var dict = defaultTransitionInDict;
+	new_slide[&quot;transitionIn&quot;][&quot;name&quot;] = dict[&quot;name&quot;];
+	new_slide[&quot;transitionIn&quot;][&quot;options&quot;] = new Object();
+
+	for (key in dict)
+		if (key != &quot;name&quot;)
+			new_slide[&quot;transitionIn&quot;][&quot;options&quot;][key] = dict[key];
+
+	// Set build out transition.
+	new_slide[&quot;transitionOut&quot;] = new Object();
+	dict = defaultTransitionOutDict;
+	new_slide[&quot;transitionOut&quot;][&quot;name&quot;] = dict[&quot;name&quot;];
+	new_slide[&quot;transitionOut&quot;][&quot;options&quot;] = new Object();
+
+	for (key in dict)
+		if (key != &quot;name&quot;)
+			new_slide[&quot;transitionOut&quot;][&quot;options&quot;][key] = dict[key];
+
+	// Copy master slide content.
+	if (masterSlide)
+	{
+		var clonedNode = suffixNodeIds(masterSlide.cloneNode(true), &quot;_&quot; + Date() + &quot; presentation_copy&quot;);
+		clonedNode.removeAttributeNS(NSS[&quot;inkscape&quot;], &quot;groupmode&quot;);
+		clonedNode.removeAttributeNS(NSS[&quot;inkscape&quot;], &quot;label&quot;);
+		clonedNode.style.display = &quot;inherit&quot;;
+
+		g.appendChild(clonedNode);
+	}
+
+	// Substitute auto texts.
+	substituteAutoTexts(g, &quot;Whiteboard &quot; + number_of_added_slides, &quot;W&quot; + number_of_added_slides, slides.length);
+
+	g.setAttribute(&quot;onmouseover&quot;, &quot;if ((currentMode == INDEX_MODE) &amp;&amp; ( activeSlide != &quot; + (after_slide + 1) + &quot;)) { indexSetActiveSlide(&quot; + (after_slide + 1) + &quot;); };&quot;);
+
+	// Create a transform group.
+	var transformGroup = document.createElementNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+
+	// Add content to transform group.
+	while (g.firstChild)
+		transformGroup.appendChild(g.firstChild);
+
+	// Transfer the transform attribute from the node to the transform group.
+	if (g.getAttribute(&quot;transform&quot;))
+	{
+		transformGroup.setAttribute(&quot;transform&quot;, g.getAttribute(&quot;transform&quot;));
+		g.removeAttribute(&quot;transform&quot;);
+	}
+
+	// Create a view group.
+	var viewGroup = document.createElementNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+
+	viewGroup.appendChild(transformGroup);
+	new_slide[&quot;viewGroup&quot;] = g.appendChild(viewGroup);
+
+	// Insert background.
+	if (BACKGROUND_COLOR != null)
+	{
+		var rectNode = document.createElementNS(NSS[&quot;svg&quot;], &quot;rect&quot;);
+
+		rectNode.setAttribute(&quot;x&quot;, 0);
+		rectNode.setAttribute(&quot;y&quot;, 0);
+		rectNode.setAttribute(&quot;width&quot;, WIDTH);
+		rectNode.setAttribute(&quot;height&quot;, HEIGHT);
+		rectNode.setAttribute(&quot;id&quot;, &quot;jessyInkBackground&quot; + Date());
+		rectNode.setAttribute(&quot;fill&quot;, BACKGROUND_COLOR);
+
+		new_slide[&quot;viewGroup&quot;].insertBefore(rectNode, new_slide[&quot;viewGroup&quot;].firstChild);
+	}
+
+	// Set initial view even if there are no other views.
+	var matrixOld = (new matrixSVG()).fromElements(1, 0, 0, 0, 1, 0, 0, 0, 1);
+
+	new_slide[&quot;viewGroup&quot;].setAttribute(&quot;transform&quot;, matrixOld.toAttribute());
+	new_slide.initialView = matrixOld.toAttribute();
+
+	// Insert slide
+	var node = slides[after_slide][&quot;element&quot;];
+	var next_node = node.nextSibling;
+	var parent_node = node.parentNode;
+
+	if (next_node)
+	{
+		parent_node.insertBefore(g, next_node);
+	}
+	else
+	{
+		parent_node.appendChild(g);
+	}
+
+	g = document.createElementNS(NSS[&quot;svg&quot;], &quot;g&quot;);
+	g.setAttributeNS(NSS[&quot;inkscape&quot;], &quot;groupmode&quot;, &quot;layer&quot;);
+	g.setAttributeNS(NSS[&quot;inkscape&quot;], &quot;label&quot;, &quot;Whiteboard &quot; + number_of_added_slides);
+	g.setAttribute(&quot;clip-path&quot;, &quot;url(#jessyInkSlideClipPath)&quot;);
+	g.setAttribute(&quot;id&quot;, &quot;Whiteboard &quot; + Date());
+	g.setAttribute(&quot;style&quot;, &quot;display: none;&quot;);
+
+	new_slide[&quot;original_element&quot;] = g;
+
+	node = slides[after_slide][&quot;original_element&quot;];
+	next_node = node.nextSibling;
+	parent_node = node.parentNode;
+
+	if (next_node)
+	{
+		parent_node.insertBefore(g, next_node);
+	}
+	else
+	{
+		parent_node.appendChild(g);
+	}
+
+	before_new_slide = slides.slice(0, after_slide + 1);
+	after_new_slide = slides.slice(after_slide + 1);
+	slides = before_new_slide.concat(new_slide, after_new_slide);
+
+	//resetting the counter attributes on the slides that follow the new slide...
+	for (var counter = after_slide+2; counter &lt; slides.length; counter++)
+	{
+		slides[counter][&quot;element&quot;].setAttribute(&quot;onmouseover&quot;, &quot;if ((currentMode == INDEX_MODE) &amp;&amp; ( activeSlide != &quot; + counter + &quot;)) { indexSetActiveSlide(&quot; + counter + &quot;); };&quot;);
+	}
+}
+
+/** Convenience function to obtain a transformation matrix from a point matrix.
+ *
+ *	@param mPoints Point matrix.
+ *	@return A transformation matrix.
+ */
+function pointMatrixToTransformation(mPoints)
+{
+	mPointsOld = (new matrixSVG()).fromElements(0, WIDTH, WIDTH, 0, 0, HEIGHT, 1, 1, 1);
+
+	return mPointsOld.mult(mPoints.inv());
+}
+
+/** Convenience function to obtain a matrix with three corners of a rectangle.
+ *
+ *	@param rect an svg rectangle
+ *	@return a matrixSVG containing three corners of the rectangle
+ */
+function rectToMatrix(rect)
+{
+	rectWidth = rect.getBBox().width;
+	rectHeight = rect.getBBox().height;
+	rectX = rect.getBBox().x;
+	rectY = rect.getBBox().y;
+	rectXcorr = 0;
+	rectYcorr = 0;
+
+	scaleX = WIDTH / rectWidth;
+	scaleY = HEIGHT / rectHeight;
+
+	if (scaleX &gt; scaleY)
+	{
+		scaleX = scaleY;
+		rectXcorr -= (WIDTH / scaleX - rectWidth) / 2;
+		rectWidth = WIDTH / scaleX;
+	}	
+	else
+	{
+		scaleY = scaleX;
+		rectYcorr -= (HEIGHT / scaleY - rectHeight) / 2;
+		rectHeight = HEIGHT / scaleY;
+	}
+
+	if (rect.transform.baseVal.numberOfItems &lt; 1)
+	{
+		mRectTrans = (new matrixSVG()).fromElements(1, 0, 0, 0, 1, 0, 0, 0, 1);
+	}
+	else
+	{
+		mRectTrans = (new matrixSVG()).fromSVGMatrix(rect.transform.baseVal.consolidate().matrix);
+	}
+
+	newBasePoints = (new matrixSVG()).fromElements(rectX, rectX, rectX, rectY, rectY, rectY, 1, 1, 1);
+	newVectors = (new matrixSVG()).fromElements(rectXcorr, rectXcorr + rectWidth, rectXcorr + rectWidth, rectYcorr, rectYcorr, rectYcorr + rectHeight, 0, 0, 0);
+
+	return mRectTrans.mult(newBasePoints.add(newVectors));
+}
+
+/** Function to handle JessyInk elements.
+ *
+ *	@param	node	Element node.
+ */
+function handleElement(node)
+{
+	if (node.getAttributeNS(NSS['jessyink'], 'element') == 'core.video')
+	{
+		var url;
+		var width;
+		var height;
+		var x;
+		var y;
+		var transform;
+
+		var tspans = node.getElementsByTagNameNS(&quot;http://www.w3.org/2000/svg&quot;, &quot;tspan&quot;);
+
+		for (var tspanCounter = 0; tspanCounter &lt; tspans.length; tspanCounter++)
+		{
+			if (tspans[tspanCounter].getAttributeNS(&quot;https://launchpad.net/jessyink&quot;, &quot;video&quot;) == &quot;url&quot;)
+			{
+				url = tspans[tspanCounter].firstChild.nodeValue;
+			}
+		}
+
+		var rects = node.getElementsByTagNameNS(&quot;http://www.w3.org/2000/svg&quot;, &quot;rect&quot;);
+
+		for (var rectCounter = 0; rectCounter &lt; rects.length; rectCounter++)
+		{
+			if (rects[rectCounter].getAttributeNS(&quot;https://launchpad.net/jessyink&quot;, &quot;video&quot;) == &quot;rect&quot;)
+			{
+				x = rects[rectCounter].getAttribute(&quot;x&quot;);
+				y = rects[rectCounter].getAttribute(&quot;y&quot;);
+				width = rects[rectCounter].getAttribute(&quot;width&quot;);
+				height = rects[rectCounter].getAttribute(&quot;height&quot;);
+				transform = rects[rectCounter].getAttribute(&quot;transform&quot;);
+			}
+		}
+
+		for (var childCounter = 0; childCounter &lt; node.childNodes.length; childCounter++)
+		{
+			if (node.childNodes[childCounter].nodeType == 1)
+			{
+				if (node.childNodes[childCounter].style)
+				{
+					node.childNodes[childCounter].style.display = 'none';
+				}
+				else
+				{
+					node.childNodes[childCounter].setAttribute(&quot;style&quot;, &quot;display: none;&quot;);
+				}
+			}
+		}
+
+		var foreignNode = document.createElementNS(&quot;http://www.w3.org/2000/svg&quot;, &quot;foreignObject&quot;);
+		foreignNode.setAttribute(&quot;x&quot;, x);
+		foreignNode.setAttribute(&quot;y&quot;, y);
+		foreignNode.setAttribute(&quot;width&quot;, width);
+		foreignNode.setAttribute(&quot;height&quot;, height);
+		foreignNode.setAttribute(&quot;transform&quot;, transform);
+
+		var videoNode = document.createElementNS(&quot;http://www.w3.org/1999/xhtml&quot;, &quot;video&quot;);
+		videoNode.setAttribute(&quot;src&quot;, url);
+
+		foreignNode.appendChild(videoNode);
+		node.appendChild(foreignNode);
+	}
+}
+
+/** Class processing the location hash.
+ *
+ *	@param str location hash
+ */
+function LocationHash(str)
+{
+	this.slideNumber = 0;
+	this.effectNumber = 0;
+
+	str = str.substr(1, str.length - 1);
+
+	var parts = str.split('_');
+
+	// Try to extract slide number.
+	if (parts.length &gt;= 1)
+	{
+		try
+		{
+			var slideNumber = parseInt(parts[0]);
+
+			if (!isNaN(slideNumber))
+			{
+				this.slideNumber = slideNumber - 1;
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	// Try to extract effect number.
+	if (parts.length &gt;= 2)
+	{
+		try
+		{
+			var effectNumber = parseInt(parts[1]);
+
+			if (!isNaN(effectNumber))
+			{
+				this.effectNumber = effectNumber;
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+}
+
+/** Class representing an svg matrix.
+*/
+function matrixSVG()
+{
+	this.e11 = 0; // a
+	this.e12 = 0; // c
+	this.e13 = 0; // e
+	this.e21 = 0; // b
+	this.e22 = 0; // d
+	this.e23 = 0; // f
+	this.e31 = 0;
+	this.e32 = 0;
+	this.e33 = 0;
+}
+
+/** Constructor function.
+ *
+ *	@param a element a (i.e. 1, 1) as described in the svg standard.
+ *	@param b element b (i.e. 2, 1) as described in the svg standard.
+ *	@param c element c (i.e. 1, 2) as described in the svg standard.
+ *	@param d element d (i.e. 2, 2) as described in the svg standard.
+ *	@param e element e (i.e. 1, 3) as described in the svg standard.
+ *	@param f element f (i.e. 2, 3) as described in the svg standard.
+ */
+matrixSVG.prototype.fromSVGElements = function(a, b, c, d, e, f)
+{
+	this.e11 = a;
+	this.e12 = c;
+	this.e13 = e;
+	this.e21 = b;
+	this.e22 = d;
+	this.e23 = f;
+	this.e31 = 0;
+	this.e32 = 0;
+	this.e33 = 1;
+
+	return this;
+}
+
+/** Constructor function.
+ *
+ *	@param matrix an svg matrix as described in the svg standard.
+ */
+matrixSVG.prototype.fromSVGMatrix = function(m)
+{
+	this.e11 = m.a;
+	this.e12 = m.c;
+	this.e13 = m.e;
+	this.e21 = m.b;
+	this.e22 = m.d;
+	this.e23 = m.f;
+	this.e31 = 0;
+	this.e32 = 0;
+	this.e33 = 1;
+
+	return this;
+}
+
+/** Constructor function.
+ *
+ *	@param e11 element 1, 1 of the matrix.
+ *	@param e12 element 1, 2 of the matrix.
+ *	@param e13 element 1, 3 of the matrix.
+ *	@param e21 element 2, 1 of the matrix.
+ *	@param e22 element 2, 2 of the matrix.
+ *	@param e23 element 2, 3 of the matrix.
+ *	@param e31 element 3, 1 of the matrix.
+ *	@param e32 element 3, 2 of the matrix.
+ *	@param e33 element 3, 3 of the matrix.
+ */
+matrixSVG.prototype.fromElements = function(e11, e12, e13, e21, e22, e23, e31, e32, e33)
+{
+	this.e11 = e11;
+	this.e12 = e12;
+	this.e13 = e13;
+	this.e21 = e21;
+	this.e22 = e22;
+	this.e23 = e23;
+	this.e31 = e31;
+	this.e32 = e32;
+	this.e33 = e33;
+
+	return this;
+}
+
+/** Constructor function.
+ *
+ *	@param attrString string value of the &quot;transform&quot; attribute (currently only &quot;matrix&quot; is accepted)
+ */
+matrixSVG.prototype.fromAttribute = function(attrString)
+{
+	str = attrString.substr(7, attrString.length - 8);
+
+	str = str.trim();
+
+	strArray = str.split(&quot;,&quot;);
+
+	// Opera does not use commas to separate the values of the matrix, only spaces.
+	if (strArray.length != 6)
+		strArray = str.split(&quot; &quot;);
+
+	this.e11 = parseFloat(strArray[0]);
+	this.e21 = parseFloat(strArray[1]);
+	this.e31 = 0;
+	this.e12 = parseFloat(strArray[2]);
+	this.e22 = parseFloat(strArray[3]);
+	this.e32 = 0;
+	this.e13 = parseFloat(strArray[4]);
+	this.e23 = parseFloat(strArray[5]);
+	this.e33 = 1;
+
+	return this;
+}
+
+/** Output function
+ *
+ *	@return a string that can be used as the &quot;transform&quot; attribute.
+ */
+matrixSVG.prototype.toAttribute = function()
+{
+	return &quot;matrix(&quot; + this.e11 + &quot;, &quot; + this.e21 + &quot;, &quot; + this.e12 + &quot;, &quot; + this.e22 + &quot;, &quot; + this.e13 + &quot;, &quot; + this.e23 + &quot;)&quot;;
+}
+
+/** Matrix nversion.
+ *
+ *	@return the inverse of the matrix
+ */
+matrixSVG.prototype.inv = function()
+{
+	out = new matrixSVG();
+
+	det = this.e11 * (this.e33 * this.e22 - this.e32 * this.e23) - this.e21 * (this.e33 * this.e12 - this.e32 * this.e13) + this.e31 * (this.e23 * this.e12 - this.e22 * this.e13);
+
+	out.e11 =  (this.e33 * this.e22 - this.e32 * this.e23) / det;
+	out.e12 = -(this.e33 * this.e12 - this.e32 * this.e13) / det;
+	out.e13 =  (this.e23 * this.e12 - this.e22 * this.e13) / det;
+	out.e21 = -(this.e33 * this.e21 - this.e31 * this.e23) / det;
+	out.e22 =  (this.e33 * this.e11 - this.e31 * this.e13) / det;
+	out.e23 = -(this.e23 * this.e11 - this.e21 * this.e13) / det;
+	out.e31 =  (this.e32 * this.e21 - this.e31 * this.e22) / det;
+	out.e32 = -(this.e32 * this.e11 - this.e31 * this.e12) / det;
+	out.e33 =  (this.e22 * this.e11 - this.e21 * this.e12) / det;
+
+	return out;
+}
+
+/** Matrix multiplication.
+ *
+ *	@param op another svg matrix
+ *	@return this * op
+ */
+matrixSVG.prototype.mult = function(op)
+{
+	out = new matrixSVG();
+
+	out.e11 = this.e11 * op.e11 + this.e12 * op.e21 + this.e13 * op.e31;
+	out.e12 = this.e11 * op.e12 + this.e12 * op.e22 + this.e13 * op.e32;
+	out.e13 = this.e11 * op.e13 + this.e12 * op.e23 + this.e13 * op.e33;
+	out.e21 = this.e21 * op.e11 + this.e22 * op.e21 + this.e23 * op.e31;
+	out.e22 = this.e21 * op.e12 + this.e22 * op.e22 + this.e23 * op.e32;
+	out.e23 = this.e21 * op.e13 + this.e22 * op.e23 + this.e23 * op.e33;
+	out.e31 = this.e31 * op.e11 + this.e32 * op.e21 + this.e33 * op.e31;
+	out.e32 = this.e31 * op.e12 + this.e32 * op.e22 + this.e33 * op.e32;
+	out.e33 = this.e31 * op.e13 + this.e32 * op.e23 + this.e33 * op.e33;
+
+	return out;
+}
+
+/** Matrix addition.
+ *
+ *	@param op another svg matrix
+ *	@return this + op
+ */
+matrixSVG.prototype.add = function(op)
+{
+	out = new matrixSVG();
+
+	out.e11 = this.e11 + op.e11;
+	out.e12 = this.e12 + op.e12;
+	out.e13 = this.e13 + op.e13;
+	out.e21 = this.e21 + op.e21;
+	out.e22 = this.e22 + op.e22;
+	out.e23 = this.e23 + op.e23;
+	out.e31 = this.e31 + op.e31;
+	out.e32 = this.e32 + op.e32;
+	out.e33 = this.e33 + op.e33;
+
+	return out;
+}
+
+/** Matrix mixing.
+ *
+ *	@param op another svg matrix
+ *	@parma contribOp contribution of the other matrix (0 &lt;= contribOp &lt;= 1)
+ *	@return (1 - contribOp) * this + contribOp * op
+ */
+matrixSVG.prototype.mix = function(op, contribOp)
+{
+	contribThis = 1.0 - contribOp;
+	out = new matrixSVG();
+
+	out.e11 = contribThis * this.e11 + contribOp * op.e11;
+	out.e12 = contribThis * this.e12 + contribOp * op.e12;
+	out.e13 = contribThis * this.e13 + contribOp * op.e13;
+	out.e21 = contribThis * this.e21 + contribOp * op.e21;
+	out.e22 = contribThis * this.e22 + contribOp * op.e22;
+	out.e23 = contribThis * this.e23 + contribOp * op.e23;
+	out.e31 = contribThis * this.e31 + contribOp * op.e31;
+	out.e32 = contribThis * this.e32 + contribOp * op.e32;
+	out.e33 = contribThis * this.e33 + contribOp * op.e33;
+
+	return out;
+}
+
+/** Trimming function for strings.
+*/
+String.prototype.trim = function()
+{
+	return this.replace(/^\s+|\s+$/g, '');
+}
+
+/** SVGElement.getTransformToElement polyfill */
+SVGElement.prototype.getTransformToElement = SVGElement.prototype.getTransformToElement || function(elem) {
+    return elem.getScreenCTM().inverse().multiply(this.getScreenCTM());
+};
+</script>
+</svg>
