@@ -53,3 +53,45 @@ The topmost definition shows the three main things a user can do in this game: a
 This idea of a graph is a very useful mental model to have, as we can now give **meaning** to each path in our tree, from root to leaf. As long as the user provides a sequence of characters that allow us to traverse the tree, the user wrote a correct statement! If not, we have a pretty good idea of where we diverted from our tree and what kind of feedback to give.
 
 ## How to write recursive decent parsers
+You might be tempted to start writing your string-parsing code immediately, but hold your horses! Good code makes use of abstraction, and the first layer of abstraction we should be writing is concerned with **tokenizing** our user input. A **Token** can be described using the struct below.
+
+{% highlight C %}
+{% raw %}
+typedef struct
+{
+    TokenType type;
+    const char * value;
+} Token;
+{% endraw %}
+{% endhighlight %}
+
+Where every Token has a TokenType, which is an enum describing the kind of token we are dealing with, and a value containing any additional information potentially associated with the token. For example we might have a token of type TAKE and an empty value, followed by a token of type ITEM, with a value containing "shortbread". We can simply be concerned with the types of our tokens and the values they contain, _and little to none of the parsing code will have to be rewritten if we translate our entire game to another language!_ So, how do we write a **Tokenizer?**
+
+### Writing a tokenizer
+Writing a tokenizer becomes really easy once you've done it once or twice (which is the reason we have programs that write this code for you). We create a loop which iterates until all input has been processed, and within this loop we repeatedly _try_ to match the current unprocessed part of our input with one of the token types we defined. If none of our tokens match, we either ignore the input (allowing you to say things like `Take the shortbread already!` without `already` being a known token) or we raise an error (such as when tokenizing a C source file). This process can be summarized with a little piece of C pseudocode:
+
+{% highlight C %}
+{% raw %}
+while (index < input_size)
+{
+    Token token;
+    if (acceptToken(TAKE, input, &token, &index))
+        addToken(&tokenList, token);
+    else if (acceptToken(WALK, input, &token, &index))
+        addToken(&tokenList, token);
+    .
+    .
+    .
+    if (acceptToken(ITEM), input, &token, &index)
+        addToken(&tokenList, token);
+    else // No token was matched, try to simply skip a character.
+        index++;
+}
+return tokenList;
+{% endraw %}
+{% endhighlight %}
+
+This will result in a neat languague-agnostic list of Tokens, ready to be parsed by our **Parser**.
+
+### Writing a parser
+Finally, the juicy part. Parsing our Tokens and performing in-game actions as a result actually follows a very similar stucture as to our above tokenizer: we loop trough our tokens and try to match full grammatically correct `STATEMENT`s.
