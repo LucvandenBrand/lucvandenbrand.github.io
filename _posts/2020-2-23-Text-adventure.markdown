@@ -68,7 +68,7 @@ typedef struct
 Where every Token has a TokenType, which is an enum describing the kind of token we are dealing with, and a value containing any additional information potentially associated with the token. For example we might have a token of type TAKE and an empty value, followed by a token of type ITEM, with a value containing "shortbread". We can simply be concerned with the types of our tokens and the values they contain, _and little to none of the parsing code will have to be rewritten if we translate our entire game to another language!_ So, how do we write a **Tokenizer?**
 
 ### Writing a tokenizer
-Writing a tokenizer becomes really easy once you've done it once or twice (which is the reason we have programs that write this code for you). We create a loop which iterates until all input has been processed, and within this loop we repeatedly _try_ to match the current unprocessed part of our input with one of the token types we defined. If none of our tokens match, we either ignore the input (allowing you to say things like `Take the shortbread already!` without `already` being a known token) or we raise an error (such as when tokenizing a C source file). This process can be summarized with a little piece of C pseudocode:
+Writing a tokenizer becomes really easy once you've done it once or twice (which is the reason we have programs that write this code for you). We create a loop which iterates until all input has been processed, and within this loop we repeatedly _try_ to match the current unprocessed part of our input with one of the token types we defined. If none of our tokens match, we either ignore the input (allowing you to say things like `Take the shortbread already!` without `already` being a known token) or we raise an error (such as when tokenizing a C source file). This process can be summarized with a little piece of C pseudo-code:
 
 {% highlight C %}
 {% raw %}
@@ -91,7 +91,57 @@ return tokenList;
 {% endraw %}
 {% endhighlight %}
 
-This will result in a neat languague-agnostic list of Tokens, ready to be parsed by our **Parser**.
+This will result in a neat language-agnostic list of Tokens, ready to be parsed by our **Parser**.
 
 ### Writing a parser
-Finally, the juicy part. Parsing our Tokens and performing in-game actions as a result actually follows a very similar stucture as to our above tokenizer: we loop trough our tokens and try to match full grammatically correct `STATEMENT`s.
+Finally, the juicy part. The actual parser is actually not much work to create once you've set everything up. Parsing our Tokens and performing in-game actions as a result actually follows a very similar structure as to our above tokenizer: we step trough our tokens and try to match full grammatically correct `STATEMENT`s. If we partially match a statement and suddenly obtain an unexpected token, we can easily tell the user what information we are missing. If we match a complete statement (a correct sequence of tokens) we have all the information we need and can perform the correct action accordingly! As an example, here is an excerpt from the Text Adventure Floppy:
+
+{% highlight C %}
+{% raw %}
+bool accept_action(TokenList token_list, unsigned * token_index, GameState * game)
+{
+    if (accept_inspecting(token_list, token_index, game) || 
+        accept_taking(token_list, token_index, game)     ||
+        accept_placing(token_list, token_index, game)    || 
+        accept_locking(token_list, token_index, game)    ||
+        accept_unlocking(token_list, token_index, game)  || 
+        (token_list, token_index, game))
+        return true;
+    return false;
+}
+{% endraw %}
+{% endhighlight %}
+
+It checks whether the token_list contains an action at the current `token_index`, and does so by trying to accept the possible sub-statements that can define an action. For instance, taking an item from a room.
+
+
+{% highlight C %}
+{% raw %}
+bool accept_taking(TokenList token_list, unsigned * token_index, GameState * game)
+{
+    if (accept_token(token_list, token_index, TAKE))
+    {
+        if (accept_token(token_list, token_index, ITEM))
+        {
+            ItemID item_id = token_list.tokens[*token_index-1].value;
+            if (is_item_in_room(game->rooms[game->current_room], item_id))
+            {
+                Item item = game->items[item_id];
+                put_color_text(GREEN, "You pick up the %s and put it in your pocket.\n", item.name);
+                add_item_to_player(&game->player, item_id);
+                remove_item_from_room(&game->rooms[game->current_room], item_id);
+                return true;
+            }
+        }
+
+        put_text("You grasp in thin air... that item is not in the room.\n");
+        return true;
+    }
+    return false;
+}
+{% endraw %}
+{% endhighlight %}
+
+Here you can also see what happens when a statement is grammatically correct, but still does not make sense in the current world. We check if the referenced item exists within the room (let's ignore the fact that our implementation uses Item ID's instead of strings, see the code on how that's done), and if it does not exist we simply tell the user and do nothing.
+
+To conclude, **parsing more than one or two words does not need to be difficult**. Parsing entire grammars does not need to be difficult. Although you can spend years building a highly interactive dialogue system (see [this neat video](https://www.youtube.com/watch?v=POv1cOX8xUM) on Facade), a short and simple recursive decent parser will usually do.
