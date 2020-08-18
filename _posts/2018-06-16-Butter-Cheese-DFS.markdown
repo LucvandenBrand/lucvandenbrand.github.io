@@ -38,53 +38,72 @@ events that will most likely make you win. Don't believe me?
 Try to beat the algorithm yourselves, the AI already played the center piece, as its visualized search path makes the initial search a bit slow ;).
 
 <style>
-#game {
-    position: relative;
-    background-color: #AAA;
-    border: 1px dashed black;
-}
+    #game {
+        position: relative;
+        background-color: #AAA;
+        border: 1px dashed black;
+    }
 
-#playing-field {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width:12em; height:12em; margin: auto;
-    padding: 1em;
-}
+    #playing-field {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width:12em; height:12em; margin: auto;
+        padding: 1em;
+    }
 
-#playing-field div {
-    border: 1px solid black;
-    background-color: #EEE;
-}
+    #playing-field div {
+        border: 1px solid black;
+        background-color: #EEE;
+    }
 
-#playing-field div[mark="0"] {
-    background-color: red;
-}
+    #playing-field div[mark="0"] {
+        background-color: red;
+    }
 
-#playing-field div[mark="1"] {
-    background-color: green;
-}
+    #playing-field div[mark="1"] {
+        background-color: green;
+    }
 
-#interaction {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-}
+    #interaction {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+    }
 
-#interaction:after {
-    position:absolute;
-    content: "Click me, I'm interactive!";
-    padding:1em;
-}
+    #interaction:after {
+        position:absolute;
+        content: "Click me, I'm interactive!";
+        padding:1em;
+    }
+
+    #robot-thinking {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,255,0.5);
+        color: white;
+    }
+
+    #robot-thinking:after {
+        position:absolute;
+        content: "🤖 Thinking...";
+        padding:1em;
+        font-size: 2em;
+    }
 </style>
+
 <div id ="game">
+    <div id="robot-thinking">
+    </div>
     <div id="interaction" onclick="this.style.display='none'">
     </div>
     <div id="playing-field">
     </div>
 </div>
-<script src="/assets/posts/2018-06-16-Butter-Cheese-DFS/TTT-dfs.js"></script>
+<script src="/assets/posts/2018-06-16-Butter-Cheese-DFS/TTT-dfs.js"></script> 
 
 ## Stepping up the game
 In an effort to increase the complexity of this game, bored scientist have invented
