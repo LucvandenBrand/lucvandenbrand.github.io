@@ -5,7 +5,9 @@
     {% feed_meta %}
     <link rel="stylesheet" href="{{ "/assets/css/default.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/prism.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/katex.css" | relative_url }}">
     <title>{{page.title}} | {{site.title}} </title>
+    <script src="{{ "/assets/js/katex.js" | relative_url }}"></script>
     <script async src="https://statistics.lucvandenbrand.com/tracker.js" data-ackee-server="https://statistics.lucvandenbrand.com" data-ackee-domain-id="0e73d5a2-f98b-43f2-aea1-2a1955cffd83"></script>
   </head>
   <body>
@@ -18,5 +20,6 @@
       </div>
     </div>
     <script src="{{ "/assets/js/prism.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/insertKatex.js" | relative_url }}"></script>
   </body>
 <html>
