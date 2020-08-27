@@ -10,10 +10,23 @@
   padding-bottom: 0.5em;
 }
 
+.figure.centre {
+  display: block;
+  margin: auto;
+}
+
 .figure.small {
   width: 10em;
 }
 
 .figure.medium {
   width: 15em;
+}
+
+.figure.large {
+  width: 20em;
+}
+
+.figure.huge {
+  width: 25em;
 }
