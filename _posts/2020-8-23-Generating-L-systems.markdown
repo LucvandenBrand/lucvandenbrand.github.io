@@ -75,7 +75,7 @@ const size_t MAX_SYMBOLS 1e15;
 
 void generate_system(LSystem * system, unsigned int num_iterations) {
     for (unsigned int iteration = 0; iteration < num_iterations; iteration++) {
-        apply_rules_to_symbols(&system.rules, &system.axiom);
+        apply_rules_to_symbols(system.rules, &system.axiom);
         if (system.axiom.length > MAX_SYMBOLS) {
             printf("The axiom is too large, try decreasing the iterations.");
             return;
@@ -89,7 +89,30 @@ You will notice a two things.
 - `MAX_SYMBOLS` is there to prevent a memory overflow. The same holds for lines 6-9, we check the size of the current iterations's axiom and exit the current iteration if it is too large. Decrease or increase the maximum depending on the amount of CPU memory available on your machine. One symbol requires 1 byte of memory, so if you have 6 GB of free memory you will have space for about $$6*10^9$$ symbols.
 - `apply_rules_to_symbols` is called for `num_iterations` times ($$N$$). This is the crux of our implementation, simple repeated rewriting.
 
-Let's look at the implementation of this method.
+Let's look at the implementation of this repeated rewrite method.
+
+```C
+void apply_rules_to_symbols(RuleList rule_list, SymbolList * symbol_list) {
+    SymbolList next_symbol_list = copy_symbol_list(symbol_list);
+    for (unsigned int symbol_index = 0; symbol_index < symbol_list->length; symbol_index++) {
+        const char symbol = symbol_list->symbols[symbol_index];
+        
+        unsigned int rule_index = 0;
+        for (; rule_index < rule_list.length; rule_index++) {
+            Rule rule = rule_list.rules[rule_index];
+            if (rule.antecedent == symbol) {
+                add_symbols_to_list(rule.consequent, &next_symbol_list);
+                break;
+            }
+        }
+
+        if (rule_index == rule_list.length)
+            add_symbol_to_list(symbol, &next_symbol_list);
+    }
+    swap_symbol_list(symbol_list, &next_symbol_list);
+    free_symbol_list(&next_symbol_list);
+}
+```
 
 ## References
 
