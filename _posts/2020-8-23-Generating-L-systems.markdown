@@ -38,7 +38,7 @@ which define the instructions for a turtle graphics renderer. Turtle graphics ar
 
 ![Sierpinski triangles](/assets/posts/2020-8-23-Generating-L-systems/Sierpinksi.png "It's like a triforce."){: .figure .centre .huge}
 
-## The code
+## The generating code
 Now that we know what an L-system is and how it should be generated in _theory_, we can start creating an simple l-system generator in code. Our approach will be simple and sequential, which is more than adequate for most implementations of L-system generators. There are more advanced parallel solutions, which we will discuss in the next post. First though, like many algorithms, it is important to learn how to solve the problem sequentially. 
 
 Let's translate our L-system's tuple to a simple set of structures:
@@ -86,7 +86,7 @@ void generate_system(LSystem * system, unsigned int num_iterations) {
 
 You will notice a two things.
 
-- `MAX_SYMBOLS` is there to prevent a memory overflow. The same holds for lines 6-9, we check the size of the current iterations's axiom and exit the current iteration if it is too large. Decrease or increase the maximum depending on the amount of CPU memory available on your machine. One symbol requires 1 byte of memory, so if you have 6 GB of free memory you will have space for about $$6*10^9$$ symbols.
+- `MAX_SYMBOLS` is there to prevent a memory overflow. The same holds for lines 6-9, we check the size of the current iterations's axiom and exit the current iteration if it is too large. Decrease or increase the maximum depending on the amount of CPU memory available on your machine. One symbol requires 1 byte of memory, so if you have 6 GB of free memory you will have space for about just a bit more than $$6*10^9$$ symbols.
 - `apply_rules_to_symbols` is called for `num_iterations` times ($$N$$). This is the crux of our implementation, simple repeated rewriting.
 
 Let's look at the implementation of this repeated rewrite method.
@@ -94,26 +94,81 @@ Let's look at the implementation of this repeated rewrite method.
 ```C
 void apply_rules_to_symbols(RuleList rule_list, SymbolList * symbol_list) {
     SymbolList next_symbol_list = copy_symbol_list(symbol_list);
+    // Loop over all symbols in the axiom
     for (unsigned int symbol_index = 0; symbol_index < symbol_list->length; symbol_index++) {
         const char symbol = symbol_list->symbols[symbol_index];
         
+        // Find a rule that applies to the current symbol
         unsigned int rule_index = 0;
         for (; rule_index < rule_list.length; rule_index++) {
             Rule rule = rule_list.rules[rule_index];
             if (rule.antecedent == symbol) {
+                // Matching rule found, apply the rule.
                 add_symbols_to_list(rule.consequent, &next_symbol_list);
                 break;
             }
         }
 
+        // If we did not break, we did not find an applicable rule.
         if (rule_index == rule_list.length)
             add_symbol_to_list(symbol, &next_symbol_list);
     }
+
+    // Swap the axiom with our new list and free the memory.
     swap_symbol_list(symbol_list, &next_symbol_list);
     free_symbol_list(&next_symbol_list);
 }
 ```
 
-## References
+Hopefully the comments make it pretty clear what is happening: we loop over all symbols, search for an antecedent that matches the current symbol, and if so we place the consequent in the `next_symbol_list`. If no applicable rule is found, the current symbol must be a constant, and thus we simply copy the same symbol to the next list.
 
-Some references.
+## The rendering code
+We briefly touched upon rendering a generated set of symbols, and luckily for us it's not that difficult to implement. Our list of requirements is short:
+
+- Have a virtual paintbrush that draws contiguous lines wherever it moves.
+- This paintbrush can move move forward when parsing $$A$$ or $$B$$.
+- This paintbrush can rotate $$60^{\circ}$$ to the left when parsing a $$+$$.
+- This paintbrush can rotate $$60^{\circ}$$ to the right when parsing a $$-$$.
+
+If we implement a simple rendering library on top of, let's say [SDL2](https://www.libsdl.org), our rendering code will thus look like:
+
+```C
+const int MOVE_SIZE 1;
+const int ROTATE_ANGLE_DEG 60;
+
+void render_symbols(SymbolList symbol_list) {
+    // Init start position and add to the list.
+    int current_rotation = 0;
+    Point current_position = { 0, 0 };
+    PointList point_list = init_point_list();
+    add_point_to_list(&point_list, current_position);
+
+    // Build a polyline based on the symbols and movement rules
+    for (unsigned int symbol_index = 0; symbol_index < symbol_list->length; symbol_index++) {
+        const char symbol = symbol_list->symbols[symbol_index];
+        if (symbol == 'A' || symbol == 'B') {
+            current_position = move_point(current_position, current_rotation, 1);
+            add_point_to_list(&point_list, current_position);
+        }
+        else if (symbol == '+')  {
+            current_rotation += ROTATE_ANGLE_DEG;
+        }
+        else if (symbol == '-') {
+            current_rotation -= ROTATE_ANGLE_DEG;
+        }
+    }
+
+    // Render the build polyline
+    render_polyline(point_list);
+}
+```
+
+We simply walk through the symbols and add points to a poly-line (the `point_list`) whenever we move the cursor forward. Once the poly-line is build we render it using our rendering library of choice.
+
+Feel free to take these pieces of code and build your own L-system renderer! Or, if you want to have a solid piece of code to work with, take the sources to [my little L-system generator](https://github.com/LucvandenBrand/FloppyChallenge/releases/tag/L-SYSTEM-GENERATOR) I wrote for the [Floppy Challenge](https://floppychallenge.com/).
+
+As I said before, there are more advanced parallel solutions I'll discuss. I do want to stress that the speed-up is less useful than you think, and maybe I'll make a post about that one day. For now, let's have a look at some other L-systems my little program rendered.
+
+IMAGE
+
+Ah, never let people say programmer-art cannot be nice (even if it is deterministically created).
