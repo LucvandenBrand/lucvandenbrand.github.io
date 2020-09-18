@@ -1,6 +1,7 @@
 title: Luc van den Brand
 plugins:
   - jekyll-feed
+markdown: kramdown
 kramdown:
    math_engine: mathjax
 
