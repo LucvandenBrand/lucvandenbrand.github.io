@@ -39,7 +39,7 @@ which define the instructions for a turtle graphics renderer. Turtle graphics ar
 ![Sierpinski triangles](/assets/posts/2020-8-23-Generating-L-systems/Sierpinksi.png "It's like a triforce."){: .figure .centre .huge}
 
 ## The generating code
-Now that we know what an L-system is and how it should be generated in _theory_, we can start creating an simple l-system generator in code. Our approach will be simple and sequential, which is more than adequate for most implementations of L-system generators. There are more advanced parallel solutions, which we will discuss in the next post. First though, like many algorithms, it is important to learn how to solve the problem sequentially. 
+Now that we know what an L-system is and how it should be generated in _theory_, we can start creating an simple l-system generator in code. Our approach will be simple and sequential, which is more than adequate for most implementations of L-system generators. There are more advanced parallel solutions, which we will discuss in the future. First though, like many algorithms, it is important to learn how to solve the problem sequentially. 
 
 Let's translate our L-system's tuple to a simple set of structures:
 
@@ -65,7 +65,7 @@ typedef struct {
 typedef struct {
     const SymbolList axiom;
     const RuleList rules;
-} LSystem
+} LSystem;
 ```
 
 I'm sorry for those who don't like C very much (I understand why, I just tend to enjoy the clear view of memory it provides, please bear with me). You should look primarily at lines 19 to 22 in any case. We have our `axiom` representing $$\omega$$ and our `rules` representing $$P$$. Once we have loaded any given L-system into our structure above (using, for example `bool try_load_system(LSystem * system, const char * file_path)`), we can start applying the rules for $$N$$ interactions.
@@ -165,10 +165,10 @@ void render_symbols(SymbolList symbol_list) {
 
 We simply walk through the symbols and add points to a poly-line (the `point_list`) whenever we move the cursor forward. Once the poly-line is build we render it using our rendering library of choice.
 
-Feel free to take these pieces of code and build your own L-system renderer! Or, if you want to have a solid piece of code to work with, take the sources to [my little L-system generator](https://github.com/LucvandenBrand/FloppyChallenge/releases/tag/L-SYSTEM-GENERATOR) I wrote for the [Floppy Challenge](https://floppychallenge.com/).
+Feel free to take these pieces of code and build your own L-system renderer! Or, if you want to have a solid piece of code to work with, take the sources to [my little L-system generator](https://github.com/LucvandenBrand/FloppyChallenge/releases/tag/LINDENGEN) I wrote for the [Floppy Challenge](https://floppychallenge.com/).
 
 As I said before, there are more advanced parallel solutions I'll discuss. I do want to stress that the speed-up is less useful than you think, and maybe I'll make a post about that one day. For now, let's have a look at some other L-systems my little program rendered.
 
-IMAGE
+![Dragon Curve, Sierpinski, Koch Curve](/assets/posts/2020-8-23-Generating-L-systems/fractals.png "The Koch Curve is often used as a performance benchmark."){: .figure .centre .huge}
 
 Ah, never let people say programmer-art cannot be nice (even if it is deterministically created).
