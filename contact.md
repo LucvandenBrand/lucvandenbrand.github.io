@@ -10,7 +10,7 @@ I will try to get back to you as soon as possible!
 Business related messages are welcome as well, but can also be send via
 [LinkedIn](https://www.linkedin.com/in/lucvandenbrand/){:target="_blank"} if so desired.
 
-<form action="https://formspree.io/lahvdbrand@gmail.com" method="post">
+<form action="https://formspree.io/f/mvolqdok" method="post">
     <input type="hidden" name="_subject" value="Blog Contact"/>
     <input type="hidden" name="_format" value="plain" />
     <input type="text" name="_gotcha" style="display:none"/>
