@@ -9,7 +9,7 @@ Hello! My name is Luc and I am a Software Engineer. This site is a place for me 
 
 I used to teach students as a Teaching Assistant for the [University of Groningen](https://www.rug.nl) until I finished my MSc in 2020. I have taught a diverse range of subjects in Computing Science, from _Advanced Object Oriented Programming_ to _Software Startups and Requirements Engineering_. 
 
-After my TA work I freelanced in the game industry for about 2 years, working with some truly talented people. Today I'm a backend software engineer at [Belsimpel](https://www.belsimpel.nl/). I architect and plan robost solutions to complex problems, help implement them, and perform a number of business related tasks in between.
+After my TA work I freelanced in the game industry for about 2 years, working with some truly talented people. Today I'm a backend software engineer at [Belsimpel](https://www.belsimpel.nl/). I architect and plan robust solutions to complex problems, help implement them, and perform a number of business related tasks in between.
 
 In my spare time I work on secret projects that either grow or wither from lack of attention, with this place being the first to hear about it.
 
